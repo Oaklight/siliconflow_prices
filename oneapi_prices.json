@@ -4,8 +4,8 @@
       "model": "deepseek-ai/DeepSeek-V3",
       "type": "tokens",
       "channel_type": 45,
-      "input": 0.14285714285714285,
-      "output": 0.14285714285714285
+      "input": 0.5714285714285714,
+      "output": 0.5714285714285714
     },
     {
       "model": "deepseek-ai/DeepSeek-R1",
