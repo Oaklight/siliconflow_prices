@@ -1,5 +1,573 @@
 [
     {
+        "modelId": "17885302720",
+        "modelName": "deepseek-ai/Janus-Pro-7B",
+        "mf": "deepseek-ai",
+        "desc": "Janus-Pro 是一款统一理解与生成的多模态大语言模型 (MLLM)，在多模态理解和生成任务中实现了视觉编码的解耦。其架构基于 DeepSeek-LLM-7b-base。在图像生成方面，模型采用来自特定来源的 tokenizer，并支持 16 倍下采样率处理，提升了生成效率和质量。",
+        "tags": [
+            "7B"
+        ],
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/DeepSeek.svg",
+        "publishTime": {
+            "seconds": 1737993600
+        },
+        "size": 7,
+        "contextLen": 0,
+        "price": "0",
+        "currency": "¥",
+        "operationLabel": [
+            "限免",
+            " 上新"
+        ],
+        "needAuth": false,
+        "onlineDemo": true,
+        "type": "image",
+        "subType": "text-to-image",
+        "DisplayName": "Janus-Pro-7B",
+        "sort": 1880,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 2,
+                "IPD": 400
+            },
+            {
+                "Level": 1,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 2,
+                "IPD": 400
+            },
+            {
+                "Level": 2,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 2,
+                "IPD": 400
+            },
+            {
+                "Level": 3,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 2,
+                "IPD": 400
+            },
+            {
+                "Level": 4,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 2,
+                "IPD": 400
+            },
+            {
+                "Level": 5,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 2,
+                "IPD": 400
+            }
+        ],
+        "priceUnit": "/ Image",
+        "status": "normal",
+        "jsonModeSupport": false,
+        "functionCallSupport": false,
+        "fimCompletionSupport": false,
+        "chatPrefixCompletionSupport": false,
+        "vlm": false,
+        "onlyByChargeBalance": false,
+        "supportFT": false,
+        "targetModelName": "deepseek-ai/Janus-Pro-7B"
+    },
+    {
+        "modelId": "17885302492",
+        "modelName": "stabilityai/stable-diffusion-xl-base-1.0",
+        "mf": "stabilityai",
+        "desc": "Stable Diffusion XL（SDXL）是一个基于潜在扩散的文本到图像生成模型，使用了两个固定的预训练文本编码器（OpenCLIP-ViT/G 和 CLIP-ViT/L）。SDXL 由基础模型和精炼模型组成，可以单独使用基础模型或结合两者以获得更好的效果。该模型在生成艺术作品、设计和创意工具应用等方面表现出色，但仅限于研究目的使用",
+        "tags": [
+            "图生图"
+        ],
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/Stability.svg",
+        "publishTime": {
+            "seconds": 1690214400
+        },
+        "size": 0,
+        "contextLen": 0,
+        "price": "0",
+        "currency": "¥",
+        "operationLabel": [],
+        "needAuth": false,
+        "onlineDemo": true,
+        "type": "image",
+        "subType": "image-to-image",
+        "DisplayName": "stable-diffusion-xl-base-1.0",
+        "sort": 2001,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 2,
+                "IPD": 400
+            },
+            {
+                "Level": 1,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 2,
+                "IPD": 400
+            },
+            {
+                "Level": 2,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 2,
+                "IPD": 400
+            },
+            {
+                "Level": 3,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 2,
+                "IPD": 400
+            },
+            {
+                "Level": 4,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 2,
+                "IPD": 400
+            },
+            {
+                "Level": 5,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 2,
+                "IPD": 400
+            }
+        ],
+        "priceUnit": "/ M px / Steps",
+        "status": "normal",
+        "jsonModeSupport": false,
+        "functionCallSupport": false,
+        "fimCompletionSupport": false,
+        "chatPrefixCompletionSupport": false,
+        "vlm": false,
+        "onlyByChargeBalance": false,
+        "supportFT": false,
+        "targetModelName": "stabilityai/stable-diffusion-xl-base-1.0"
+    },
+    {
+        "modelId": "17885302654",
+        "modelName": "black-forest-labs/FLUX.1-pro",
+        "mf": "black-forest-labs",
+        "desc": "FLUX.1 [pro] 是 FLUX.1 系列中性能最强大的变体，代表了文本到图像生成领域的最新技术水平。该模型在提示词遵循、视觉质量、图像细节和输出多样性方面均达到顶尖水平。根据官方介绍，其性能超越了 Midjourney v6.0、DALL·E 3 (HD) 和 SD3-Ultra 等主流模型。该模型支持 0.1 到 2.0 兆像素范围内的多种纵横比和分辨率",
+        "tags": [
+            "12B"
+        ],
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/blackforestlabs.svg",
+        "publishTime": {
+            "seconds": 1722441600
+        },
+        "size": 12,
+        "contextLen": 0,
+        "price": "0.37",
+        "currency": "¥",
+        "operationLabel": [
+            "New"
+        ],
+        "needAuth": false,
+        "onlineDemo": true,
+        "type": "image",
+        "subType": "text-to-image",
+        "DisplayName": "FLUX.1 [pro]",
+        "sort": 3000,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 1,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 2,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 3,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 4,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 5,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": -1,
+                "IPD": -1
+            }
+        ],
+        "priceUnit": "/ Image",
+        "status": "normal",
+        "jsonModeSupport": false,
+        "functionCallSupport": false,
+        "fimCompletionSupport": false,
+        "chatPrefixCompletionSupport": false,
+        "vlm": false,
+        "onlyByChargeBalance": true,
+        "supportFT": false,
+        "targetModelName": "black-forest-labs/FLUX.1-pro"
+    },
+    {
+        "modelId": "17885302554",
+        "modelName": "black-forest-labs/FLUX.1-dev",
+        "mf": "black-forest-labs",
+        "desc": "FLUX.1 [dev] 是一个 120 亿参数的 Rectified Flow Transformer 模型，能够根据文本描述生成图像。该模型具有最先进的输出质量，仅次于其最先进的模型 FLUX.1 [pro]。它具有竞争力的提示跟随能力，可匹配封闭源替代方案的性能。该模型使用引导蒸馏技术进行训练，提高了效率。开放权重以推动新的科学研究，并使艺术家能够开发创新的工作流程",
+        "tags": [
+            "12B"
+        ],
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/blackforestlabs.svg",
+        "publishTime": {
+            "seconds": 1722441600
+        },
+        "size": 12,
+        "contextLen": 0,
+        "price": "0.0032",
+        "currency": "¥",
+        "operationLabel": [
+            "HOT"
+        ],
+        "needAuth": false,
+        "onlineDemo": true,
+        "type": "image",
+        "subType": "text-to-image",
+        "DisplayName": "FLUX.1-dev",
+        "sort": 3100,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 1,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 2,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 3,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 4,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 5,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": -1,
+                "IPD": -1
+            }
+        ],
+        "priceUnit": "/ M px / Steps",
+        "status": "normal",
+        "jsonModeSupport": false,
+        "functionCallSupport": false,
+        "fimCompletionSupport": false,
+        "chatPrefixCompletionSupport": false,
+        "vlm": false,
+        "onlyByChargeBalance": false,
+        "supportFT": true,
+        "targetModelName": "black-forest-labs/FLUX.1-dev"
+    },
+    {
+        "modelId": "17885302553",
+        "modelName": "black-forest-labs/FLUX.1-schnell",
+        "mf": "black-forest-labs",
+        "desc": "FLUX.1 [schnell] 是一个 120 亿参数的 Rectified Flow Transformer 模型，能够根据文本描述生成图像。该模型采用潜在对抗扩散蒸馏技术训练，可以在1到4步内生成高质量图像。它具有最先进的输出质量和具有竞争力的提示跟随能力，匹配封闭源替代方案的性能。该模型在 Apache 2.0 许可下发布，可用于个人、科学和商业目的",
+        "tags": [
+            "Free",
+            "12B"
+        ],
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/blackforestlabs.svg",
+        "publishTime": {
+            "seconds": 1722441600
+        },
+        "size": 12,
+        "contextLen": 0,
+        "price": "0",
+        "currency": "¥",
+        "operationLabel": [],
+        "needAuth": false,
+        "onlineDemo": true,
+        "type": "image",
+        "subType": "text-to-image",
+        "DisplayName": "FLUX.1-schnell",
+        "sort": 3200,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 2,
+                "IPD": 400
+            },
+            {
+                "Level": 1,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 2,
+                "IPD": 400
+            },
+            {
+                "Level": 2,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 2,
+                "IPD": 400
+            },
+            {
+                "Level": 3,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 2,
+                "IPD": 400
+            },
+            {
+                "Level": 4,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 2,
+                "IPD": 400
+            },
+            {
+                "Level": 5,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 2,
+                "IPD": 400
+            }
+        ],
+        "priceUnit": "/ M px / Steps",
+        "status": "normal",
+        "jsonModeSupport": false,
+        "functionCallSupport": false,
+        "fimCompletionSupport": false,
+        "chatPrefixCompletionSupport": false,
+        "vlm": false,
+        "onlyByChargeBalance": false,
+        "supportFT": false,
+        "targetModelName": "black-forest-labs/FLUX.1-schnell"
+    },
+    {
+        "modelId": "17885302601",
+        "modelName": "stabilityai/stable-diffusion-3-5-large-turbo",
+        "mf": "stabilityai",
+        "desc": "Stable Diffusion 3.5 Large Turbo 是 Stable Diffusion 3.5 Large 的蒸馏版本。该模型能够在仅 4 步内生成高质量图像，并具有出色的提示遵循能力，使其比 Stable Diffusion 3.5 Large 快得多。这种快速生成能力使其成为需要快速图像生成的应用场景的理想选择",
+        "tags": [
+            "8B"
+        ],
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/Stability.svg",
+        "publishTime": {
+            "seconds": 1729612800
+        },
+        "size": 8,
+        "contextLen": 0,
+        "price": "0.0032",
+        "currency": "¥",
+        "operationLabel": [],
+        "needAuth": false,
+        "onlineDemo": true,
+        "type": "image",
+        "subType": "text-to-image",
+        "DisplayName": "stable-diffusion-3-5-large-turbo",
+        "sort": 1890,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 1,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 2,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 3,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 4,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 5,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": -1,
+                "IPD": -1
+            }
+        ],
+        "priceUnit": "/ M px / Steps",
+        "status": "normal",
+        "jsonModeSupport": false,
+        "functionCallSupport": false,
+        "fimCompletionSupport": false,
+        "chatPrefixCompletionSupport": false,
+        "vlm": false,
+        "onlyByChargeBalance": false,
+        "supportFT": false,
+        "targetModelName": "stabilityai/stable-diffusion-3-5-large-turbo"
+    },
+    {
+        "modelId": "17885302600",
+        "modelName": "stabilityai/stable-diffusion-3-5-large",
+        "mf": "stabilityai",
+        "desc": "Stable Diffusion 3.5 Large 是 Stable Diffusion 系列中最强大的基础模型，拥有 80 亿参数。该模型具有卓越的图像质量和更好的提示遵循能力，特别适合在 1 兆像素分辨率下进行专业用途",
+        "tags": [
+            "8B"
+        ],
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/Stability.svg",
+        "publishTime": {
+            "seconds": 1729612800
+        },
+        "size": 8,
+        "contextLen": 0,
+        "price": "0",
+        "currency": "¥",
+        "operationLabel": [],
+        "needAuth": false,
+        "onlineDemo": true,
+        "type": "image",
+        "subType": "text-to-image",
+        "DisplayName": "stable-diffusion-3-5-large",
+        "sort": 1900,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 2,
+                "IPD": 400
+            },
+            {
+                "Level": 1,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 2,
+                "IPD": 400
+            },
+            {
+                "Level": 2,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 2,
+                "IPD": 400
+            },
+            {
+                "Level": 3,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 2,
+                "IPD": 400
+            },
+            {
+                "Level": 4,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 2,
+                "IPD": 400
+            },
+            {
+                "Level": 5,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 2,
+                "IPD": 400
+            }
+        ],
+        "priceUnit": "/ M px / Steps",
+        "status": "normal",
+        "jsonModeSupport": false,
+        "functionCallSupport": false,
+        "fimCompletionSupport": false,
+        "chatPrefixCompletionSupport": false,
+        "vlm": false,
+        "onlyByChargeBalance": false,
+        "supportFT": false,
+        "targetModelName": "stabilityai/stable-diffusion-3-5-large"
+    },
+    {
         "modelId": "17885302723",
         "modelName": "deepseek-ai/DeepSeek-V3",
         "mf": "deepseek-ai",
@@ -18,7 +586,7 @@
         "price": "8",
         "currency": "¥",
         "operationLabel": [
-            "华为云昇腾云服务 - 全尺寸 - 满血版"
+            "华为云昇腾云服务"
         ],
         "needAuth": false,
         "onlineDemo": true,
@@ -103,7 +671,7 @@
         "price": "16",
         "currency": "¥",
         "operationLabel": [
-            "华为云昇腾云服务 - 全尺寸 - 满血版"
+            "华为云昇腾云服务"
         ],
         "needAuth": false,
         "onlineDemo": true,
@@ -187,7 +755,7 @@
         "price": "8",
         "currency": "¥",
         "operationLabel": [
-            "华为云昇腾云服务 - 全尺寸 - 满血版"
+            "华为云昇腾云服务"
         ],
         "needAuth": false,
         "onlineDemo": true,
@@ -272,7 +840,7 @@
         "price": "16",
         "currency": "¥",
         "operationLabel": [
-            "华为云昇腾云服务 - 全尺寸 - 满血版"
+            "华为云昇腾云服务"
         ],
         "needAuth": false,
         "onlineDemo": true,
@@ -1748,89 +2316,6 @@
         "targetModelName": "LoRA/Qwen/Qwen2.5-7B-Instruct"
     },
     {
-        "modelId": "17885302720",
-        "modelName": "deepseek-ai/Janus-Pro-7B",
-        "mf": "deepseek-ai",
-        "desc": "Janus-Pro 是一款统一理解与生成的多模态大语言模型 (MLLM)，在多模态理解和生成任务中实现了视觉编码的解耦。其架构基于 DeepSeek-LLM-7b-base。在图像生成方面，模型采用来自特定来源的 tokenizer，并支持 16 倍下采样率处理，提升了生成效率和质量。",
-        "tags": [
-            "7B"
-        ],
-        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/DeepSeek.svg",
-        "publishTime": {
-            "seconds": 1737993600
-        },
-        "size": 7,
-        "contextLen": 0,
-        "price": "0",
-        "currency": "¥",
-        "operationLabel": [
-            "限免",
-            " 上新"
-        ],
-        "needAuth": false,
-        "onlineDemo": true,
-        "type": "image",
-        "subType": "text-to-image",
-        "DisplayName": "Janus-Pro-7B",
-        "sort": 4100,
-        "sameSeries": [],
-        "language": [],
-        "modelInfo": [
-            {
-                "Level": 0,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": 2,
-                "IPD": 400
-            },
-            {
-                "Level": 1,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": 2,
-                "IPD": 400
-            },
-            {
-                "Level": 2,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": 2,
-                "IPD": 400
-            },
-            {
-                "Level": 3,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": 2,
-                "IPD": 400
-            },
-            {
-                "Level": 4,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": 2,
-                "IPD": 400
-            },
-            {
-                "Level": 5,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": 2,
-                "IPD": 400
-            }
-        ],
-        "priceUnit": "/ Image",
-        "status": "normal",
-        "jsonModeSupport": false,
-        "functionCallSupport": false,
-        "fimCompletionSupport": false,
-        "chatPrefixCompletionSupport": false,
-        "vlm": false,
-        "onlyByChargeBalance": false,
-        "supportFT": false,
-        "targetModelName": "deepseek-ai/Janus-Pro-7B"
-    },
-    {
         "modelId": "17885302703",
         "modelName": "tencent/HunyuanVideo-HD",
         "mf": "hunyuan",
@@ -2232,88 +2717,6 @@
         "onlyByChargeBalance": false,
         "supportFT": false,
         "targetModelName": "FunAudioLLM/CosyVoice2-0.5B"
-    },
-    {
-        "modelId": "17885302554",
-        "modelName": "black-forest-labs/FLUX.1-dev",
-        "mf": "black-forest-labs",
-        "desc": "FLUX.1 [dev] 是一个 120 亿参数的 Rectified Flow Transformer 模型，能够根据文本描述生成图像。该模型具有最先进的输出质量，仅次于其最先进的模型 FLUX.1 [pro]。它具有竞争力的提示跟随能力，可匹配封闭源替代方案的性能。该模型使用引导蒸馏技术进行训练，提高了效率。开放权重以推动新的科学研究，并使艺术家能够开发创新的工作流程",
-        "tags": [
-            "12B"
-        ],
-        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/blackforestlabs.svg",
-        "publishTime": {
-            "seconds": 1722441600
-        },
-        "size": 12,
-        "contextLen": 0,
-        "price": "0.0032",
-        "currency": "¥",
-        "operationLabel": [
-            "HOT"
-        ],
-        "needAuth": false,
-        "onlineDemo": true,
-        "type": "image",
-        "subType": "text-to-image",
-        "DisplayName": "FLUX.1-dev",
-        "sort": 2500,
-        "sameSeries": [],
-        "language": [],
-        "modelInfo": [
-            {
-                "Level": 0,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 1,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 2,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 3,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 4,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 5,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": -1,
-                "IPD": -1
-            }
-        ],
-        "priceUnit": "/ M px / Steps",
-        "status": "normal",
-        "jsonModeSupport": false,
-        "functionCallSupport": false,
-        "fimCompletionSupport": false,
-        "chatPrefixCompletionSupport": false,
-        "vlm": false,
-        "onlyByChargeBalance": false,
-        "supportFT": true,
-        "targetModelName": "black-forest-labs/FLUX.1-dev"
     },
     {
         "modelId": "17885302707",
@@ -4274,88 +4677,6 @@
         "targetModelName": "meta-llama/Meta-Llama-3.1-70B-Instruct"
     },
     {
-        "modelId": "17885302654",
-        "modelName": "black-forest-labs/FLUX.1-pro",
-        "mf": "black-forest-labs",
-        "desc": "FLUX.1 [pro] 是 FLUX.1 系列中性能最强大的变体，代表了文本到图像生成领域的最新技术水平。该模型在提示词遵循、视觉质量、图像细节和输出多样性方面均达到顶尖水平。根据官方介绍，其性能超越了 Midjourney v6.0、DALL·E 3 (HD) 和 SD3-Ultra 等主流模型。该模型支持 0.1 到 2.0 兆像素范围内的多种纵横比和分辨率",
-        "tags": [
-            "12B"
-        ],
-        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/blackforestlabs.svg",
-        "publishTime": {
-            "seconds": 1722441600
-        },
-        "size": 12,
-        "contextLen": 0,
-        "price": "0.37",
-        "currency": "¥",
-        "operationLabel": [
-            "New"
-        ],
-        "needAuth": false,
-        "onlineDemo": true,
-        "type": "image",
-        "subType": "text-to-image",
-        "DisplayName": "FLUX.1 [pro]",
-        "sort": 2800,
-        "sameSeries": [],
-        "language": [],
-        "modelInfo": [
-            {
-                "Level": 0,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 1,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 2,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 3,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 4,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 5,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": -1,
-                "IPD": -1
-            }
-        ],
-        "priceUnit": "/ Image",
-        "status": "normal",
-        "jsonModeSupport": false,
-        "functionCallSupport": false,
-        "fimCompletionSupport": false,
-        "chatPrefixCompletionSupport": false,
-        "vlm": false,
-        "onlyByChargeBalance": true,
-        "supportFT": false,
-        "targetModelName": "black-forest-labs/FLUX.1-pro"
-    },
-    {
         "modelId": "17885302652",
         "modelName": "Qwen/QwQ-32B-Preview",
         "mf": "QwQ",
@@ -4519,86 +4840,6 @@
         "onlyByChargeBalance": false,
         "supportFT": false,
         "targetModelName": "BAAI/bge-reranker-v2-m3"
-    },
-    {
-        "modelId": "17885302601",
-        "modelName": "stabilityai/stable-diffusion-3-5-large-turbo",
-        "mf": "stabilityai",
-        "desc": "Stable Diffusion 3.5 Large Turbo 是 Stable Diffusion 3.5 Large 的蒸馏版本。该模型能够在仅 4 步内生成高质量图像，并具有出色的提示遵循能力，使其比 Stable Diffusion 3.5 Large 快得多。这种快速生成能力使其成为需要快速图像生成的应用场景的理想选择",
-        "tags": [
-            "8B"
-        ],
-        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/Stability.svg",
-        "publishTime": {
-            "seconds": 1729612800
-        },
-        "size": 8,
-        "contextLen": 0,
-        "price": "0.0032",
-        "currency": "¥",
-        "operationLabel": [],
-        "needAuth": false,
-        "onlineDemo": true,
-        "type": "image",
-        "subType": "text-to-image",
-        "DisplayName": "stable-diffusion-3-5-large-turbo",
-        "sort": 2890,
-        "sameSeries": [],
-        "language": [],
-        "modelInfo": [
-            {
-                "Level": 0,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 1,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 2,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 3,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 4,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 5,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": -1,
-                "IPD": -1
-            }
-        ],
-        "priceUnit": "/ M px / Steps",
-        "status": "normal",
-        "jsonModeSupport": false,
-        "functionCallSupport": false,
-        "fimCompletionSupport": false,
-        "chatPrefixCompletionSupport": false,
-        "vlm": false,
-        "onlyByChargeBalance": false,
-        "supportFT": false,
-        "targetModelName": "stabilityai/stable-diffusion-3-5-large-turbo"
     },
     {
         "modelId": "17885302528",
@@ -6467,86 +6708,6 @@
         "targetModelName": "internlm/internlm2_5-20b-chat"
     },
     {
-        "modelId": "17885302600",
-        "modelName": "stabilityai/stable-diffusion-3-5-large",
-        "mf": "stabilityai",
-        "desc": "Stable Diffusion 3.5 Large 是 Stable Diffusion 系列中最强大的基础模型，拥有 80 亿参数。该模型具有卓越的图像质量和更好的提示遵循能力，特别适合在 1 兆像素分辨率下进行专业用途",
-        "tags": [
-            "8B"
-        ],
-        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/Stability.svg",
-        "publishTime": {
-            "seconds": 1729612800
-        },
-        "size": 8,
-        "contextLen": 0,
-        "price": "0",
-        "currency": "¥",
-        "operationLabel": [],
-        "needAuth": false,
-        "onlineDemo": true,
-        "type": "image",
-        "subType": "text-to-image",
-        "DisplayName": "stable-diffusion-3-5-large",
-        "sort": 2900,
-        "sameSeries": [],
-        "language": [],
-        "modelInfo": [
-            {
-                "Level": 0,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": 2,
-                "IPD": 400
-            },
-            {
-                "Level": 1,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": 2,
-                "IPD": 400
-            },
-            {
-                "Level": 2,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": 2,
-                "IPD": 400
-            },
-            {
-                "Level": 3,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": 2,
-                "IPD": 400
-            },
-            {
-                "Level": 4,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": 2,
-                "IPD": 400
-            },
-            {
-                "Level": 5,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": 2,
-                "IPD": 400
-            }
-        ],
-        "priceUnit": "/ M px / Steps",
-        "status": "normal",
-        "jsonModeSupport": false,
-        "functionCallSupport": false,
-        "fimCompletionSupport": false,
-        "chatPrefixCompletionSupport": false,
-        "vlm": false,
-        "onlyByChargeBalance": false,
-        "supportFT": false,
-        "targetModelName": "stabilityai/stable-diffusion-3-5-large"
-    },
-    {
         "modelId": "17885302590",
         "modelName": "Qwen/Qwen2-VL-72B-Instruct",
         "mf": "Qwen2",
@@ -7038,87 +7199,6 @@
         "targetModelName": "BAAI/bge-m3"
     },
     {
-        "modelId": "17885302553",
-        "modelName": "black-forest-labs/FLUX.1-schnell",
-        "mf": "black-forest-labs",
-        "desc": "FLUX.1 [schnell] 是一个 120 亿参数的 Rectified Flow Transformer 模型，能够根据文本描述生成图像。该模型采用潜在对抗扩散蒸馏技术训练，可以在1到4步内生成高质量图像。它具有最先进的输出质量和具有竞争力的提示跟随能力，匹配封闭源替代方案的性能。该模型在 Apache 2.0 许可下发布，可用于个人、科学和商业目的",
-        "tags": [
-            "Free",
-            "12B"
-        ],
-        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/blackforestlabs.svg",
-        "publishTime": {
-            "seconds": 1722441600
-        },
-        "size": 12,
-        "contextLen": 0,
-        "price": "0",
-        "currency": "¥",
-        "operationLabel": [],
-        "needAuth": false,
-        "onlineDemo": true,
-        "type": "image",
-        "subType": "text-to-image",
-        "DisplayName": "FLUX.1-schnell",
-        "sort": 2200,
-        "sameSeries": [],
-        "language": [],
-        "modelInfo": [
-            {
-                "Level": 0,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": 2,
-                "IPD": 400
-            },
-            {
-                "Level": 1,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": 2,
-                "IPD": 400
-            },
-            {
-                "Level": 2,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": 2,
-                "IPD": 400
-            },
-            {
-                "Level": 3,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": 2,
-                "IPD": 400
-            },
-            {
-                "Level": 4,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": 2,
-                "IPD": 400
-            },
-            {
-                "Level": 5,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": 2,
-                "IPD": 400
-            }
-        ],
-        "priceUnit": "/ M px / Steps",
-        "status": "normal",
-        "jsonModeSupport": false,
-        "functionCallSupport": false,
-        "fimCompletionSupport": false,
-        "chatPrefixCompletionSupport": false,
-        "vlm": false,
-        "onlyByChargeBalance": false,
-        "supportFT": false,
-        "targetModelName": "black-forest-labs/FLUX.1-schnell"
-    },
-    {
         "modelId": "17885302500",
         "modelName": "stabilityai/stable-diffusion-2-1",
         "mf": "stabilityai",
@@ -7197,86 +7277,6 @@
         "onlyByChargeBalance": false,
         "supportFT": false,
         "targetModelName": "stabilityai/stable-diffusion-2-1"
-    },
-    {
-        "modelId": "17885302492",
-        "modelName": "stabilityai/stable-diffusion-xl-base-1.0",
-        "mf": "stabilityai",
-        "desc": "Stable Diffusion XL（SDXL）是一个基于潜在扩散的文本到图像生成模型，使用了两个固定的预训练文本编码器（OpenCLIP-ViT/G 和 CLIP-ViT/L）。SDXL 由基础模型和精炼模型组成，可以单独使用基础模型或结合两者以获得更好的效果。该模型在生成艺术作品、设计和创意工具应用等方面表现出色，但仅限于研究目的使用",
-        "tags": [
-            "图生图"
-        ],
-        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/Stability.svg",
-        "publishTime": {
-            "seconds": 1690214400
-        },
-        "size": 0,
-        "contextLen": 0,
-        "price": "0",
-        "currency": "¥",
-        "operationLabel": [],
-        "needAuth": false,
-        "onlineDemo": true,
-        "type": "image",
-        "subType": "image-to-image",
-        "DisplayName": "stable-diffusion-xl-base-1.0",
-        "sort": 1801,
-        "sameSeries": [],
-        "language": [],
-        "modelInfo": [
-            {
-                "Level": 0,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": 2,
-                "IPD": 400
-            },
-            {
-                "Level": 1,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": 2,
-                "IPD": 400
-            },
-            {
-                "Level": 2,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": 2,
-                "IPD": 400
-            },
-            {
-                "Level": 3,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": 2,
-                "IPD": 400
-            },
-            {
-                "Level": 4,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": 2,
-                "IPD": 400
-            },
-            {
-                "Level": 5,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": 2,
-                "IPD": 400
-            }
-        ],
-        "priceUnit": "/ M px / Steps",
-        "status": "normal",
-        "jsonModeSupport": false,
-        "functionCallSupport": false,
-        "fimCompletionSupport": false,
-        "chatPrefixCompletionSupport": false,
-        "vlm": false,
-        "onlyByChargeBalance": false,
-        "supportFT": false,
-        "targetModelName": "stabilityai/stable-diffusion-xl-base-1.0"
     },
     {
         "modelId": "17885302494",
