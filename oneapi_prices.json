@@ -897,7 +897,7 @@
       "output": 0.6428571428571428
     },
     {
-      "model": "doubao-vision-embedding",
+      "model": "doubao-embedding-vision",
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.049999999999999996,
