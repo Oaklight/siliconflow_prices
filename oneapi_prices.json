@@ -1247,6 +1247,83 @@
       "output": 0.8571428571428571
     },
     {
+      "model": "yi-lightning",
+      "type": "tokens",
+      "channel_type": 33,
+      "input": 0.07071428571428572,
+      "output": 0.07071428571428572
+    },
+    {
+      "model": "yi-vision-v2",
+      "type": "tokens",
+      "channel_type": 33,
+      "input": 0.42857142857142855,
+      "output": 0.42857142857142855
+    },
+    {
+      "model": "gemini-2.0-flash-thinking-exp-01-21",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "gemini-2.0-pro-exp-02-05",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "learnlm-1.5-pro-experimental",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.0001,
+      "output": 0.0007
+    },
+    {
+      "model": "gemini-2.0-flash-lite",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 7.5e-05,
+      "output": 0.0003
+    },
+    {
+      "model": "gemini-1.5-flash",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.00015,
+      "output": 0.0006
+    },
+    {
+      "model": "gemini-1.5-flash-8b",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 7.5e-05,
+      "output": 0.0003
+    },
+    {
+      "model": "gemini-1.5-pro",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.0025,
+      "output": 0.01
+    },
+    {
+      "model": "text-embedding-004",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "argo:gpt-3.5-turbo",
       "type": "tokens",
       "channel_type": 1001,
