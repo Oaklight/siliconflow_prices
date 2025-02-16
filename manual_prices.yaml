@@ -55,7 +55,7 @@ models:
     doubao-1.5-vision-pro-32k:
       input: 0.003 rmb / K
       output: 0.009 rmb / K
-    doubao-vision-embedding:
+    doubao-embedding-vision:
       input: 0.0007 rmb / K # image input 0.0018 rmb / K
       output: 0
     doubao-embedding-large:
