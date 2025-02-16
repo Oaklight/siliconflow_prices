@@ -1,6 +1,6 @@
-# https://oneapi.service.oaklight.cn/api/ownedby get json dict from this url result
 import json
 
+import requests
 import yaml
 
 
@@ -47,10 +47,30 @@ def convert_price(price_str):
     return price / scale_factor
 
 
+def get_channel_id_mapping():
+    try:
+        # 发送请求获取数据
+        response = requests.get("https://oneapi.service.oaklight.cn/api/ownedby")
+        response.raise_for_status()
+        data = response.json()
+        mapping = {}
+        for key, value in data["data"].items():
+            mapping[value["name"]] = int(key)
+        return mapping
+    except requests.RequestException as e:
+        print(f"请求出错: {e}")
+    except (KeyError, ValueError) as e:
+        print(f"解析数据出错: {e}")
+    return {}
+
+
 def yaml_to_json(yaml_file_path):
     # 打开并加载YAML文件
     with open(yaml_file_path, "r", encoding="utf-8") as file:
         yaml_data = yaml.safe_load(file)
+
+    # 获取渠道类型映射
+    channel_id_mapping = get_channel_id_mapping()
 
     json_data = {"data": []}
 
@@ -61,10 +81,16 @@ def yaml_to_json(yaml_file_path):
         # 转换输出价格
         output_price = convert_price(str(model_info["output"]))
 
+        channel_type = model_info["channel_type"]
+        new_channel_type = channel_id_mapping.get(channel_type)
+        if new_channel_type is None:
+            print(f"未找到 {channel_type} 对应的渠道 ID，将保留原始值。")
+            new_channel_type = channel_type
+
         model_entry = {
             "model": model_name,
             "type": model_info["type"],
-            "channel_type": model_info["channel_type"],
+            "channel_type": new_channel_type,
             "input": input_price,
             "output": output_price,
         }
