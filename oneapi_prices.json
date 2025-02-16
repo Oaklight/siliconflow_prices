@@ -1198,6 +1198,55 @@
       "output": 0.5714285714285714
     },
     {
+      "model": "moonshot-v1-128k",
+      "type": "tokens",
+      "channel_type": 29,
+      "input": 4.285714285714286,
+      "output": 4.285714285714286
+    },
+    {
+      "model": "moonshot-v1-32k",
+      "type": "tokens",
+      "channel_type": 29,
+      "input": 1.7142857142857142,
+      "output": 1.7142857142857142
+    },
+    {
+      "model": "moonshot-v1-8k",
+      "type": "tokens",
+      "channel_type": 29,
+      "input": 0.8571428571428571,
+      "output": 0.8571428571428571
+    },
+    {
+      "model": "moonshot-v1-8k-vision-preview",
+      "type": "tokens",
+      "channel_type": 29,
+      "input": 0.8571428571428571,
+      "output": 0.8571428571428571
+    },
+    {
+      "model": "moonshot-v1-32k-vision-preview",
+      "type": "tokens",
+      "channel_type": 29,
+      "input": 1.7142857142857142,
+      "output": 1.7142857142857142
+    },
+    {
+      "model": "moonshot-v1-128k-vision-preview",
+      "type": "tokens",
+      "channel_type": 29,
+      "input": 4.285714285714286,
+      "output": 4.285714285714286
+    },
+    {
+      "model": "moonshot-v1-auto",
+      "type": "tokens",
+      "channel_type": 29,
+      "input": 0.8571428571428571,
+      "output": 0.8571428571428571
+    },
+    {
       "model": "argo:gpt-3.5-turbo",
       "type": "tokens",
       "channel_type": 1001,
