@@ -1,0 +1,74 @@
+models:
+  # deepseek
+  deepseek-chat:
+    channel_type: Deepseek
+    type: tokens
+    input: 2 rmb / M
+    output: 8 rmb / M
+  deepseek-reasoner:
+    channel_type: Deepseek
+    type: tokens
+    input: 4 rmb / M
+    output: 16 rmb / M
+  # deepseek-load-balancer
+  deepseek-v3:
+    channel_type: deepseek-load-balancer
+    type: tokens
+    input: 2 rmb / M
+    output: 8 rmb / M
+  deepseek-r1:
+    channel_type: deepseek-load-balancer
+    type: tokens
+    input: 4 rmb / M
+    output: 16 rmb / M
+  # argo-proxy
+  argo:gpt-3.5-turbo:
+    channel_type: argo-proxy
+    type: tokens
+    input: 0
+    output: 0
+  argo:gpt-3.5-turbo-16k:
+    channel_type: argo-proxy
+    type: tokens
+    input: 0
+    output: 0
+  argo:gpt-4:
+    channel_type: argo-proxy
+    type: tokens
+    input: 0
+    output: 0
+  argo:gpt-4-32k:
+    channel_type: argo-proxy
+    type: tokens
+    input: 0
+    output: 0
+  argo:gpt-4-turbo-preview:
+    channel_type: argo-proxy
+    type: tokens
+    input: 0
+    output: 0
+  argo:gpt-4o:
+    channel_type: argo-proxy
+    type: tokens
+    input: 0
+    output: 0
+  argo:gpt-o1-preview:
+    channel_type: argo-proxy
+    type: tokens
+    input: 0
+    output: 0
+  argo:text-embedding-ada-002:
+    channel_type: argo-proxy
+    type: tokens
+    input: 0
+    output: 0
+  argo:text-embedding-3-small:
+    channel_type: argo-proxy
+    type: tokens
+    input: 0
+    output: 0
+  argo:text-embedding-3-large:
+    channel_type: argo-proxy
+    type: tokens
+    input: 0
+    output: 0
