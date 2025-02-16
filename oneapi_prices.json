@@ -855,14 +855,14 @@
       "output": 1.1428571428571428
     },
     {
-      "model": "deekseek-v3",
+      "model": "deepseek-v3",
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.07142857142857142,
       "output": 0.2857142857142857
     },
     {
-      "model": "deekseek-r1",
+      "model": "deepseek-r1",
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.14285714285714285,
