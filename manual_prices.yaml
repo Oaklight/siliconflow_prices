@@ -32,8 +32,9 @@ models:
       input: 4 rmb / M
       output: 16 rmb / M
 
-  # deepseek @ 字节火山引擎
+  # 字节火山引擎
   字节火山引擎:
+    # deepseek @ 字节火山引擎
     deekseek-v3:
       input: 0.001 rmb / K
       output: 0.004 rmb / K
@@ -56,13 +57,96 @@ models:
       output: 0.009 rmb / K
     doubao-vision-embedding:
       input: 0.0007 rmb / K # image input 0.0018 rmb / K
-      output: 0.0007 rmb / K # image input 0.0018 rmb / K
+      output: 0
     doubao-embedding-large:
       input: 0.0007 rmb / K
-      output: 0.0007 rmb / K
+      output: 0
     doubao-embedding:
       input: 0.0005 rmb / K
-      output: 0.0005 rmb / K
+      output: 0
+
+  # 阿里云百炼
+  阿里云百炼:
+    # 全模态系列
+    qwen-omni-turbo:
+      input: 0.0004 rmb / K
+      output: 0.0016 rmb / K
+    qwen-omni-turbo-latest:
+      input: 0.0004 rmb / K
+      output: 0.0016 rmb / K
+
+    # 大模型系列
+    qwen-turbo:
+      input: 0.0003 rmb / K
+      output: 0.0006 rmb / K
+    qwen-turbo-latest:
+      input: 0.0003 rmb / K
+      output: 0.0006 rmb / K
+    qwen-plus:
+      input: 0.0008 rmb / K
+      output: 0.002 rmb / K
+    qwen-plus-latest:
+      input: 0.0008 rmb / K
+      output: 0.002 rmb / K
+    qwen-max:
+      input: 0.0024 rmb / K
+      output: 0.0096 rmb / K
+    qwen-max-latest:
+      input: 0.0024 rmb / K
+      output: 0.0096 rmb / K
+
+    # 视觉模型系列
+    qwen-vl-plus:
+      input: 0.0015 rmb / K
+      output: 0.0045 rmb / K
+    qwen-vl-plus-latest:
+      input: 0.0015 rmb / K
+      output: 0.0045 rmb / K
+    qwen-vl-max:
+      input: 0.003 rmb / K
+      output: 0.009 rmb / K
+    qwen-vl-max-latest:
+      input: 0.003 rmb / K
+      output: 0.009 rmb / K
+    qwen-vl-ocr:
+      input: 0.005 rmb / K
+      output: 0
+    qwen-vl-ocr-latest:
+      input: 0.005 rmb / K
+      output: 0
+
+    # embedding & reranking models
+    multimodal-embedding-v1:
+      input: 0
+      output: 0
+    text-embedding-v3:
+      input: 0.0007 rmb / K
+      output: 0
+    gte-rerank:
+      input: 0
+      output: 0
+
+    # audio, asr, tts
+    qwen-audio-turbo:
+      input: 0
+      output: 0
+    qwen-audio-turbo-latest:
+      input: 0
+      output: 0
+    qwen-audio-asr:
+      input: 0
+      output: 0
+    qwen-audio-asr-latest:
+      input: 0
+      output: 0
+
+    # deepseek @ 阿里云百炼
+    deepseek-r1:
+      input: 0.004 rmb / K
+      output: 0.016 rmb / K
+    deepseek-v3:
+      input: 0.002 rmb / K
+      output: 0.008 rmb / K
 
   # stepfun
   stepfun:
