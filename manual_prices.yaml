@@ -115,6 +115,20 @@ models:
       input: 0.005 rmb / K
       output: 0
 
+    # 代码模型
+    qwen-coder-plus:
+      input: 0.0035 rmb / K
+      output: 0.007 rmb / K
+    qwen-coder-plus-latest:
+      input: 0.0035 rmb / K
+      output: 0.007 rmb / K
+    qwen-coder-turbo:
+      input: 0.002 rmb / K
+      output: 0.006 rmb / K
+    qwen-coder-turbo-latest:
+      input: 0.002 rmb / K
+      output: 0.006 rmb / K
+
     # embedding & reranking models
     multimodal-embedding-v1:
       input: 0
