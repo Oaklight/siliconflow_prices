@@ -228,6 +228,15 @@ models:
       input: 12 rmb / M
       output: 12 rmb / M
 
+  # 零一万物
+  零一万物:
+    yi-lightning:
+      input: 0.99 rmb / M
+      output: 0.99 rmb / M
+    yi-vision-v2:
+      input: 6 rmb / M
+      output: 6 rmb / M
+
   # argo-proxy
   argo-proxy:
     argo:gpt-3.5-turbo:
