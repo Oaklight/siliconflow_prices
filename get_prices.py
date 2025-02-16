@@ -35,8 +35,8 @@ for model in model_json:
             "model": model_name,
             "type": "tokens",
             "channel_type": siliconflow_channel_type,
-            "input": model_price / 1000 / 0.014,
-            "output": model_price / 1000 / 0.014,
+            "input": model_price / 1000,
+            "output": model_price / 1000,
         }
     elif model_price_unit in ["/ Video", "/ Image", ""]:
         print(f"special price unit: {model_price_unit}")

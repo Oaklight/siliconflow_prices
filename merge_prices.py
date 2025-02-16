@@ -11,7 +11,7 @@ def convert_price(price_str):
 
     # 检查价格字符串中是否包含 "usd"
     if "usd" in price_str:
-        scale_factor = 0.002
+        scale_factor = 1
         price = float(
             price_str.replace("usd", "")
             .replace("/", "")
@@ -21,13 +21,13 @@ def convert_price(price_str):
         )
         # 如果价格字符串中包含 "M"，将价格除以1000000
         if "M" in price_str:
-            price = price / 1000000
+            price = price / 1000
         # 如果价格字符串中包含 "K"，将价格除以1000
         elif "K" in price_str:
-            price = price / 1000
+            price = price
     # 检查价格字符串中是否包含 "rmb"
     elif "rmb" in price_str:
-        scale_factor = 0.014
+        scale_factor = 1
         price = float(
             price_str.replace("rmb", "")
             .replace("/", "")
@@ -37,10 +37,10 @@ def convert_price(price_str):
         )
         # 如果价格字符串中包含 "M"，将价格除以1000000
         if "M" in price_str:
-            price = price / 1000000
+            price = price / 1000
         # 如果价格字符串中包含 "K"，将价格除以1000
         elif "K" in price_str:
-            price = price / 1000
+            price = price
     else:
         price = float(price_str)
     # 返回根据缩放因子调整后的价格
