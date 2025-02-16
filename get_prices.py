@@ -23,7 +23,7 @@ model_json = json.loads(body)["data"]["models"]
 with open("siliconflow_models.json", "w", encoding="utf-8") as f:
     json.dump(model_json, f, ensure_ascii=False, indent=4)
 
-oneapi_price_json = []
+siliconflow_price_json = []
 for model in model_json:
     model_name = model["modelName"]
     model_price = float(model["price"])
@@ -48,8 +48,8 @@ for model in model_json:
             "input": model_price,
             "output": model_price,
         }
-    oneapi_price_json.append(price_data)
+    siliconflow_price_json.append(price_data)
     print("-" * 40)
 
-with open("oneapi_prices.json", "w", encoding="utf-8") as f:
-    json.dump({"data": oneapi_price_json}, f, ensure_ascii=False, indent=2)
+with open("siliconflow_prices.json", "w", encoding="utf-8") as f:
+    json.dump({"data": siliconflow_price_json}, f, ensure_ascii=False, indent=2)
