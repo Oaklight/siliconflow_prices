@@ -74,27 +74,31 @@ def yaml_to_json(yaml_file_path):
 
     json_data = {"data": []}
 
-    # 遍历YAML数据中的每个模型
-    for model_name, model_info in yaml_data["models"].items():
-        # 转换输入价格
-        input_price = convert_price(str(model_info["input"]))
-        # 转换输出价格
-        output_price = convert_price(str(model_info["output"]))
-
-        channel_type = model_info["channel_type"]
+    # 遍历YAML数据中的每个渠道
+    for channel_type, models in yaml_data["models"].items():
         new_channel_type = channel_id_mapping.get(channel_type)
         if new_channel_type is None:
             print(f"未找到 {channel_type} 对应的渠道 ID，将保留原始值。")
             new_channel_type = channel_type
 
-        model_entry = {
-            "model": model_name,
-            "type": model_info["type"],
-            "channel_type": new_channel_type,
-            "input": input_price,
-            "output": output_price,
-        }
-        json_data["data"].append(model_entry)
+        # 遍历每个渠道下的模型
+        for model_name, model_info in models.items():
+            # 转换输入价格
+            input_price = convert_price(str(model_info["input"]))
+            # 转换输出价格
+            output_price = convert_price(str(model_info["output"]))
+
+            # 获取类型，如果未指定则默认为 "tokens"
+            model_type = model_info.get("type", "tokens")
+
+            model_entry = {
+                "model": model_name,
+                "type": model_type,
+                "channel_type": new_channel_type,
+                "input": input_price,
+                "output": output_price,
+            }
+            json_data["data"].append(model_entry)
 
     return json_data
 
