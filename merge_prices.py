@@ -103,9 +103,43 @@ def yaml_to_json(yaml_file_path):
     return json_data
 
 
+def integrate_prices(manual_prices, existing_prices):
+    # 创建一个字典，用于快速查找 existing_prices 中的条目，键为 (model, channel_type) 元组
+    oneapi_dict = {
+        (item["model"], item["channel_type"]): item for item in existing_prices["data"]
+    }
+
+    # 遍历手动价格中的每个条目
+    for manual_item in manual_prices["data"]:
+        key = (manual_item["model"], manual_item["channel_type"])
+        if key in oneapi_dict:
+            # 如果存在冲突，使用手动价格更新 existing_prices 中的条目
+            oneapi_dict[key].update(manual_item)
+        else:
+            # 如果不存在冲突，将手动价格条目添加到 existing_prices 中
+            existing_prices["data"].append(manual_item)
+
+    return existing_prices
+
+
 # 指定YAML文件的路径
 yaml_file_path = "manual_prices.yaml"
 # 调用函数将YAML转换为JSON
-result = yaml_to_json(yaml_file_path)
-# 打印转换后的JSON数据，格式化输出
-print(json.dumps(result, indent=2))
+manual_prices = yaml_to_json(yaml_file_path)
+
+# 读取 siliconflow_prices.json 文件
+try:
+    with open("siliconflow_prices.json", "r", encoding="utf-8") as file:
+        siliconflow_prices = json.load(file)
+except FileNotFoundError:
+    print("未找到 siliconflow_prices.json 文件，将使用手动价格作为最终结果。")
+    siliconflow_prices = {"data": []}
+
+# 集成手动价格和 siliconflow_prices
+integrated_prices = integrate_prices(manual_prices, siliconflow_prices)
+
+# 将集成后的价格数据保存到 oneapi_prices.json 文件
+with open("oneapi_prices.json", "w", encoding="utf-8") as file:
+    json.dump(integrated_prices, file, indent=2, ensure_ascii=False)
+
+print("已将集成后的价格数据保存到 oneapi_prices.json 文件。")
