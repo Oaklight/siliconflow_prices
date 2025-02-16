@@ -27,7 +27,7 @@ def convert_price(price_str):
             price = price
     # 检查价格字符串中是否包含 "rmb"
     elif "rmb" in price_str:
-        scale_factor = 1
+        scale_factor = 0.014
         price = float(
             price_str.replace("rmb", "")
             .replace("/", "")
