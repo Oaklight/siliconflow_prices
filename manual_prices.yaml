@@ -35,10 +35,10 @@ models:
   # 字节火山引擎
   字节火山引擎:
     # deepseek @ 字节火山引擎
-    deekseek-v3:
+    deepseek-v3:
       input: 0.001 rmb / K
       output: 0.004 rmb / K
-    deekseek-r1:
+    deepseek-r1:
       input: 0.002 rmb / K
       output: 0.008 rmb / K
 
