@@ -10,6 +10,29 @@ models:
     type: tokens
     input: 4 rmb / M
     output: 16 rmb / M
+
+  # siliconflow
+  deepseek-ai/DeepSeek-V3:
+    channel_type: Siliconflow
+    type: tokens
+    input: 2 rmb / M
+    output: 8 rmb / M
+  deepseek-ai/DeepSeek-R1:
+    channel_type: Siliconflow
+    type: tokens
+    input: 4 rmb / M
+    output: 16 rmb / M
+  Pro/deepseek-ai/DeepSeek-V3:
+    channel_type: Siliconflow
+    type: tokens
+    input: 2 rmb / M
+    output: 8 rmb / M
+  Pro/deepseek-ai/DeepSeek-R1:
+    channel_type: Siliconflow
+    type: tokens
+    input: 4 rmb / M
+    output: 16 rmb / M
+
   # deepseek-load-balancer
   deepseek-v3:
     channel_type: deepseek-load-balancer
