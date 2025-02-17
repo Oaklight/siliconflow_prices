@@ -1,4 +1,70 @@
 models:
+  # deepseek-load-balancer
+  deepseek-load-balancer:
+    deepseek-v3:
+      input: 2 rmb / M
+      output: 8 rmb / M
+    deepseek-r1:
+      input: 4 rmb / M
+      output: 16 rmb / M
+    deepseek-v2.5:
+      input: 1.33 rmb / M
+      output: 1.33 rmb / M
+    deepseek-v3-siliconflow:
+      input: 2 rmb / M
+      output: 8 rmb / M
+    deepseek-r1-siliconflow:
+      input: 4 rmb / M
+      output: 16 rmb / M
+    deepseek-v3-volcengine:
+      input: 0.001 rmb / K
+      output: 0.004 rmb / K
+    deepseek-r1-volcengine:
+      input: 0.002 rmb / K
+      output: 0.008 rmb / K
+    deepseek-v3-aliyun:
+      input: 0.002 rmb / K
+      output: 0.008 rmb / K
+    deepseek-r1-aliyun:
+      input: 0.004 rmb / K
+      output: 0.016 rmb / K
+    deepseek-v3-colossal:
+      input: 0.002 rmb / K
+      output: 0.008 rmb / K
+    deepseek-r1-colossal:
+      input: 0.004 rmb / K
+      output: 0.016 rmb / K
+    deepseek-v3-coreshub:
+      input: 0.002 rmb / K
+      output: 0.008 rmb / K
+    deepseek-r1-coreshub:
+      input: 0.004 rmb / K
+      output: 0.016 rmb / K
+    deepseek-v3-ctyun:
+      input: 0.002 rmb / K
+      output: 0.008 rmb / K
+    deepseek-r1-ctyun:
+      input: 0.004 rmb / K
+      output: 0.016 rmb / K
+    deepseek-v3-sensecore:
+      input: 0.002 rmb / K
+      output: 0.008 rmb / K
+    deepseek-r1-sensecore:
+      input: 0.004 rmb / K
+      output: 0.016 rmb / K
+    deepseek-v3-tencent:
+      input: 0.002 rmb / K
+      output: 0.008 rmb / K
+    deepseek-r1-tencent:
+      input: 0.004 rmb / K
+      output: 0.016 rmb / K
+    deepseek-v3-baidu:
+      input: 0.002 rmb / K
+      output: 0.008 rmb / K
+    deepseek-r1-baidu:
+      input: 0.004 rmb / K
+      output: 0.016 rmb / K
+
   # deepseek
   Deepseek:
     deepseek-chat:
@@ -22,9 +88,6 @@ models:
     Pro/deepseek-ai/DeepSeek-R1:
       input: 4 rmb / M
       output: 16 rmb / M
-
-  # deepseek-load-balancer
-  deepseek-load-balancer:
     deepseek-v3:
       input: 2 rmb / M
       output: 8 rmb / M
