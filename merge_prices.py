@@ -64,41 +64,77 @@ def get_channel_id_mapping():
     return {}
 
 
+def parse_model_name(model_name):
+    """Parse the model name to extract the main model name and its aliases."""
+    parts = model_name.split(" (")
+    main_model_name = parts[0]
+    aliases = parts[1].strip(")").split(", ") if len(parts) > 1 else []
+    return main_model_name, aliases
+
+
+def create_model_entry(model_name, model_type, channel_type, input_price, output_price):
+    """Create a model entry dictionary."""
+    return {
+        "model": model_name,
+        "type": model_type,
+        "channel_type": channel_type,
+        "input": input_price,
+        "output": output_price,
+    }
+
+
 def yaml_to_json(yaml_file_path):
-    # 打开并加载YAML文件
+    """Convert YAML data to JSON format, handling aliases and price conversions."""
+
+    # Load YAML file
     with open(yaml_file_path, "r", encoding="utf-8") as file:
         yaml_data = yaml.safe_load(file)
 
-    # 获取渠道类型映射
+    # Get channel ID mapping
     channel_id_mapping = get_channel_id_mapping()
 
     json_data = {"data": []}
 
-    # 遍历YAML数据中的每个渠道
+    # Iterate over each channel and its models
     for channel_type, models in yaml_data["models"].items():
-        new_channel_type = channel_id_mapping.get(channel_type)
+        new_channel_type = channel_id_mapping.get(channel_type, channel_type)
         if new_channel_type is None:
             print(f"未找到 {channel_type} 对应的渠道 ID，将保留原始值。")
-            new_channel_type = channel_type
 
-        # 遍历每个渠道下的模型
+        # Iterate over each model and its info
         for model_name, model_info in models.items():
-            # 转换输入价格
+            # Parse the model name to get the main model name and aliases
+            main_model_name, aliases = parse_model_name(model_name)
+
+            # Convert prices
             input_price = convert_price(str(model_info["input"]))
-            # 转换输出价格
             output_price = convert_price(str(model_info["output"]))
 
-            # 获取类型，如果未指定则默认为 "tokens"
+            # Get the model type (default to "tokens" if not specified)
             model_type = model_info.get("type", "tokens")
 
-            model_entry = {
-                "model": model_name,
-                "type": model_type,
-                "channel_type": new_channel_type,
-                "input": input_price,
-                "output": output_price,
-            }
-            json_data["data"].append(model_entry)
+            # Add the main model entry
+            json_data["data"].append(
+                create_model_entry(
+                    main_model_name,
+                    model_type,
+                    new_channel_type,
+                    input_price,
+                    output_price,
+                )
+            )
+
+            # Add entries for each alias
+            for alias in aliases:
+                json_data["data"].append(
+                    create_model_entry(
+                        alias.strip(),
+                        model_type,
+                        new_channel_type,
+                        input_price,
+                        output_price,
+                    )
+                )
 
     return json_data
 
