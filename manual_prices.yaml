@@ -10,58 +10,78 @@ models:
     deepseek-v2.5:
       input: 1.33 rmb / M
       output: 1.33 rmb / M
+    # v3 aliases
     deepseek-v3-siliconflow:
+      aliases: Pro/deepseek-ai/DeepSeek-V3, deepseek-ai/DeepSeek-V3
       input: 2 rmb / M
       output: 8 rmb / M
-    deepseek-r1-siliconflow:
-      input: 4 rmb / M
-      output: 16 rmb / M
     deepseek-v3-volcengine:
+      aliases: ep-20250216173825-s9n4t
       input: 0.001 rmb / K
       output: 0.004 rmb / K
-    deepseek-r1-volcengine:
+    deepseek-v3-aliyun:
+      aliases: deepseek-v3
       input: 0.002 rmb / K
       output: 0.008 rmb / K
-    deepseek-v3-aliyun:
+    deepseek-v3-colossal:
+      aliases: VIP/deepseek-ai/DeepSeek-V3
+      input: 0.002 rmb / K
+      output: 0.008 rmb / K
+    deepseek-v3-coreshub:
+      aliases: DeepSeek-V3
+      input: 0.002 rmb / K
+      output: 0.008 rmb / K
+    deepseek-v3-ctyun:
+      aliases: 9dc913a037774fc0b248376905c85da5
+      input: 0.002 rmb / K
+      output: 0.008 rmb / K
+    deepseek-v3-sensecore:
+      aliases: DeepSeek-V3
+      input: 0.002 rmb / K
+      output: 0.008 rmb / K
+    deepseek-v3-tencent:
+      aliases: deepseek-v3
+      input: 0.002 rmb / K
+      output: 0.008 rmb / K
+    deepseek-v3-baidu:
+      aliases: deepseek-v3
+      input: 0.002 rmb / K
+      output: 0.008 rmb / K
+    # r1 aliases
+    deepseek-r1-siliconflow:
+      aliases: Pro/deepseek-ai/DeepSeek-R1, deepseek-ai/DeepSeek-R1
+      input: 4 rmb / M
+      output: 16 rmb / M
+    deepseek-r1-volcengine:
+      aliases: ep-20250216173757-b8grd
       input: 0.002 rmb / K
       output: 0.008 rmb / K
     deepseek-r1-aliyun:
+      aliases: deepseek-r1
       input: 0.004 rmb / K
       output: 0.016 rmb / K
-    deepseek-v3-colossal:
-      input: 0.002 rmb / K
-      output: 0.008 rmb / K
     deepseek-r1-colossal:
+      aliases: VIP/deepseek-ai/DeepSeek-R1
       input: 0.004 rmb / K
       output: 0.016 rmb / K
-    deepseek-v3-coreshub:
-      input: 0.002 rmb / K
-      output: 0.008 rmb / K
     deepseek-r1-coreshub:
+      aliases: DeepSeek-R1
       input: 0.004 rmb / K
       output: 0.016 rmb / K
-    deepseek-v3-ctyun:
-      input: 0.002 rmb / K
-      output: 0.008 rmb / K
     deepseek-r1-ctyun:
+      aliases: 4bd107bff85941239e27b1509eccfe98, deepseek-r1-ctyun-huawei, deepseek-r1-ctyun-nvidia, 7ba7726dad4c4ea4ab7f39c7741aea68
       input: 0.004 rmb / K
       output: 0.016 rmb / K
-    deepseek-v3-sensecore:
-      input: 0.002 rmb / K
-      output: 0.008 rmb / K
     deepseek-r1-sensecore:
+      aliases: DeepSeek-R1
       input: 0.004 rmb / K
       output: 0.016 rmb / K
-    deepseek-v3-tencent:
-      input: 0.002 rmb / K
-      output: 0.008 rmb / K
     deepseek-r1-tencent:
+      aliases: deepseek-r1
       input: 0.004 rmb / K
       output: 0.016 rmb / K
-    deepseek-v3-baidu:
-      input: 0.002 rmb / K
-      output: 0.008 rmb / K
     deepseek-r1-baidu:
+      aliases: deepseek-r1
       input: 0.004 rmb / K
       output: 0.016 rmb / K
 

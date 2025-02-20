@@ -64,27 +64,20 @@ def get_channel_id_mapping():
     return {}
 
 
-def parse_model_name(model_name):
-    """Parse the model name to extract the main model name and its aliases."""
-    parts = model_name.split(" (")
-    main_model_name = parts[0]
-    aliases = parts[1].strip(")").split(", ") if len(parts) > 1 else []
-    return main_model_name, aliases
-
-
-def create_model_entry(model_name, model_type, channel_type, input_price, output_price):
-    """Create a model entry dictionary."""
-    return {
-        "model": model_name,
-        "type": model_type,
-        "channel_type": channel_type,
-        "input": input_price,
-        "output": output_price,
-    }
-
-
 def yaml_to_json(yaml_file_path):
     """Convert YAML data to JSON format, handling aliases and price conversions."""
+
+    def create_model_entry(
+        model_name, model_type, channel_type, input_price, output_price
+    ):
+        """Create a model entry dictionary."""
+        return {
+            "model": model_name,
+            "type": model_type,
+            "channel_type": channel_type,
+            "input": input_price,
+            "output": output_price,
+        }
 
     # Load YAML file
     with open(yaml_file_path, "r", encoding="utf-8") as file:
@@ -103,9 +96,6 @@ def yaml_to_json(yaml_file_path):
 
         # Iterate over each model and its info
         for model_name, model_info in models.items():
-            # Parse the model name to get the main model name and aliases
-            main_model_name, aliases = parse_model_name(model_name)
-
             # Convert prices
             input_price = convert_price(str(model_info["input"]))
             output_price = convert_price(str(model_info["output"]))
@@ -116,25 +106,23 @@ def yaml_to_json(yaml_file_path):
             # Add the main model entry
             json_data["data"].append(
                 create_model_entry(
-                    main_model_name,
-                    model_type,
-                    new_channel_type,
-                    input_price,
-                    output_price,
+                    model_name, model_type, new_channel_type, input_price, output_price
                 )
             )
 
-            # Add entries for each alias
-            for alias in aliases:
-                json_data["data"].append(
-                    create_model_entry(
-                        alias.strip(),
-                        model_type,
-                        new_channel_type,
-                        input_price,
-                        output_price,
+            # Add entries for each alias (if aliases exist)
+            if "aliases" in model_info:
+                aliases = model_info["aliases"].split(", ")
+                for alias in aliases:
+                    json_data["data"].append(
+                        create_model_entry(
+                            alias.strip(),
+                            model_type,
+                            new_channel_type,
+                            input_price,
+                            output_price,
+                        )
                     )
-                )
 
     return json_data
 
