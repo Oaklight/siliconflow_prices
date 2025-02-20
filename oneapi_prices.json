@@ -2318,6 +2318,13 @@
       "output": 0.0
     },
     {
+      "model": "lighthouse/Lighthouse",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 1.1428571428571428,
+      "output": 1.1428571428571428
+    },
+    {
       "model": "meta-llama/Llama-3.3-70B-Instruct",
       "type": "tokens",
       "channel_type": 45,

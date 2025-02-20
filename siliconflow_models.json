@@ -1,5 +1,252 @@
 [
     {
+        "modelId": "17885302752",
+        "modelName": "lighthouse/Lighthouse",
+        "mf": "lighthouse",
+        "desc": "",
+        "tags": [],
+        "icon": "",
+        "publishTime": {
+            "seconds": 1737302400
+        },
+        "size": 671,
+        "contextLen": 65536,
+        "price": "16",
+        "currency": "¥",
+        "operationLabel": [],
+        "needAuth": false,
+        "onlineDemo": true,
+        "type": "text",
+        "subType": "chat",
+        "DisplayName": "lighthouse/Lighthouse",
+        "sort": -1,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": 1000,
+                "TPM": 10000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 1,
+                "RPM": 1000,
+                "TPM": 10000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 2,
+                "RPM": 1000,
+                "TPM": 10000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 3,
+                "RPM": 1000,
+                "TPM": 10000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 4,
+                "RPM": 1000,
+                "TPM": 10000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 5,
+                "RPM": 1000,
+                "TPM": 10000,
+                "IPM": -1,
+                "IPD": -1
+            }
+        ],
+        "priceUnit": "/ M Tokens",
+        "status": "normal",
+        "jsonModeSupport": false,
+        "functionCallSupport": false,
+        "fimCompletionSupport": false,
+        "chatPrefixCompletionSupport": true,
+        "vlm": false,
+        "onlyByChargeBalance": false,
+        "supportFT": false,
+        "targetModelName": "deepseek-ai/DeepSeek-R1-A3"
+    },
+    {
+        "modelId": "17885302739",
+        "modelName": "Pro/deepseek-ai/DeepSeek-V3",
+        "mf": "deepseek-ai",
+        "desc": "DeepSeek-V3 是一款拥有 6710 亿参数的混合专家（MoE）语言模型，采用多头潜在注意力（MLA）和 DeepSeekMoE 架构，结合无辅助损失的负载平衡策略，优化推理和训练效率。通过在 14.8 万亿高质量tokens上预训练，并进行监督微调和强化学习，DeepSeek-V3 在性能上超越其他开源模型，接近领先闭源模型。",
+        "tags": [
+            "MoE",
+            "671B",
+            "64K"
+        ],
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/DP-%20ST-Logo.svg",
+        "publishTime": {
+            "seconds": 1735142400
+        },
+        "size": 671,
+        "contextLen": 65536,
+        "price": "8",
+        "currency": "¥",
+        "operationLabel": [
+            "华为云昇腾云服务"
+        ],
+        "needAuth": false,
+        "onlineDemo": true,
+        "type": "text",
+        "subType": "chat",
+        "DisplayName": "DeepSeek-V3 (Pro)",
+        "sort": 5500,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": 1000,
+                "TPM": 10000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 1,
+                "RPM": 1000,
+                "TPM": 10000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 2,
+                "RPM": 1000,
+                "TPM": 10000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 3,
+                "RPM": 1000,
+                "TPM": 10000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 4,
+                "RPM": 1000,
+                "TPM": 10000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 5,
+                "RPM": 1000,
+                "TPM": 10000,
+                "IPM": -1,
+                "IPD": -1
+            }
+        ],
+        "priceUnit": "/ M Tokens",
+        "status": "normal",
+        "jsonModeSupport": false,
+        "functionCallSupport": true,
+        "fimCompletionSupport": false,
+        "chatPrefixCompletionSupport": true,
+        "vlm": false,
+        "onlyByChargeBalance": true,
+        "supportFT": false,
+        "targetModelName": "deepseek-ai/DeepSeek-V3"
+    },
+    {
+        "modelId": "17885302738",
+        "modelName": "Pro/deepseek-ai/DeepSeek-R1",
+        "mf": "deepseek-ai",
+        "desc": "DeepSeek-R1 是一款强化学习（RL）驱动的推理模型，解决了模型中的重复性和可读性问题。在 RL 之前，DeepSeek-R1 引入了冷启动数据，进一步优化了推理性能。它在数学、代码和推理任务中与 OpenAI-o1 表现相当，并且通过精心设计的训练方法，提升了整体效果。",
+        "tags": [
+            "推理模型",
+            "MoE",
+            "671B",
+            "64K"
+        ],
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/DP-%20ST-Logo.svg",
+        "publishTime": {
+            "seconds": 1737302400
+        },
+        "size": 671,
+        "contextLen": 65536,
+        "price": "16",
+        "currency": "¥",
+        "operationLabel": [
+            "华为云昇腾云服务"
+        ],
+        "needAuth": false,
+        "onlineDemo": true,
+        "type": "text",
+        "subType": "chat",
+        "DisplayName": "DeepSeek-R1 (Pro)",
+        "sort": 5600,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": 1000,
+                "TPM": 10000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 1,
+                "RPM": 1000,
+                "TPM": 10000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 2,
+                "RPM": 1000,
+                "TPM": 10000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 3,
+                "RPM": 1000,
+                "TPM": 10000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 4,
+                "RPM": 1000,
+                "TPM": 10000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 5,
+                "RPM": 1000,
+                "TPM": 10000,
+                "IPM": -1,
+                "IPD": -1
+            }
+        ],
+        "priceUnit": "/ M Tokens",
+        "status": "normal",
+        "jsonModeSupport": false,
+        "functionCallSupport": false,
+        "fimCompletionSupport": false,
+        "chatPrefixCompletionSupport": true,
+        "vlm": false,
+        "onlyByChargeBalance": true,
+        "supportFT": false,
+        "targetModelName": "deepseek-ai/DeepSeek-R1"
+    },
+    {
         "modelId": "17885302720",
         "modelName": "deepseek-ai/Janus-Pro-7B",
         "mf": "deepseek-ai",
@@ -733,175 +980,6 @@
         "chatPrefixCompletionSupport": true,
         "vlm": false,
         "onlyByChargeBalance": false,
-        "supportFT": false,
-        "targetModelName": "deepseek-ai/DeepSeek-R1"
-    },
-    {
-        "modelId": "17885302739",
-        "modelName": "Pro/deepseek-ai/DeepSeek-V3",
-        "mf": "deepseek-ai",
-        "desc": "DeepSeek-V3 是一款拥有 6710 亿参数的混合专家（MoE）语言模型，采用多头潜在注意力（MLA）和 DeepSeekMoE 架构，结合无辅助损失的负载平衡策略，优化推理和训练效率。通过在 14.8 万亿高质量tokens上预训练，并进行监督微调和强化学习，DeepSeek-V3 在性能上超越其他开源模型，接近领先闭源模型。",
-        "tags": [
-            "MoE",
-            "671B",
-            "64K"
-        ],
-        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/DP-%20ST-Logo.svg",
-        "publishTime": {
-            "seconds": 1735142400
-        },
-        "size": 671,
-        "contextLen": 65536,
-        "price": "8",
-        "currency": "¥",
-        "operationLabel": [
-            "华为云昇腾云服务"
-        ],
-        "needAuth": false,
-        "onlineDemo": true,
-        "type": "text",
-        "subType": "chat",
-        "DisplayName": "DeepSeek-V3 (Pro)",
-        "sort": 5000,
-        "sameSeries": [],
-        "language": [],
-        "modelInfo": [
-            {
-                "Level": 0,
-                "RPM": 1000,
-                "TPM": 10000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 1,
-                "RPM": 1000,
-                "TPM": 10000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 2,
-                "RPM": 1000,
-                "TPM": 10000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 3,
-                "RPM": 1000,
-                "TPM": 10000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 4,
-                "RPM": 1000,
-                "TPM": 10000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 5,
-                "RPM": 1000,
-                "TPM": 10000,
-                "IPM": -1,
-                "IPD": -1
-            }
-        ],
-        "priceUnit": "/ M Tokens",
-        "status": "normal",
-        "jsonModeSupport": false,
-        "functionCallSupport": true,
-        "fimCompletionSupport": false,
-        "chatPrefixCompletionSupport": true,
-        "vlm": false,
-        "onlyByChargeBalance": true,
-        "supportFT": false,
-        "targetModelName": "deepseek-ai/DeepSeek-V3"
-    },
-    {
-        "modelId": "17885302738",
-        "modelName": "Pro/deepseek-ai/DeepSeek-R1",
-        "mf": "deepseek-ai",
-        "desc": "DeepSeek-R1 是一款强化学习（RL）驱动的推理模型，解决了模型中的重复性和可读性问题。在 RL 之前，DeepSeek-R1 引入了冷启动数据，进一步优化了推理性能。它在数学、代码和推理任务中与 OpenAI-o1 表现相当，并且通过精心设计的训练方法，提升了整体效果。",
-        "tags": [
-            "推理模型",
-            "MoE",
-            "671B",
-            "64K"
-        ],
-        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/DP-%20ST-Logo.svg",
-        "publishTime": {
-            "seconds": 1737302400
-        },
-        "size": 671,
-        "contextLen": 65536,
-        "price": "16",
-        "currency": "¥",
-        "operationLabel": [
-            "华为云昇腾云服务"
-        ],
-        "needAuth": false,
-        "onlineDemo": true,
-        "type": "text",
-        "subType": "chat",
-        "DisplayName": "DeepSeek-R1 (Pro)",
-        "sort": 5100,
-        "sameSeries": [],
-        "language": [],
-        "modelInfo": [
-            {
-                "Level": 0,
-                "RPM": 1000,
-                "TPM": 10000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 1,
-                "RPM": 1000,
-                "TPM": 10000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 2,
-                "RPM": 1000,
-                "TPM": 10000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 3,
-                "RPM": 1000,
-                "TPM": 10000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 4,
-                "RPM": 1000,
-                "TPM": 10000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 5,
-                "RPM": 1000,
-                "TPM": 10000,
-                "IPM": -1,
-                "IPD": -1
-            }
-        ],
-        "priceUnit": "/ M Tokens",
-        "status": "normal",
-        "jsonModeSupport": false,
-        "functionCallSupport": false,
-        "fimCompletionSupport": false,
-        "chatPrefixCompletionSupport": true,
-        "vlm": false,
-        "onlyByChargeBalance": true,
         "supportFT": false,
         "targetModelName": "deepseek-ai/DeepSeek-R1"
     },
