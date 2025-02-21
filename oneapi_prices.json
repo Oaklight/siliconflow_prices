@@ -2325,13 +2325,6 @@
       "output": 0.0
     },
     {
-      "model": "lighthouse/Lighthouse",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 1.1428571428571428,
-      "output": 1.1428571428571428
-    },
-    {
       "model": "meta-llama/Llama-3.3-70B-Instruct",
       "type": "tokens",
       "channel_type": 45,
@@ -2605,27 +2598,6 @@
       "output": 0.0
     },
     {
-      "model": "BAAI/bge-m3",
-      "type": "tokens",
-      "channel_type": 1004,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "BAAI/bge-reranker-v2-m3",
-      "type": "tokens",
-      "channel_type": 1004,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "bge-m3",
-      "type": "tokens",
-      "channel_type": 1004,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "bge-m3",
       "type": "tokens",
       "channel_type": 1004,
@@ -2641,13 +2613,6 @@
     },
     {
       "model": "bge-m3-siliconflow",
-      "type": "tokens",
-      "channel_type": 1004,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "bge-reranker-v2-m3",
       "type": "tokens",
       "channel_type": 1004,
       "input": 0.0,
@@ -2711,6 +2676,20 @@
     },
     {
       "model": "deepseek-r1-ctyun",
+      "type": "tokens",
+      "channel_type": 1004,
+      "input": 0.2857142857142857,
+      "output": 1.1428571428571428
+    },
+    {
+      "model": "deepseek-r1-ctyun-huawei",
+      "type": "tokens",
+      "channel_type": 1004,
+      "input": 0.2857142857142857,
+      "output": 1.1428571428571428
+    },
+    {
+      "model": "deepseek-r1-ctyun-nvidia",
       "type": "tokens",
       "channel_type": 1004,
       "input": 0.2857142857142857,

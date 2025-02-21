@@ -81,7 +81,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "deepseek-ai/DeepSeek-V3"
+        "targetModelName": "deepseek-ai/DeepSeek-V3",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302739",
@@ -165,7 +166,8 @@
         "vlm": false,
         "onlyByChargeBalance": true,
         "supportFT": false,
-        "targetModelName": "deepseek-ai/DeepSeek-V3"
+        "targetModelName": "deepseek-ai/DeepSeek-V3",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302747",
@@ -248,85 +250,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "SeedLLM/Seed-Rice-7B"
-    },
-    {
-        "modelId": "17885302752",
-        "modelName": "lighthouse/Lighthouse",
-        "mf": "lighthouse",
-        "desc": "",
-        "tags": [],
-        "icon": "",
-        "publishTime": {
-            "seconds": 1737302400
-        },
-        "size": 671,
-        "contextLen": 65536,
-        "price": "16",
-        "currency": "¥",
-        "operationLabel": [],
-        "needAuth": false,
-        "onlineDemo": true,
-        "type": "text",
-        "subType": "chat",
-        "DisplayName": "lighthouse/Lighthouse",
-        "sort": -1,
-        "sameSeries": [],
-        "language": [],
-        "modelInfo": [
-            {
-                "Level": 0,
-                "RPM": 1000,
-                "TPM": 10000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 1,
-                "RPM": 1000,
-                "TPM": 10000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 2,
-                "RPM": 1000,
-                "TPM": 10000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 3,
-                "RPM": 1000,
-                "TPM": 10000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 4,
-                "RPM": 1000,
-                "TPM": 10000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 5,
-                "RPM": 1000,
-                "TPM": 10000,
-                "IPM": -1,
-                "IPD": -1
-            }
-        ],
-        "priceUnit": "/ M Tokens",
-        "status": "normal",
-        "jsonModeSupport": false,
-        "functionCallSupport": false,
-        "fimCompletionSupport": false,
-        "chatPrefixCompletionSupport": true,
-        "vlm": false,
-        "onlyByChargeBalance": false,
-        "supportFT": false,
-        "targetModelName": "deepseek-ai/DeepSeek-R1-A3"
+        "targetModelName": "SeedLLM/Seed-Rice-7B",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302738",
@@ -411,7 +336,8 @@
         "vlm": false,
         "onlyByChargeBalance": true,
         "supportFT": false,
-        "targetModelName": "deepseek-ai/DeepSeek-R1"
+        "targetModelName": "deepseek-ai/DeepSeek-R1",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302720",
@@ -494,7 +420,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "deepseek-ai/Janus-Pro-7B"
+        "targetModelName": "deepseek-ai/Janus-Pro-7B",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302492",
@@ -574,7 +501,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "stabilityai/stable-diffusion-xl-base-1.0"
+        "targetModelName": "stabilityai/stable-diffusion-xl-base-1.0",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302654",
@@ -656,7 +584,8 @@
         "vlm": false,
         "onlyByChargeBalance": true,
         "supportFT": false,
-        "targetModelName": "black-forest-labs/FLUX.1-pro"
+        "targetModelName": "black-forest-labs/FLUX.1-pro",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302554",
@@ -738,7 +667,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": true,
-        "targetModelName": "black-forest-labs/FLUX.1-dev"
+        "targetModelName": "black-forest-labs/FLUX.1-dev",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302553",
@@ -819,7 +749,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "black-forest-labs/FLUX.1-schnell"
+        "targetModelName": "black-forest-labs/FLUX.1-schnell",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302601",
@@ -899,7 +830,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "stabilityai/stable-diffusion-3-5-large-turbo"
+        "targetModelName": "stabilityai/stable-diffusion-3-5-large-turbo",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302600",
@@ -979,7 +911,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "stabilityai/stable-diffusion-3-5-large"
+        "targetModelName": "stabilityai/stable-diffusion-3-5-large",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302724",
@@ -1064,7 +997,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "deepseek-ai/DeepSeek-R1"
+        "targetModelName": "deepseek-ai/DeepSeek-R1",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302734",
@@ -1149,7 +1083,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"
+        "targetModelName": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302727",
@@ -1233,7 +1168,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
+        "targetModelName": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302726",
@@ -1318,7 +1254,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B"
+        "targetModelName": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302725",
@@ -1403,7 +1340,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"
+        "targetModelName": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302728",
@@ -1487,7 +1425,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B"
+        "targetModelName": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302730",
@@ -1571,7 +1510,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B"
+        "targetModelName": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302729",
@@ -1655,7 +1595,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B"
+        "targetModelName": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302737",
@@ -1739,7 +1680,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
+        "targetModelName": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302736",
@@ -1824,7 +1766,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B"
+        "targetModelName": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302647",
@@ -1904,7 +1847,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "genmo/mochi-1-preview"
+        "targetModelName": "genmo/mochi-1-preview",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302648",
@@ -1984,7 +1928,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "Lightricks/LTX-Video"
+        "targetModelName": "Lightricks/LTX-Video",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302657",
@@ -2065,7 +2010,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "AIDC-AI/Marco-o1"
+        "targetModelName": "AIDC-AI/Marco-o1",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302661",
@@ -2147,7 +2093,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "meta-llama/Llama-3.3-70B-Instruct"
+        "targetModelName": "meta-llama/Llama-3.3-70B-Instruct",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302689",
@@ -2229,7 +2176,8 @@
         "vlm": true,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "deepseek-ai/deepseek-vl2"
+        "targetModelName": "deepseek-ai/deepseek-vl2",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302683",
@@ -2312,7 +2260,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "LoRA/meta-llama/Meta-Llama-3.1-8B-Instruct"
+        "targetModelName": "LoRA/meta-llama/Meta-Llama-3.1-8B-Instruct",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302614",
@@ -2393,7 +2342,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "LoRA/Qwen/Qwen2.5-72B-Instruct"
+        "targetModelName": "LoRA/Qwen/Qwen2.5-72B-Instruct",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302603",
@@ -2474,7 +2424,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "LoRA/Qwen/Qwen2.5-7B-Instruct"
+        "targetModelName": "LoRA/Qwen/Qwen2.5-7B-Instruct",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302703",
@@ -2556,7 +2507,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "tencent/HunyuanVideo-HD"
+        "targetModelName": "tencent/HunyuanVideo-HD",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302658",
@@ -2636,7 +2588,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "tencent/HunyuanVideo"
+        "targetModelName": "tencent/HunyuanVideo",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302645",
@@ -2716,7 +2669,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "RVC-Boss/GPT-SoVITS"
+        "targetModelName": "RVC-Boss/GPT-SoVITS",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302646",
@@ -2794,7 +2748,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "LoRA/RVC-Boss/GPT-SoVITS"
+        "targetModelName": "LoRA/RVC-Boss/GPT-SoVITS",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302679",
@@ -2877,7 +2832,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "FunAudioLLM/CosyVoice2-0.5B"
+        "targetModelName": "FunAudioLLM/CosyVoice2-0.5B",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302707",
@@ -2957,7 +2913,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "LoRA/black-forest-labs/FLUX.1-dev"
+        "targetModelName": "LoRA/black-forest-labs/FLUX.1-dev",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302587",
@@ -3038,7 +2995,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "Qwen/Qwen2.5-72B-Instruct-128K"
+        "targetModelName": "Qwen/Qwen2.5-72B-Instruct-128K",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302698",
@@ -3121,7 +3079,8 @@
         "vlm": true,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "Qwen/QVQ-72B-Preview"
+        "targetModelName": "Qwen/QVQ-72B-Preview",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302520",
@@ -3203,7 +3162,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "deepseek-ai/DeepSeek-V2-Chat"
+        "targetModelName": "deepseek-ai/DeepSeek-V2-Chat",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302523",
@@ -3284,7 +3244,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "Qwen/Qwen2-72B-Instruct"
+        "targetModelName": "Qwen/Qwen2-72B-Instruct",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302593",
@@ -3365,7 +3326,8 @@
         "vlm": true,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "OpenGVLab/InternVL2-Llama3-76B"
+        "targetModelName": "OpenGVLab/InternVL2-Llama3-76B",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302571",
@@ -3448,7 +3410,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "Vendor-A/Qwen/Qwen2-72B-Instruct"
+        "targetModelName": "Vendor-A/Qwen/Qwen2-72B-Instruct",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302660",
@@ -3529,7 +3492,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "LoRA/Qwen/Qwen2.5-32B-Instruct"
+        "targetModelName": "LoRA/Qwen/Qwen2.5-32B-Instruct",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302659",
@@ -3610,7 +3574,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "LoRA/Qwen/Qwen2.5-14B-Instruct"
+        "targetModelName": "LoRA/Qwen/Qwen2.5-14B-Instruct",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302599",
@@ -3691,7 +3656,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "nvidia/Llama-3.1-Nemotron-70B-Instruct"
+        "targetModelName": "nvidia/Llama-3.1-Nemotron-70B-Instruct",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302619",
@@ -3772,7 +3738,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "Tencent/Hunyuan-A52B-Instruct"
+        "targetModelName": "Tencent/Hunyuan-A52B-Instruct",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302525",
@@ -3854,7 +3821,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "Qwen/Qwen2-57B-A14B-Instruct"
+        "targetModelName": "Qwen/Qwen2-57B-A14B-Instruct",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302540",
@@ -3935,7 +3903,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "Qwen/Qwen1.5-7B-Chat"
+        "targetModelName": "Qwen/Qwen1.5-7B-Chat",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302543",
@@ -4016,7 +3985,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "01-ai/Yi-1.5-9B-Chat-16K"
+        "targetModelName": "01-ai/Yi-1.5-9B-Chat-16K",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302508",
@@ -4098,7 +4068,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "meta-llama/Meta-Llama-3-70B-Instruct"
+        "targetModelName": "meta-llama/Meta-Llama-3-70B-Instruct",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302577",
@@ -4180,7 +4151,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "Qwen/Qwen2.5-Math-72B-Instruct"
+        "targetModelName": "Qwen/Qwen2.5-Math-72B-Instruct",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302514",
@@ -4261,7 +4233,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "Qwen/Qwen1.5-32B-Chat"
+        "targetModelName": "Qwen/Qwen1.5-32B-Chat",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302547",
@@ -4343,7 +4316,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "meta-llama/Meta-Llama-3-8B-Instruct"
+        "targetModelName": "meta-llama/Meta-Llama-3-8B-Instruct",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302570",
@@ -4427,7 +4401,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "deepseek-ai/DeepSeek-V2.5"
+        "targetModelName": "deepseek-ai/DeepSeek-V2.5",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302653",
@@ -4509,7 +4484,8 @@
         "vlm": false,
         "onlyByChargeBalance": true,
         "supportFT": false,
-        "targetModelName": "fishaudio/fish-speech-1.5"
+        "targetModelName": "fishaudio/fish-speech-1.5",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302575",
@@ -4592,7 +4568,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": true,
-        "targetModelName": "Qwen/Qwen2.5-32B-Instruct"
+        "targetModelName": "Qwen/Qwen2.5-32B-Instruct",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302574",
@@ -4673,7 +4650,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": true,
-        "targetModelName": "Qwen/Qwen2.5-14B-Instruct"
+        "targetModelName": "Qwen/Qwen2.5-14B-Instruct",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302608",
@@ -4753,7 +4731,8 @@
         "vlm": false,
         "onlyByChargeBalance": true,
         "supportFT": false,
-        "targetModelName": "fishaudio/fish-speech-1.4"
+        "targetModelName": "fishaudio/fish-speech-1.4",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302551",
@@ -4835,7 +4814,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "meta-llama/Meta-Llama-3.1-70B-Instruct"
+        "targetModelName": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302652",
@@ -4918,7 +4898,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "Qwen/QwQ-32B-Preview"
+        "targetModelName": "Qwen/QwQ-32B-Preview",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302644",
@@ -5000,7 +4981,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "BAAI/bge-reranker-v2-m3"
+        "targetModelName": "BAAI/bge-reranker-v2-m3",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302528",
@@ -5083,7 +5065,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "deepseek-ai/DeepSeek-Coder-V2-Instruct"
+        "targetModelName": "deepseek-ai/DeepSeek-Coder-V2-Instruct",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302546",
@@ -5164,7 +5147,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "internlm/internlm2_5-7b-chat"
+        "targetModelName": "internlm/internlm2_5-7b-chat",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302542",
@@ -5245,7 +5229,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "THUDM/chatglm3-6b"
+        "targetModelName": "THUDM/chatglm3-6b",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302544",
@@ -5326,7 +5311,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "01-ai/Yi-1.5-6B-Chat"
+        "targetModelName": "01-ai/Yi-1.5-6B-Chat",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302509",
@@ -5408,7 +5394,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "meta-llama/Meta-Llama-3-8B-Instruct"
+        "targetModelName": "meta-llama/Meta-Llama-3-8B-Instruct",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302623",
@@ -5490,7 +5477,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "Qwen/Qwen2.5-Coder-32B-Instruct"
+        "targetModelName": "Qwen/Qwen2.5-Coder-32B-Instruct",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302584",
@@ -5570,7 +5558,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "TeleAI/TeleChat2"
+        "targetModelName": "TeleAI/TeleChat2",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302610",
@@ -5652,7 +5641,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "Qwen/Qwen2.5-Coder-7B-Instruct"
+        "targetModelName": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302556",
@@ -5732,7 +5722,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "FunAudioLLM/SenseVoiceSmall"
+        "targetModelName": "FunAudioLLM/SenseVoiceSmall",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302586",
@@ -5813,7 +5804,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": true,
-        "targetModelName": "Qwen/Qwen2.5-7B-Instruct"
+        "targetModelName": "Qwen/Qwen2.5-7B-Instruct",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302595",
@@ -5896,7 +5888,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "Vendor-A/Qwen/Qwen2.5-72B-Instruct"
+        "targetModelName": "Vendor-A/Qwen/Qwen2.5-72B-Instruct",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302578",
@@ -5978,7 +5971,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "Qwen/Qwen2.5-Coder-7B-Instruct"
+        "targetModelName": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302573",
@@ -6062,7 +6056,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": true,
-        "targetModelName": "Qwen/Qwen2.5-7B-Instruct"
+        "targetModelName": "Qwen/Qwen2.5-7B-Instruct",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302572",
@@ -6145,7 +6140,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": true,
-        "targetModelName": "Qwen/Qwen2.5-72B-Instruct"
+        "targetModelName": "Qwen/Qwen2.5-72B-Instruct",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302576",
@@ -6225,7 +6221,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "black-forest-labs/FLUX.1-schnell"
+        "targetModelName": "black-forest-labs/FLUX.1-schnell",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302503",
@@ -6305,7 +6302,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "ByteDance/SDXL-Lightning"
+        "targetModelName": "ByteDance/SDXL-Lightning",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302501",
@@ -6383,7 +6381,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "stabilityai/sd-turbo"
+        "targetModelName": "stabilityai/sd-turbo",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302502",
@@ -6461,7 +6460,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "stabilityai/sdxl-turbo"
+        "targetModelName": "stabilityai/sdxl-turbo",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302526",
@@ -6541,7 +6541,10 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "stabilityai/stable-diffusion-3-medium"
+        "targetModelName": "stabilityai/stable-diffusion-3-medium",
+        "deprecatedTime": {
+            "seconds": 1740585600
+        }
     },
     {
         "modelId": "17885302594",
@@ -6622,7 +6625,8 @@
         "vlm": true,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "OpenGVLab/InternVL2-8B"
+        "targetModelName": "OpenGVLab/InternVL2-8B",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302596",
@@ -6703,7 +6707,8 @@
         "vlm": true,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "Qwen/Qwen2-VL-7B-Instruct"
+        "targetModelName": "Qwen/Qwen2-VL-7B-Instruct",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302535",
@@ -6785,7 +6790,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "internlm/internlm2_5-7b-chat"
+        "targetModelName": "internlm/internlm2_5-7b-chat",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302561",
@@ -6866,7 +6872,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "internlm/internlm2_5-20b-chat"
+        "targetModelName": "internlm/internlm2_5-20b-chat",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302590",
@@ -6947,7 +6954,8 @@
         "vlm": true,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "Qwen/Qwen2-VL-72B-Instruct"
+        "targetModelName": "Qwen/Qwen2-VL-72B-Instruct",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302549",
@@ -7030,7 +7038,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": true,
-        "targetModelName": "meta-llama/Meta-Llama-3.1-8B-Instruct"
+        "targetModelName": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302591",
@@ -7111,7 +7120,8 @@
         "vlm": true,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "OpenGVLab/InternVL2-26B"
+        "targetModelName": "OpenGVLab/InternVL2-26B",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302550",
@@ -7193,7 +7203,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "meta-llama/Meta-Llama-3.1-8B-Instruct"
+        "targetModelName": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302555",
@@ -7275,7 +7286,10 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "meta-llama/Meta-Llama-3.1-405B-Instruct"
+        "targetModelName": "meta-llama/Meta-Llama-3.1-405B-Instruct",
+        "deprecatedTime": {
+            "seconds": 1740585600
+        }
     },
     {
         "modelId": "17885302592",
@@ -7357,7 +7371,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "BAAI/bge-m3"
+        "targetModelName": "BAAI/bge-m3",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302500",
@@ -7437,7 +7452,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "stabilityai/stable-diffusion-2-1"
+        "targetModelName": "stabilityai/stable-diffusion-2-1",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302494",
@@ -7517,7 +7533,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "InstantX/InstantID"
+        "targetModelName": "InstantX/InstantID",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302493",
@@ -7597,7 +7614,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "TencentARC/PhotoMaker"
+        "targetModelName": "TencentARC/PhotoMaker",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302562",
@@ -7679,7 +7697,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "Qwen/Qwen2-Math-72B-Instruct"
+        "targetModelName": "Qwen/Qwen2-Math-72B-Instruct",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302541",
@@ -7760,7 +7779,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "THUDM/glm-4-9b-chat"
+        "targetModelName": "THUDM/glm-4-9b-chat",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302522",
@@ -7842,7 +7862,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "THUDM/glm-4-9b-chat"
+        "targetModelName": "THUDM/glm-4-9b-chat",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302545",
@@ -7924,7 +7945,10 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "google/gemma-2-9b-it"
+        "targetModelName": "google/gemma-2-9b-it",
+        "deprecatedTime": {
+            "seconds": 1740585600
+        }
     },
     {
         "modelId": "17885302512",
@@ -8006,7 +8030,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "Qwen/Qwen1.5-7B-Chat"
+        "targetModelName": "Qwen/Qwen1.5-7B-Chat",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302513",
@@ -8087,7 +8112,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "Qwen/Qwen1.5-110B-Chat"
+        "targetModelName": "Qwen/Qwen1.5-110B-Chat",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302497",
@@ -8170,7 +8196,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "mistralai/Mistral-7B-Instruct-v0.2"
+        "targetModelName": "mistralai/Mistral-7B-Instruct-v0.2",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302504",
@@ -8251,7 +8278,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "deepseek-ai/deepseek-llm-67b-chat"
+        "targetModelName": "deepseek-ai/deepseek-llm-67b-chat",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302563",
@@ -8333,7 +8361,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "netease-youdao/bce-reranker-base_v1"
+        "targetModelName": "netease-youdao/bce-reranker-base_v1",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302564",
@@ -8415,7 +8444,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "BAAI/bge-reranker-v2-m3"
+        "targetModelName": "BAAI/bge-reranker-v2-m3",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302559",
@@ -8497,7 +8527,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "BAAI/bge-m3"
+        "targetModelName": "BAAI/bge-m3",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302558",
@@ -8580,7 +8611,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "netease-youdao/bce-embedding-base_v1"
+        "targetModelName": "netease-youdao/bce-embedding-base_v1",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302505",
@@ -8661,7 +8693,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "Qwen/Qwen1.5-14B-Chat"
+        "targetModelName": "Qwen/Qwen1.5-14B-Chat",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302548",
@@ -8743,7 +8776,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "mistralai/Mistral-7B-Instruct-v0.2"
+        "targetModelName": "mistralai/Mistral-7B-Instruct-v0.2",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302496",
@@ -8826,7 +8860,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "mistralai/Mixtral-8x7B-Instruct-v0.1"
+        "targetModelName": "mistralai/Mixtral-8x7B-Instruct-v0.1",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302538",
@@ -8907,7 +8942,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "Qwen/Qwen2-7B-Instruct"
+        "targetModelName": "Qwen/Qwen2-7B-Instruct",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302539",
@@ -8988,7 +9024,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "Qwen/Qwen2-1.5B-Instruct"
+        "targetModelName": "Qwen/Qwen2-1.5B-Instruct",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302529",
@@ -9070,7 +9107,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "Qwen/Qwen2-1.5B-Instruct"
+        "targetModelName": "Qwen/Qwen2-1.5B-Instruct",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302524",
@@ -9152,7 +9190,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "Qwen/Qwen2-7B-Instruct"
+        "targetModelName": "Qwen/Qwen2-7B-Instruct",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302534",
@@ -9234,7 +9273,10 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "google/gemma-2-27b-it"
+        "targetModelName": "google/gemma-2-27b-it",
+        "deprecatedTime": {
+            "seconds": 1740585600
+        }
     },
     {
         "modelId": "17885302517",
@@ -9316,7 +9358,10 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "01-ai/Yi-1.5-9B-Chat-16K"
+        "targetModelName": "01-ai/Yi-1.5-9B-Chat-16K",
+        "deprecatedTime": {
+            "seconds": 1740585600
+        }
     },
     {
         "modelId": "17885302516",
@@ -9398,7 +9443,10 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "01-ai/Yi-1.5-6B-Chat"
+        "targetModelName": "01-ai/Yi-1.5-6B-Chat",
+        "deprecatedTime": {
+            "seconds": 1740585600
+        }
     },
     {
         "modelId": "17885302519",
@@ -9480,7 +9528,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "THUDM/chatglm3-6b"
+        "targetModelName": "THUDM/chatglm3-6b",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302533",
@@ -9563,7 +9612,10 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "google/gemma-2-9b-it"
+        "targetModelName": "google/gemma-2-9b-it",
+        "deprecatedTime": {
+            "seconds": 1740585600
+        }
     },
     {
         "modelId": "17885302518",
@@ -9644,7 +9696,10 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "01-ai/Yi-1.5-34B-Chat-16K"
+        "targetModelName": "01-ai/Yi-1.5-34B-Chat-16K",
+        "deprecatedTime": {
+            "seconds": 1740585600
+        }
     },
     {
         "modelId": "17885302537",
@@ -9727,7 +9782,8 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "BAAI/bge-large-zh-v1.5"
+        "targetModelName": "BAAI/bge-large-zh-v1.5",
+        "deprecatedTime": {}
     },
     {
         "modelId": "17885302536",
@@ -9810,6 +9866,7 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "BAAI/bge-large-en-v1.5"
+        "targetModelName": "BAAI/bge-large-en-v1.5",
+        "deprecatedTime": {}
     }
 ]
