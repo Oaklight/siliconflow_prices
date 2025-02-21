@@ -2605,27 +2605,6 @@
       "output": 0.0
     },
     {
-      "model": "4bd107bff85941239e27b1509eccfe98",
-      "type": "tokens",
-      "channel_type": 1004,
-      "input": 0.2857142857142857,
-      "output": 1.1428571428571428
-    },
-    {
-      "model": "7ba7726dad4c4ea4ab7f39c7741aea68",
-      "type": "tokens",
-      "channel_type": 1004,
-      "input": 0.2857142857142857,
-      "output": 1.1428571428571428
-    },
-    {
-      "model": "9dc913a037774fc0b248376905c85da5",
-      "type": "tokens",
-      "channel_type": 1004,
-      "input": 0.14285714285714285,
-      "output": 0.5714285714285714
-    },
-    {
       "model": "BAAI/bge-m3",
       "type": "tokens",
       "channel_type": 1004,
@@ -2638,62 +2617,6 @@
       "channel_type": 1004,
       "input": 0.0,
       "output": 0.0
-    },
-    {
-      "model": "DeepSeek-R1",
-      "type": "tokens",
-      "channel_type": 1004,
-      "input": 0.2857142857142857,
-      "output": 1.1428571428571428
-    },
-    {
-      "model": "DeepSeek-R1",
-      "type": "tokens",
-      "channel_type": 1004,
-      "input": 0.2857142857142857,
-      "output": 1.1428571428571428
-    },
-    {
-      "model": "DeepSeek-V3",
-      "type": "tokens",
-      "channel_type": 1004,
-      "input": 0.14285714285714285,
-      "output": 0.5714285714285714
-    },
-    {
-      "model": "DeepSeek-V3",
-      "type": "tokens",
-      "channel_type": 1004,
-      "input": 0.14285714285714285,
-      "output": 0.5714285714285714
-    },
-    {
-      "model": "Pro/deepseek-ai/DeepSeek-R1",
-      "type": "tokens",
-      "channel_type": 1004,
-      "input": 0.2857142857142857,
-      "output": 1.1428571428571428
-    },
-    {
-      "model": "Pro/deepseek-ai/DeepSeek-V3",
-      "type": "tokens",
-      "channel_type": 1004,
-      "input": 0.14285714285714285,
-      "output": 0.5714285714285714
-    },
-    {
-      "model": "VIP/deepseek-ai/DeepSeek-R1",
-      "type": "tokens",
-      "channel_type": 1004,
-      "input": 0.2857142857142857,
-      "output": 1.1428571428571428
-    },
-    {
-      "model": "VIP/deepseek-ai/DeepSeek-V3",
-      "type": "tokens",
-      "channel_type": 1004,
-      "input": 0.14285714285714285,
-      "output": 0.5714285714285714
     },
     {
       "model": "bge-m3",
@@ -2752,48 +2675,6 @@
       "output": 0.0
     },
     {
-      "model": "deepseek-ai/DeepSeek-R1",
-      "type": "tokens",
-      "channel_type": 1004,
-      "input": 0.2857142857142857,
-      "output": 1.1428571428571428
-    },
-    {
-      "model": "deepseek-ai/DeepSeek-V3",
-      "type": "tokens",
-      "channel_type": 1004,
-      "input": 0.14285714285714285,
-      "output": 0.5714285714285714
-    },
-    {
-      "model": "deepseek-r1",
-      "type": "tokens",
-      "channel_type": 1004,
-      "input": 0.2857142857142857,
-      "output": 1.1428571428571428
-    },
-    {
-      "model": "deepseek-r1",
-      "type": "tokens",
-      "channel_type": 1004,
-      "input": 0.2857142857142857,
-      "output": 1.1428571428571428
-    },
-    {
-      "model": "deepseek-r1",
-      "type": "tokens",
-      "channel_type": 1004,
-      "input": 0.2857142857142857,
-      "output": 1.1428571428571428
-    },
-    {
-      "model": "deepseek-r1",
-      "type": "tokens",
-      "channel_type": 1004,
-      "input": 0.2857142857142857,
-      "output": 1.1428571428571428
-    },
-    {
       "model": "deepseek-r1",
       "type": "tokens",
       "channel_type": 1004,
@@ -2811,8 +2692,8 @@
       "model": "deepseek-r1-baidu",
       "type": "tokens",
       "channel_type": 1004,
-      "input": 0.2857142857142857,
-      "output": 1.1428571428571428
+      "input": 0.14285714285714285,
+      "output": 0.5714285714285714
     },
     {
       "model": "deepseek-r1-colossal",
@@ -2836,14 +2717,7 @@
       "output": 1.1428571428571428
     },
     {
-      "model": "deepseek-r1-ctyun-huawei",
-      "type": "tokens",
-      "channel_type": 1004,
-      "input": 0.2857142857142857,
-      "output": 1.1428571428571428
-    },
-    {
-      "model": "deepseek-r1-ctyun-nvidia",
+      "model": "deepseek-r1-deepseek",
       "type": "tokens",
       "channel_type": 1004,
       "input": 0.2857142857142857,
@@ -2899,34 +2773,6 @@
       "output": 0.5714285714285714
     },
     {
-      "model": "deepseek-v3",
-      "type": "tokens",
-      "channel_type": 1004,
-      "input": 0.14285714285714285,
-      "output": 0.5714285714285714
-    },
-    {
-      "model": "deepseek-v3",
-      "type": "tokens",
-      "channel_type": 1004,
-      "input": 0.14285714285714285,
-      "output": 0.5714285714285714
-    },
-    {
-      "model": "deepseek-v3",
-      "type": "tokens",
-      "channel_type": 1004,
-      "input": 0.14285714285714285,
-      "output": 0.5714285714285714
-    },
-    {
-      "model": "deepseek-v3",
-      "type": "tokens",
-      "channel_type": 1004,
-      "input": 0.14285714285714285,
-      "output": 0.5714285714285714
-    },
-    {
       "model": "deepseek-v3-aliyun",
       "type": "tokens",
       "channel_type": 1004,
@@ -2937,8 +2783,8 @@
       "model": "deepseek-v3-baidu",
       "type": "tokens",
       "channel_type": 1004,
-      "input": 0.14285714285714285,
-      "output": 0.5714285714285714
+      "input": 0.05714285714285714,
+      "output": 0.11428571428571428
     },
     {
       "model": "deepseek-v3-colossal",
@@ -2956,6 +2802,13 @@
     },
     {
       "model": "deepseek-v3-ctyun",
+      "type": "tokens",
+      "channel_type": 1004,
+      "input": 0.14285714285714285,
+      "output": 0.5714285714285714
+    },
+    {
+      "model": "deepseek-v3-deepseek",
       "type": "tokens",
       "channel_type": 1004,
       "input": 0.14285714285714285,
@@ -2991,20 +2844,6 @@
     },
     {
       "model": "deepseek-v3-volcengine",
-      "type": "tokens",
-      "channel_type": 1004,
-      "input": 0.07142857142857142,
-      "output": 0.2857142857142857
-    },
-    {
-      "model": "ep-20250216173757-b8grd",
-      "type": "tokens",
-      "channel_type": 1004,
-      "input": 0.14285714285714285,
-      "output": 0.5714285714285714
-    },
-    {
-      "model": "ep-20250216173825-s9n4t",
       "type": "tokens",
       "channel_type": 1004,
       "input": 0.07142857142857142,
