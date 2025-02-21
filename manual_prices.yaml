@@ -109,19 +109,15 @@ models:
 
     # +++++++ embed&rerank aliases +++++++
     bge-m3-siliconflow:
-      aliases: BAAI/bge-m3
-      input: 0 rmb / M
-      output: 0 rmb / M
-    bge-reranker-v2-m3-siliconflow:
-      aliases: BAAI/bge-reranker-v2-m3
       input: 0 rmb / M
       output: 0 rmb / M
     bge-m3-infiniai:
-      aliases: bge-m3
+      input: 0 rmb / M
+      output: 0 rmb / M
+    bge-reranker-v2-m3-siliconflow:
       input: 0 rmb / M
       output: 0 rmb / M
     bge-reranker-v2-m3-infiniai:
-      aliases: bge-reranker-v2-m3
       input: 0 rmb / M
       output: 0 rmb / M
 
