@@ -1,83 +1,5 @@
 [
     {
-        "modelId": "17885302752",
-        "modelName": "lighthouse/Lighthouse",
-        "mf": "lighthouse",
-        "desc": "",
-        "tags": [],
-        "icon": "",
-        "publishTime": {
-            "seconds": 1737302400
-        },
-        "size": 671,
-        "contextLen": 65536,
-        "price": "16",
-        "currency": "¥",
-        "operationLabel": [],
-        "needAuth": false,
-        "onlineDemo": true,
-        "type": "text",
-        "subType": "chat",
-        "DisplayName": "lighthouse/Lighthouse",
-        "sort": -1,
-        "sameSeries": [],
-        "language": [],
-        "modelInfo": [
-            {
-                "Level": 0,
-                "RPM": 1000,
-                "TPM": 10000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 1,
-                "RPM": 1000,
-                "TPM": 10000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 2,
-                "RPM": 1000,
-                "TPM": 10000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 3,
-                "RPM": 1000,
-                "TPM": 10000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 4,
-                "RPM": 1000,
-                "TPM": 10000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 5,
-                "RPM": 1000,
-                "TPM": 10000,
-                "IPM": -1,
-                "IPD": -1
-            }
-        ],
-        "priceUnit": "/ M Tokens",
-        "status": "normal",
-        "jsonModeSupport": false,
-        "functionCallSupport": false,
-        "fimCompletionSupport": false,
-        "chatPrefixCompletionSupport": true,
-        "vlm": false,
-        "onlyByChargeBalance": false,
-        "supportFT": false,
-        "targetModelName": "deepseek-ai/DeepSeek-R1-A3"
-    },
-    {
         "modelId": "17885302723",
         "modelName": "deepseek-ai/DeepSeek-V3",
         "mf": "deepseek-ai",
@@ -154,7 +76,7 @@
         "status": "normal",
         "jsonModeSupport": false,
         "functionCallSupport": true,
-        "fimCompletionSupport": true,
+        "fimCompletionSupport": false,
         "chatPrefixCompletionSupport": true,
         "vlm": false,
         "onlyByChargeBalance": false,
@@ -238,12 +160,173 @@
         "status": "normal",
         "jsonModeSupport": false,
         "functionCallSupport": true,
-        "fimCompletionSupport": true,
+        "fimCompletionSupport": false,
         "chatPrefixCompletionSupport": true,
         "vlm": false,
         "onlyByChargeBalance": true,
         "supportFT": false,
         "targetModelName": "deepseek-ai/DeepSeek-V3"
+    },
+    {
+        "modelId": "17885302747",
+        "modelName": "SeedLLM/Seed-Rice-7B",
+        "mf": "SeedLLM",
+        "desc": "Seed-Rice-7B 是由上海人工智能实验室联合崖州湾实验室研发的大语言模型，涵盖了自 1982 年以来，全球水稻文献 90% 和 40 个水稻生物学领域的专业数据库。模型训练由水稻研究领域的科研人员全程参与，确保了模型输出符合水稻生物学的专业需求和学科偏好",
+        "tags": [
+            "7B",
+            "32K"
+        ],
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/SeedLLM.svg",
+        "publishTime": {
+            "seconds": 1714233600
+        },
+        "size": 7,
+        "contextLen": 32768,
+        "price": "0",
+        "currency": "¥",
+        "operationLabel": [
+            "New"
+        ],
+        "needAuth": true,
+        "onlineDemo": true,
+        "type": "text",
+        "subType": "chat",
+        "DisplayName": "Seed-Rice-7B",
+        "sort": 4001,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 1,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 2,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 3,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 4,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 5,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            }
+        ],
+        "priceUnit": "/ M Tokens",
+        "status": "normal",
+        "jsonModeSupport": false,
+        "functionCallSupport": false,
+        "fimCompletionSupport": false,
+        "chatPrefixCompletionSupport": false,
+        "vlm": false,
+        "onlyByChargeBalance": false,
+        "supportFT": false,
+        "targetModelName": "SeedLLM/Seed-Rice-7B"
+    },
+    {
+        "modelId": "17885302752",
+        "modelName": "lighthouse/Lighthouse",
+        "mf": "lighthouse",
+        "desc": "",
+        "tags": [],
+        "icon": "",
+        "publishTime": {
+            "seconds": 1737302400
+        },
+        "size": 671,
+        "contextLen": 65536,
+        "price": "16",
+        "currency": "¥",
+        "operationLabel": [],
+        "needAuth": false,
+        "onlineDemo": true,
+        "type": "text",
+        "subType": "chat",
+        "DisplayName": "lighthouse/Lighthouse",
+        "sort": -1,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": 1000,
+                "TPM": 10000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 1,
+                "RPM": 1000,
+                "TPM": 10000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 2,
+                "RPM": 1000,
+                "TPM": 10000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 3,
+                "RPM": 1000,
+                "TPM": 10000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 4,
+                "RPM": 1000,
+                "TPM": 10000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 5,
+                "RPM": 1000,
+                "TPM": 10000,
+                "IPM": -1,
+                "IPD": -1
+            }
+        ],
+        "priceUnit": "/ M Tokens",
+        "status": "normal",
+        "jsonModeSupport": false,
+        "functionCallSupport": false,
+        "fimCompletionSupport": false,
+        "chatPrefixCompletionSupport": true,
+        "vlm": false,
+        "onlyByChargeBalance": false,
+        "supportFT": false,
+        "targetModelName": "deepseek-ai/DeepSeek-R1-A3"
     },
     {
         "modelId": "17885302738",

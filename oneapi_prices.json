@@ -2087,6 +2087,13 @@
       "output": 3.5714285714285716
     },
     {
+      "model": "SeedLLM/Seed-Rice-7B",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "THUDM/chatglm3-6b",
       "type": "tokens",
       "channel_type": 45,
