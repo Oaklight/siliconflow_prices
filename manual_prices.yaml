@@ -10,7 +10,14 @@ models:
     deepseek-v2.5:
       input: 1.33 rmb / M
       output: 1.33 rmb / M
-    # v3 aliases
+    bge-m3:
+      input: 0 rmb / M
+      output: 0 rmb / M
+    bge-reranker-v2-m3:
+      input: 0 rmb / M
+      output: 0 rmb / M
+
+    # +++++++ v3 aliases +++++++
     deepseek-v3-siliconflow:
       aliases: Pro/deepseek-ai/DeepSeek-V3, deepseek-ai/DeepSeek-V3
       input: 2 rmb / M
@@ -47,7 +54,12 @@ models:
       aliases: deepseek-v3
       input: 0.002 rmb / K
       output: 0.008 rmb / K
-    # r1 aliases
+    deepseek-v3-infiniai:
+      aliases: deepseek-v3
+      input: 0.002 rmb / K
+      output: 0.008 rmb / K
+
+    # +++++++ r1 aliases +++++++
     deepseek-r1-siliconflow:
       aliases: Pro/deepseek-ai/DeepSeek-R1, deepseek-ai/DeepSeek-R1
       input: 4 rmb / M
@@ -84,6 +96,28 @@ models:
       aliases: deepseek-r1
       input: 0.004 rmb / K
       output: 0.016 rmb / K
+    deepseek-r1-infiniai:
+      aliases: deepseek-r1
+      input: 0.004 rmb / K
+      output: 0.016 rmb / K
+
+    # +++++++ embed&rerank aliases +++++++
+    bge-m3-siliconflow:
+      aliases: BAAI/bge-m3
+      input: 0 rmb / M
+      output: 0 rmb / M
+    bge-reranker-v2-m3-siliconflow:
+      aliases: BAAI/bge-reranker-v2-m3
+      input: 0 rmb / M
+      output: 0 rmb / M
+    bge-m3-infiniai:
+      aliases: bge-m3
+      input: 0 rmb / M
+      output: 0 rmb / M
+    bge-reranker-v2-m3-infiniai:
+      aliases: bge-reranker-v2-m3
+      input: 0 rmb / M
+      output: 0 rmb / M
 
   # deepseek
   Deepseek:
