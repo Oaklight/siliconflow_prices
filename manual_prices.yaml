@@ -52,8 +52,8 @@ models:
       output: 0.008 rmb / K
     deepseek-v3-baidu:
       aliases: deepseek-v3
-      input: 0.002 rmb / K
-      output: 0.008 rmb / K
+      input: 0.0008 rmb / K
+      output: 0.0016 rmb / K
     deepseek-v3-infiniai:
       aliases: deepseek-v3
       input: 0.002 rmb / K
@@ -94,8 +94,8 @@ models:
       output: 0.016 rmb / K
     deepseek-r1-baidu:
       aliases: deepseek-r1
-      input: 0.004 rmb / K
-      output: 0.016 rmb / K
+      input: 0.002 rmb / K
+      output: 0.008 rmb / K
     deepseek-r1-infiniai:
       aliases: deepseek-r1
       input: 0.004 rmb / K
