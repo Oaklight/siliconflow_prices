@@ -76,6 +76,7 @@ models:
       output: 0.008 rmb / K
     deepseek-r1-ctyun:
       # aliases: 4bd107bff85941239e27b1509eccfe98, deepseek-r1-ctyun-huawei, deepseek-r1-ctyun-nvidia, 7ba7726dad4c4ea4ab7f39c7741aea68
+      aliases: deepseek-r1-ctyun-huawei, deepseek-r1-ctyun-nvidia
       input: 0.004 rmb / K
       output: 0.016 rmb / K
     deepseek-r1-volcengine:
