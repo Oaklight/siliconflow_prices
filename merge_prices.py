@@ -11,7 +11,7 @@ def convert_price(price_str):
 
     # 检查价格字符串中是否包含 "usd"
     if "usd" in price_str:
-        scale_factor = 1
+        scale_factor = 0.002
         price = float(
             price_str.replace("usd", "")
             .replace("/", "")
