@@ -1,107 +1,4 @@
 models:
-  # deepseek-load-balancer
-  deepseek-load-balancer:
-    deepseek-v3:
-      input: 2 rmb / M
-      output: 8 rmb / M
-    deepseek-r1:
-      input: 4 rmb / M
-      output: 16 rmb / M
-    deepseek-v2.5:
-      input: 1.33 rmb / M
-      output: 1.33 rmb / M
-    bge-m3:
-      input: 0 rmb / M
-      output: 0 rmb / M
-    bge-reranker-v2-m3:
-      input: 0 rmb / M
-      output: 0 rmb / M
-
-    # +++++++ v3 aliases +++++++
-    deepseek-v3-deepseek:
-      input: 2 rmb / M
-      output: 8 rmb / M
-    deepseek-v3-aliyun:
-      input: 0.002 rmb / K
-      output: 0.008 rmb / K
-    deepseek-v3-baidu:
-      input: 0.0008 rmb / K
-      output: 0.0016 rmb / K
-    deepseek-v3-ctyun:
-      input: 0.002 rmb / K
-      output: 0.008 rmb / K
-    deepseek-v3-volcengine:
-      input: 0.001 rmb / K
-      output: 0.004 rmb / K
-    deepseek-v3-tencent:
-      input: 0.002 rmb / K
-      output: 0.008 rmb / K
-    deepseek-v3-siliconflow:
-      input: 2 rmb / M
-      output: 8 rmb / M
-    deepseek-v3-colossal:
-      input: 0.002 rmb / K
-      output: 0.008 rmb / K
-    deepseek-v3-coreshub:
-      input: 0.002 rmb / K
-      output: 0.008 rmb / K
-    deepseek-v3-sensecore:
-      input: 0.002 rmb / K
-      output: 0.008 rmb / K
-    deepseek-v3-infiniai:
-      input: 0.002 rmb / K
-      output: 0.008 rmb / K
-
-    # +++++++ r1 aliases +++++++
-    deepseek-r1-deepseek:
-      input: 4 rmb / M
-      output: 16 rmb / M
-    deepseek-r1-aliyun:
-      input: 0.004 rmb / K
-      output: 0.016 rmb / K
-    deepseek-r1-baidu:
-      input: 0.002 rmb / K
-      output: 0.008 rmb / K
-    deepseek-r1-ctyun:
-      aliases: deepseek-r1-ctyun-huawei, deepseek-r1-ctyun-nvidia
-      input: 0.004 rmb / K
-      output: 0.016 rmb / K
-    deepseek-r1-volcengine:
-      input: 0.002 rmb / K
-      output: 0.008 rmb / K
-    deepseek-r1-tencent:
-      input: 0.004 rmb / K
-      output: 0.016 rmb / K
-    deepseek-r1-siliconflow:
-      input: 4 rmb / M
-      output: 16 rmb / M
-    deepseek-r1-colossal:
-      input: 0.004 rmb / K
-      output: 0.016 rmb / K
-    deepseek-r1-coreshub:
-      input: 0.004 rmb / K
-      output: 0.016 rmb / K
-    deepseek-r1-sensecore:
-      input: 0.004 rmb / K
-      output: 0.016 rmb / K
-    deepseek-r1-infiniai:
-      input: 0.004 rmb / K
-      output: 0.016 rmb / K
-
-    # +++++++ embed&rerank aliases +++++++
-    bge-m3-siliconflow:
-      input: 0 rmb / M
-      output: 0 rmb / M
-    bge-m3-infiniai:
-      input: 0 rmb / M
-      output: 0 rmb / M
-    bge-reranker-v2-m3-siliconflow:
-      input: 0 rmb / M
-      output: 0 rmb / M
-    bge-reranker-v2-m3-infiniai:
-      input: 0 rmb / M
-      output: 0 rmb / M
-
   # deepseek
   Deepseek:
     deepseek-chat:
@@ -111,37 +8,8 @@ models:
       input: 4 rmb / M
       output: 16 rmb / M
 
-  # siliconflow
-  Siliconflow:
-    deepseek-ai/DeepSeek-V3:
-      input: 2 rmb / M
-      output: 8 rmb / M
-    deepseek-ai/DeepSeek-R1:
-      input: 4 rmb / M
-      output: 16 rmb / M
-    Pro/deepseek-ai/DeepSeek-V3:
-      input: 2 rmb / M
-      output: 8 rmb / M
-    Pro/deepseek-ai/DeepSeek-R1:
-      input: 4 rmb / M
-      output: 16 rmb / M
-    deepseek-v3:
-      input: 2 rmb / M
-      output: 8 rmb / M
-    deepseek-r1:
-      input: 4 rmb / M
-      output: 16 rmb / M
-
   # 字节火山引擎
   字节火山引擎:
-    # deepseek @ 字节火山引擎
-    deepseek-v3:
-      input: 0.001 rmb / K
-      output: 0.004 rmb / K
-    deepseek-r1:
-      input: 0.002 rmb / K
-      output: 0.008 rmb / K
-
     # 豆包大模型 @ 字节火山引擎
     doubao-1.5-lite-32k:
       input: 0.0003 rmb / K
@@ -253,14 +121,6 @@ models:
     qwen-audio-asr-latest:
       input: 0
       output: 0
-
-    # deepseek @ 阿里云百炼
-    deepseek-r1:
-      input: 0.004 rmb / K
-      output: 0.016 rmb / K
-    deepseek-v3:
-      input: 0.002 rmb / K
-      output: 0.008 rmb / K
 
   # stepfun
   stepfun:
