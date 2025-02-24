@@ -75,8 +75,8 @@
         "priceUnit": "/ M Tokens",
         "status": "normal",
         "jsonModeSupport": false,
-        "functionCallSupport": true,
-        "fimCompletionSupport": false,
+        "functionCallSupport": false,
+        "fimCompletionSupport": true,
         "chatPrefixCompletionSupport": true,
         "vlm": false,
         "onlyByChargeBalance": false,
@@ -160,14 +160,692 @@
         "priceUnit": "/ M Tokens",
         "status": "normal",
         "jsonModeSupport": false,
-        "functionCallSupport": true,
-        "fimCompletionSupport": false,
+        "functionCallSupport": false,
+        "fimCompletionSupport": true,
         "chatPrefixCompletionSupport": true,
         "vlm": false,
         "onlyByChargeBalance": true,
         "supportFT": false,
         "targetModelName": "deepseek-ai/DeepSeek-V3",
         "deprecatedTime": {}
+    },
+    {
+        "modelId": "17885302526",
+        "modelName": "stabilityai/stable-diffusion-3-medium",
+        "mf": "stabilityai",
+        "desc": "Stable Diffusion 3 Medium 是由 Stability AI 开发的多模态扩散变换器（MMDiT）文本到图像模型。该模型在图像质量、排版、复杂提示理解和资源效率方面有显著提升。它使用了三个固定的预训练文本编码器（OpenCLIP-ViT/G、CLIP-ViT/L 和 T5-xxl）。该模型在 10 亿张图像上进行了预训练，并在 3000 万张高质量美学图像和 300 万张偏好数据图像上进行了微调。Stable Diffusion 3 Medium 适用于艺术创作、设计过程、教育工具和生成模型研究等领域",
+        "tags": [
+            "2B"
+        ],
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/Stability.svg",
+        "publishTime": {
+            "seconds": 1718121600
+        },
+        "size": 2,
+        "contextLen": 0,
+        "price": "0",
+        "currency": "¥",
+        "operationLabel": [],
+        "needAuth": false,
+        "onlineDemo": true,
+        "type": "image",
+        "subType": "text-to-image",
+        "DisplayName": "stable-diffusion-3-medium",
+        "sort": 3,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 2,
+                "IPD": 400
+            },
+            {
+                "Level": 1,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 2,
+                "IPD": 400
+            },
+            {
+                "Level": 2,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 2,
+                "IPD": 400
+            },
+            {
+                "Level": 3,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 2,
+                "IPD": 400
+            },
+            {
+                "Level": 4,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 2,
+                "IPD": 400
+            },
+            {
+                "Level": 5,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 2,
+                "IPD": 400
+            }
+        ],
+        "priceUnit": "/ M px / Steps",
+        "status": "normal",
+        "jsonModeSupport": false,
+        "functionCallSupport": false,
+        "fimCompletionSupport": false,
+        "chatPrefixCompletionSupport": false,
+        "vlm": false,
+        "onlyByChargeBalance": false,
+        "supportFT": false,
+        "targetModelName": "stabilityai/stable-diffusion-3-medium",
+        "deprecatedTime": {
+            "seconds": 1740585600
+        }
+    },
+    {
+        "modelId": "17885302518",
+        "modelName": "01-ai/Yi-1.5-34B-Chat-16K",
+        "mf": "01-ai",
+        "desc": "Yi-1.5-34B-Chat-16K 是 Yi-1.5 系列的一个变体，属于开源聊天模型。Yi-1.5 是 Yi 的升级版本，在 500B 个高质量语料上进行了持续预训练，并在 3M 多样化的微调样本上进行了微调。相比于 Yi，Yi-1.5 在编码、数学、推理和指令遵循能力方面表现更强，同时保持了出色的语言理解、常识推理和阅读理解能力。该模型在大多数基准测试中与更大的模型相当或表现更佳，具有 16K 的上下文长度",
+        "tags": [
+            "34B",
+            "16K"
+        ],
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/Yi.svg",
+        "publishTime": {
+            "seconds": 1715702400
+        },
+        "size": 34,
+        "contextLen": 16384,
+        "price": "1.26",
+        "currency": "¥",
+        "operationLabel": [],
+        "needAuth": false,
+        "onlineDemo": true,
+        "type": "text",
+        "subType": "chat",
+        "DisplayName": "Yi-1.5-34B-Chat-16K",
+        "sort": 3,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": 1000,
+                "TPM": 40000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 1,
+                "RPM": 1200,
+                "TPM": 60000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 2,
+                "RPM": 2000,
+                "TPM": 80000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 3,
+                "RPM": 4000,
+                "TPM": 160000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 4,
+                "RPM": 8000,
+                "TPM": 500000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 5,
+                "RPM": 10000,
+                "TPM": 2000000,
+                "IPM": -1,
+                "IPD": -1
+            }
+        ],
+        "priceUnit": "/ M Tokens",
+        "status": "normal",
+        "jsonModeSupport": true,
+        "functionCallSupport": false,
+        "fimCompletionSupport": false,
+        "chatPrefixCompletionSupport": true,
+        "vlm": false,
+        "onlyByChargeBalance": false,
+        "supportFT": false,
+        "targetModelName": "01-ai/Yi-1.5-34B-Chat-16K",
+        "deprecatedTime": {
+            "seconds": 1740585600
+        }
+    },
+    {
+        "modelId": "17885302516",
+        "modelName": "01-ai/Yi-1.5-6B-Chat",
+        "mf": "01-ai",
+        "desc": "Yi-1.5-6B-Chat 是 Yi-1.5 系列的一个变体，属于开源聊天模型。Yi-1.5 是 Yi 的升级版本，在 500B 个高质量语料上进行了持续预训练，并在 3M 多样化的微调样本上进行了微调。相比于 Yi，Yi-1.5 在编码、数学、推理和指令遵循能力方面表现更强，同时保持了出色的语言理解、常识推理和阅读理解能力。该模型具有 4K、16K 和 32K 的上下文长度版本，预训练总量达到 3.6T 个 token",
+        "tags": [
+            "Free",
+            "6B",
+            "4K"
+        ],
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/Yi.svg",
+        "publishTime": {
+            "seconds": 1715356800
+        },
+        "size": 6,
+        "contextLen": 4096,
+        "price": "0",
+        "currency": "¥",
+        "operationLabel": [],
+        "needAuth": false,
+        "onlineDemo": true,
+        "type": "text",
+        "subType": "chat",
+        "DisplayName": "Yi-1.5-6B-Chat (Free)",
+        "sort": 3,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 1,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 2,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 3,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 4,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 5,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            }
+        ],
+        "priceUnit": "/ M Tokens",
+        "status": "normal",
+        "jsonModeSupport": true,
+        "functionCallSupport": false,
+        "fimCompletionSupport": false,
+        "chatPrefixCompletionSupport": true,
+        "vlm": false,
+        "onlyByChargeBalance": false,
+        "supportFT": false,
+        "targetModelName": "01-ai/Yi-1.5-6B-Chat",
+        "deprecatedTime": {
+            "seconds": 1740585600
+        }
+    },
+    {
+        "modelId": "17885302517",
+        "modelName": "01-ai/Yi-1.5-9B-Chat-16K",
+        "mf": "01-ai",
+        "desc": "Yi-1.5-9B-Chat-16K 是 Yi-1.5 系列的一个变体，属于开源聊天模型。Yi-1.5 是 Yi 的升级版本，在 500B 个高质量语料上进行了持续预训练，并在 3M 多样化的微调样本上进行了微调。相比于 Yi，Yi-1.5 在编码、数学、推理和指令遵循能力方面表现更强，同时保持了出色的语言理解、常识推理和阅读理解能力。该模型在同等规模的开源模型中表现最佳",
+        "tags": [
+            "Free",
+            "9B",
+            "16K"
+        ],
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/Yi.svg",
+        "publishTime": {
+            "seconds": 1715702400
+        },
+        "size": 9,
+        "contextLen": 16384,
+        "price": "0",
+        "currency": "¥",
+        "operationLabel": [],
+        "needAuth": false,
+        "onlineDemo": true,
+        "type": "text",
+        "subType": "chat",
+        "DisplayName": "Yi-1.5-9B-Chat-16K (Free)",
+        "sort": 3,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 1,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 2,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 3,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 4,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 5,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            }
+        ],
+        "priceUnit": "/ M Tokens",
+        "status": "normal",
+        "jsonModeSupport": true,
+        "functionCallSupport": false,
+        "fimCompletionSupport": false,
+        "chatPrefixCompletionSupport": true,
+        "vlm": false,
+        "onlyByChargeBalance": false,
+        "supportFT": false,
+        "targetModelName": "01-ai/Yi-1.5-9B-Chat-16K",
+        "deprecatedTime": {
+            "seconds": 1740585600
+        }
+    },
+    {
+        "modelId": "17885302545",
+        "modelName": "Pro/google/gemma-2-9b-it",
+        "mf": "google",
+        "desc": "Gemma 是 Google 开发的轻量级、最先进的开放模型系列之一。它是一个仅解码器的大型语言模型，支持英语，提供开放权重、预训练变体和指令微调变体。Gemma 模型适用于各种文本生成任务，包括问答、摘要和推理。该 9B 模型是通过 8 万亿个 tokens 训练而成。其相对较小的规模使其可以在资源有限的环境中部署，如笔记本电脑、台式机或您自己的云基础设施，从而使更多人能够访问最先进的 AI 模型并促进创新",
+        "tags": [
+            "9B",
+            "8K",
+            "实名"
+        ],
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/Google.svg",
+        "publishTime": {
+            "seconds": 1719158400
+        },
+        "size": 9,
+        "contextLen": 0,
+        "price": "0.6",
+        "currency": "¥",
+        "operationLabel": [],
+        "needAuth": true,
+        "onlineDemo": true,
+        "type": "text",
+        "subType": "chat",
+        "DisplayName": "gemma-2-9b-it(Pro)",
+        "sort": 3,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": 1000,
+                "TPM": 80000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 1,
+                "RPM": 1200,
+                "TPM": 120000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 2,
+                "RPM": 2000,
+                "TPM": 160000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 3,
+                "RPM": 4000,
+                "TPM": 320000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 4,
+                "RPM": 8000,
+                "TPM": 1000000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 5,
+                "RPM": 10000,
+                "TPM": 5000000,
+                "IPM": -1,
+                "IPD": -1
+            }
+        ],
+        "priceUnit": "/ M Tokens",
+        "status": "normal",
+        "jsonModeSupport": true,
+        "functionCallSupport": false,
+        "fimCompletionSupport": false,
+        "chatPrefixCompletionSupport": true,
+        "vlm": false,
+        "onlyByChargeBalance": false,
+        "supportFT": false,
+        "targetModelName": "google/gemma-2-9b-it",
+        "deprecatedTime": {
+            "seconds": 1740585600
+        }
+    },
+    {
+        "modelId": "17885302533",
+        "modelName": "google/gemma-2-9b-it",
+        "mf": "google",
+        "desc": "Gemma 是 Google 开发的轻量级、最先进的开放模型系列之一。它是一个仅解码器的大型语言模型，支持英语，提供开放权重、预训练变体和指令微调变体。Gemma 模型适用于各种文本生成任务，包括问答、摘要和推理。该 9B 模型是通过 8 万亿个 tokens 训练而成。其相对较小的规模使其可以在资源有限的环境中部署，如笔记本电脑、台式机或您自己的云基础设施，从而使更多人能够访问最先进的 AI 模型并促进创新",
+        "tags": [
+            "Free",
+            "9B",
+            "8K",
+            "实名"
+        ],
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/Google.svg",
+        "publishTime": {
+            "seconds": 1719158400
+        },
+        "size": 9,
+        "contextLen": 8192,
+        "price": "0",
+        "currency": "¥",
+        "operationLabel": [],
+        "needAuth": true,
+        "onlineDemo": true,
+        "type": "text",
+        "subType": "chat",
+        "DisplayName": "gemma-2-9b-it (Free)",
+        "sort": 3,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 1,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 2,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 3,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 4,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 5,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            }
+        ],
+        "priceUnit": "/ M Tokens",
+        "status": "normal",
+        "jsonModeSupport": true,
+        "functionCallSupport": false,
+        "fimCompletionSupport": false,
+        "chatPrefixCompletionSupport": true,
+        "vlm": false,
+        "onlyByChargeBalance": false,
+        "supportFT": false,
+        "targetModelName": "google/gemma-2-9b-it",
+        "deprecatedTime": {
+            "seconds": 1740585600
+        }
+    },
+    {
+        "modelId": "17885302534",
+        "modelName": "google/gemma-2-27b-it",
+        "mf": "google",
+        "desc": "Gemma 是由 Google 开发的轻量级、最先进的开放模型系列，采用与 Gemini 模型相同的研究和技术构建。这些模型是仅解码器的大型语言模型，支持英语，提供预训练和指令微调两种变体的开放权重。Gemma 模型适用于各种文本生成任务，包括问答、摘要和推理。其相对较小的规模使其能够部署在资源有限的环境中，如笔记本电脑、台式机或个人云基础设施，从而让所有人都能获得最先进的 AI 模型，促进创新",
+        "tags": [
+            "27B",
+            "8K",
+            "实名"
+        ],
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/Google.svg",
+        "publishTime": {
+            "seconds": 1719158400
+        },
+        "size": 27,
+        "contextLen": 8192,
+        "price": "1.26",
+        "currency": "¥",
+        "operationLabel": [],
+        "needAuth": true,
+        "onlineDemo": true,
+        "type": "text",
+        "subType": "chat",
+        "DisplayName": "gemma-2-27b-it",
+        "sort": 3,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": 1000,
+                "TPM": 40000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 1,
+                "RPM": 1200,
+                "TPM": 60000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 2,
+                "RPM": 2000,
+                "TPM": 80000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 3,
+                "RPM": 4000,
+                "TPM": 160000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 4,
+                "RPM": 8000,
+                "TPM": 500000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 5,
+                "RPM": 10000,
+                "TPM": 2000000,
+                "IPM": -1,
+                "IPD": -1
+            }
+        ],
+        "priceUnit": "/ M Tokens",
+        "status": "normal",
+        "jsonModeSupport": true,
+        "functionCallSupport": false,
+        "fimCompletionSupport": false,
+        "chatPrefixCompletionSupport": true,
+        "vlm": false,
+        "onlyByChargeBalance": false,
+        "supportFT": false,
+        "targetModelName": "google/gemma-2-27b-it",
+        "deprecatedTime": {
+            "seconds": 1740585600
+        }
+    },
+    {
+        "modelId": "17885302555",
+        "modelName": "meta-llama/Meta-Llama-3.1-405B-Instruct",
+        "mf": "meta-llama3.1",
+        "desc": "Meta Llama 3.1 是由 Meta 开发的多语言大型语言模型家族，包括 8B、70B 和 405B 三种参数规模的预训练和指令微调变体。该 405B 指令微调模型针对多语言对话场景进行了优化，在多项行业基准测试中表现优异。模型训练使用了超过 15 万亿个 tokens 的公开数据，并采用了监督微调和人类反馈强化学习等技术来提升模型的有用性和安全性。Llama 3.1 支持文本生成和代码生成，知识截止日期为 2023 年 12 月",
+        "tags": [
+            "405B",
+            "32K",
+            "实名"
+        ],
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/Meta.svg",
+        "publishTime": {
+            "seconds": 1721664000
+        },
+        "size": 405,
+        "contextLen": 32768,
+        "price": "21",
+        "currency": "¥",
+        "operationLabel": [],
+        "needAuth": true,
+        "onlineDemo": true,
+        "type": "text",
+        "subType": "chat",
+        "DisplayName": "Meta-Llama-3.1-405B-Instruct",
+        "sort": 3,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": 1000,
+                "TPM": 10000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 1,
+                "RPM": 1200,
+                "TPM": 15000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 2,
+                "RPM": 2000,
+                "TPM": 20000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 3,
+                "RPM": 4000,
+                "TPM": 40000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 4,
+                "RPM": 8000,
+                "TPM": 125000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 5,
+                "RPM": 10000,
+                "TPM": 500000,
+                "IPM": -1,
+                "IPD": -1
+            }
+        ],
+        "priceUnit": "/ M Tokens",
+        "status": "normal",
+        "jsonModeSupport": true,
+        "functionCallSupport": false,
+        "fimCompletionSupport": false,
+        "chatPrefixCompletionSupport": true,
+        "vlm": false,
+        "onlyByChargeBalance": false,
+        "supportFT": false,
+        "targetModelName": "meta-llama/Meta-Llama-3.1-405B-Instruct",
+        "deprecatedTime": {
+            "seconds": 1740585600
+        }
     },
     {
         "modelId": "17885302747",
@@ -6464,89 +7142,6 @@
         "deprecatedTime": {}
     },
     {
-        "modelId": "17885302526",
-        "modelName": "stabilityai/stable-diffusion-3-medium",
-        "mf": "stabilityai",
-        "desc": "Stable Diffusion 3 Medium 是由 Stability AI 开发的多模态扩散变换器（MMDiT）文本到图像模型。该模型在图像质量、排版、复杂提示理解和资源效率方面有显著提升。它使用了三个固定的预训练文本编码器（OpenCLIP-ViT/G、CLIP-ViT/L 和 T5-xxl）。该模型在 10 亿张图像上进行了预训练，并在 3000 万张高质量美学图像和 300 万张偏好数据图像上进行了微调。Stable Diffusion 3 Medium 适用于艺术创作、设计过程、教育工具和生成模型研究等领域",
-        "tags": [
-            "2B"
-        ],
-        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/Stability.svg",
-        "publishTime": {
-            "seconds": 1718121600
-        },
-        "size": 2,
-        "contextLen": 0,
-        "price": "0",
-        "currency": "¥",
-        "operationLabel": [],
-        "needAuth": false,
-        "onlineDemo": true,
-        "type": "image",
-        "subType": "text-to-image",
-        "DisplayName": "stable-diffusion-3-medium",
-        "sort": 1810,
-        "sameSeries": [],
-        "language": [],
-        "modelInfo": [
-            {
-                "Level": 0,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": 2,
-                "IPD": 400
-            },
-            {
-                "Level": 1,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": 2,
-                "IPD": 400
-            },
-            {
-                "Level": 2,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": 2,
-                "IPD": 400
-            },
-            {
-                "Level": 3,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": 2,
-                "IPD": 400
-            },
-            {
-                "Level": 4,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": 2,
-                "IPD": 400
-            },
-            {
-                "Level": 5,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": 2,
-                "IPD": 400
-            }
-        ],
-        "priceUnit": "/ M px / Steps",
-        "status": "normal",
-        "jsonModeSupport": false,
-        "functionCallSupport": false,
-        "fimCompletionSupport": false,
-        "chatPrefixCompletionSupport": false,
-        "vlm": false,
-        "onlyByChargeBalance": false,
-        "supportFT": false,
-        "targetModelName": "stabilityai/stable-diffusion-3-medium",
-        "deprecatedTime": {
-            "seconds": 1740585600
-        }
-    },
-    {
         "modelId": "17885302594",
         "modelName": "Pro/OpenGVLab/InternVL2-8B",
         "mf": "InternVL",
@@ -7207,91 +7802,6 @@
         "deprecatedTime": {}
     },
     {
-        "modelId": "17885302555",
-        "modelName": "meta-llama/Meta-Llama-3.1-405B-Instruct",
-        "mf": "meta-llama3.1",
-        "desc": "Meta Llama 3.1 是由 Meta 开发的多语言大型语言模型家族，包括 8B、70B 和 405B 三种参数规模的预训练和指令微调变体。该 405B 指令微调模型针对多语言对话场景进行了优化，在多项行业基准测试中表现优异。模型训练使用了超过 15 万亿个 tokens 的公开数据，并采用了监督微调和人类反馈强化学习等技术来提升模型的有用性和安全性。Llama 3.1 支持文本生成和代码生成，知识截止日期为 2023 年 12 月",
-        "tags": [
-            "405B",
-            "32K",
-            "实名"
-        ],
-        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/Meta.svg",
-        "publishTime": {
-            "seconds": 1721664000
-        },
-        "size": 405,
-        "contextLen": 32768,
-        "price": "21",
-        "currency": "¥",
-        "operationLabel": [],
-        "needAuth": true,
-        "onlineDemo": true,
-        "type": "text",
-        "subType": "chat",
-        "DisplayName": "Meta-Llama-3.1-405B-Instruct",
-        "sort": 2010,
-        "sameSeries": [],
-        "language": [],
-        "modelInfo": [
-            {
-                "Level": 0,
-                "RPM": 1000,
-                "TPM": 10000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 1,
-                "RPM": 1200,
-                "TPM": 15000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 2,
-                "RPM": 2000,
-                "TPM": 20000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 3,
-                "RPM": 4000,
-                "TPM": 40000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 4,
-                "RPM": 8000,
-                "TPM": 125000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 5,
-                "RPM": 10000,
-                "TPM": 500000,
-                "IPM": -1,
-                "IPD": -1
-            }
-        ],
-        "priceUnit": "/ M Tokens",
-        "status": "normal",
-        "jsonModeSupport": true,
-        "functionCallSupport": false,
-        "fimCompletionSupport": false,
-        "chatPrefixCompletionSupport": true,
-        "vlm": false,
-        "onlyByChargeBalance": false,
-        "supportFT": false,
-        "targetModelName": "meta-llama/Meta-Llama-3.1-405B-Instruct",
-        "deprecatedTime": {
-            "seconds": 1740585600
-        }
-    },
-    {
         "modelId": "17885302592",
         "modelName": "Pro/BAAI/bge-m3",
         "mf": "BAAI",
@@ -7864,91 +8374,6 @@
         "supportFT": false,
         "targetModelName": "THUDM/glm-4-9b-chat",
         "deprecatedTime": {}
-    },
-    {
-        "modelId": "17885302545",
-        "modelName": "Pro/google/gemma-2-9b-it",
-        "mf": "google",
-        "desc": "Gemma 是 Google 开发的轻量级、最先进的开放模型系列之一。它是一个仅解码器的大型语言模型，支持英语，提供开放权重、预训练变体和指令微调变体。Gemma 模型适用于各种文本生成任务，包括问答、摘要和推理。该 9B 模型是通过 8 万亿个 tokens 训练而成。其相对较小的规模使其可以在资源有限的环境中部署，如笔记本电脑、台式机或您自己的云基础设施，从而使更多人能够访问最先进的 AI 模型并促进创新",
-        "tags": [
-            "9B",
-            "8K",
-            "实名"
-        ],
-        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/Google.svg",
-        "publishTime": {
-            "seconds": 1719158400
-        },
-        "size": 9,
-        "contextLen": 0,
-        "price": "0.6",
-        "currency": "¥",
-        "operationLabel": [],
-        "needAuth": true,
-        "onlineDemo": true,
-        "type": "text",
-        "subType": "chat",
-        "DisplayName": "gemma-2-9b-it(Pro)",
-        "sort": 10,
-        "sameSeries": [],
-        "language": [],
-        "modelInfo": [
-            {
-                "Level": 0,
-                "RPM": 1000,
-                "TPM": 80000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 1,
-                "RPM": 1200,
-                "TPM": 120000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 2,
-                "RPM": 2000,
-                "TPM": 160000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 3,
-                "RPM": 4000,
-                "TPM": 320000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 4,
-                "RPM": 8000,
-                "TPM": 1000000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 5,
-                "RPM": 10000,
-                "TPM": 5000000,
-                "IPM": -1,
-                "IPD": -1
-            }
-        ],
-        "priceUnit": "/ M Tokens",
-        "status": "normal",
-        "jsonModeSupport": true,
-        "functionCallSupport": false,
-        "fimCompletionSupport": false,
-        "chatPrefixCompletionSupport": true,
-        "vlm": false,
-        "onlyByChargeBalance": false,
-        "supportFT": false,
-        "targetModelName": "google/gemma-2-9b-it",
-        "deprecatedTime": {
-            "seconds": 1740585600
-        }
     },
     {
         "modelId": "17885302512",
@@ -9194,261 +9619,6 @@
         "deprecatedTime": {}
     },
     {
-        "modelId": "17885302534",
-        "modelName": "google/gemma-2-27b-it",
-        "mf": "google",
-        "desc": "Gemma 是由 Google 开发的轻量级、最先进的开放模型系列，采用与 Gemini 模型相同的研究和技术构建。这些模型是仅解码器的大型语言模型，支持英语，提供预训练和指令微调两种变体的开放权重。Gemma 模型适用于各种文本生成任务，包括问答、摘要和推理。其相对较小的规模使其能够部署在资源有限的环境中，如笔记本电脑、台式机或个人云基础设施，从而让所有人都能获得最先进的 AI 模型，促进创新",
-        "tags": [
-            "27B",
-            "8K",
-            "实名"
-        ],
-        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/Google.svg",
-        "publishTime": {
-            "seconds": 1719158400
-        },
-        "size": 27,
-        "contextLen": 8192,
-        "price": "1.26",
-        "currency": "¥",
-        "operationLabel": [],
-        "needAuth": true,
-        "onlineDemo": true,
-        "type": "text",
-        "subType": "chat",
-        "DisplayName": "gemma-2-27b-it",
-        "sort": 1801,
-        "sameSeries": [],
-        "language": [],
-        "modelInfo": [
-            {
-                "Level": 0,
-                "RPM": 1000,
-                "TPM": 40000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 1,
-                "RPM": 1200,
-                "TPM": 60000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 2,
-                "RPM": 2000,
-                "TPM": 80000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 3,
-                "RPM": 4000,
-                "TPM": 160000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 4,
-                "RPM": 8000,
-                "TPM": 500000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 5,
-                "RPM": 10000,
-                "TPM": 2000000,
-                "IPM": -1,
-                "IPD": -1
-            }
-        ],
-        "priceUnit": "/ M Tokens",
-        "status": "normal",
-        "jsonModeSupport": true,
-        "functionCallSupport": false,
-        "fimCompletionSupport": false,
-        "chatPrefixCompletionSupport": true,
-        "vlm": false,
-        "onlyByChargeBalance": false,
-        "supportFT": false,
-        "targetModelName": "google/gemma-2-27b-it",
-        "deprecatedTime": {
-            "seconds": 1740585600
-        }
-    },
-    {
-        "modelId": "17885302517",
-        "modelName": "01-ai/Yi-1.5-9B-Chat-16K",
-        "mf": "01-ai",
-        "desc": "Yi-1.5-9B-Chat-16K 是 Yi-1.5 系列的一个变体，属于开源聊天模型。Yi-1.5 是 Yi 的升级版本，在 500B 个高质量语料上进行了持续预训练，并在 3M 多样化的微调样本上进行了微调。相比于 Yi，Yi-1.5 在编码、数学、推理和指令遵循能力方面表现更强，同时保持了出色的语言理解、常识推理和阅读理解能力。该模型在同等规模的开源模型中表现最佳",
-        "tags": [
-            "Free",
-            "9B",
-            "16K"
-        ],
-        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/Yi.svg",
-        "publishTime": {
-            "seconds": 1715702400
-        },
-        "size": 9,
-        "contextLen": 16384,
-        "price": "0",
-        "currency": "¥",
-        "operationLabel": [],
-        "needAuth": false,
-        "onlineDemo": true,
-        "type": "text",
-        "subType": "chat",
-        "DisplayName": "Yi-1.5-9B-Chat-16K (Free)",
-        "sort": 1912,
-        "sameSeries": [],
-        "language": [],
-        "modelInfo": [
-            {
-                "Level": 0,
-                "RPM": 1000,
-                "TPM": 50000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 1,
-                "RPM": 1000,
-                "TPM": 50000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 2,
-                "RPM": 1000,
-                "TPM": 50000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 3,
-                "RPM": 1000,
-                "TPM": 50000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 4,
-                "RPM": 1000,
-                "TPM": 50000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 5,
-                "RPM": 1000,
-                "TPM": 50000,
-                "IPM": -1,
-                "IPD": -1
-            }
-        ],
-        "priceUnit": "/ M Tokens",
-        "status": "normal",
-        "jsonModeSupport": true,
-        "functionCallSupport": false,
-        "fimCompletionSupport": false,
-        "chatPrefixCompletionSupport": true,
-        "vlm": false,
-        "onlyByChargeBalance": false,
-        "supportFT": false,
-        "targetModelName": "01-ai/Yi-1.5-9B-Chat-16K",
-        "deprecatedTime": {
-            "seconds": 1740585600
-        }
-    },
-    {
-        "modelId": "17885302516",
-        "modelName": "01-ai/Yi-1.5-6B-Chat",
-        "mf": "01-ai",
-        "desc": "Yi-1.5-6B-Chat 是 Yi-1.5 系列的一个变体，属于开源聊天模型。Yi-1.5 是 Yi 的升级版本，在 500B 个高质量语料上进行了持续预训练，并在 3M 多样化的微调样本上进行了微调。相比于 Yi，Yi-1.5 在编码、数学、推理和指令遵循能力方面表现更强，同时保持了出色的语言理解、常识推理和阅读理解能力。该模型具有 4K、16K 和 32K 的上下文长度版本，预训练总量达到 3.6T 个 token",
-        "tags": [
-            "Free",
-            "6B",
-            "4K"
-        ],
-        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/Yi.svg",
-        "publishTime": {
-            "seconds": 1715356800
-        },
-        "size": 6,
-        "contextLen": 4096,
-        "price": "0",
-        "currency": "¥",
-        "operationLabel": [],
-        "needAuth": false,
-        "onlineDemo": true,
-        "type": "text",
-        "subType": "chat",
-        "DisplayName": "Yi-1.5-6B-Chat (Free)",
-        "sort": 1911,
-        "sameSeries": [],
-        "language": [],
-        "modelInfo": [
-            {
-                "Level": 0,
-                "RPM": 1000,
-                "TPM": 50000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 1,
-                "RPM": 1000,
-                "TPM": 50000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 2,
-                "RPM": 1000,
-                "TPM": 50000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 3,
-                "RPM": 1000,
-                "TPM": 50000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 4,
-                "RPM": 1000,
-                "TPM": 50000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 5,
-                "RPM": 1000,
-                "TPM": 50000,
-                "IPM": -1,
-                "IPD": -1
-            }
-        ],
-        "priceUnit": "/ M Tokens",
-        "status": "normal",
-        "jsonModeSupport": true,
-        "functionCallSupport": false,
-        "fimCompletionSupport": false,
-        "chatPrefixCompletionSupport": true,
-        "vlm": false,
-        "onlyByChargeBalance": false,
-        "supportFT": false,
-        "targetModelName": "01-ai/Yi-1.5-6B-Chat",
-        "deprecatedTime": {
-            "seconds": 1740585600
-        }
-    },
-    {
         "modelId": "17885302519",
         "modelName": "THUDM/chatglm3-6b",
         "mf": "THUDM",
@@ -9530,176 +9700,6 @@
         "supportFT": false,
         "targetModelName": "THUDM/chatglm3-6b",
         "deprecatedTime": {}
-    },
-    {
-        "modelId": "17885302533",
-        "modelName": "google/gemma-2-9b-it",
-        "mf": "google",
-        "desc": "Gemma 是 Google 开发的轻量级、最先进的开放模型系列之一。它是一个仅解码器的大型语言模型，支持英语，提供开放权重、预训练变体和指令微调变体。Gemma 模型适用于各种文本生成任务，包括问答、摘要和推理。该 9B 模型是通过 8 万亿个 tokens 训练而成。其相对较小的规模使其可以在资源有限的环境中部署，如笔记本电脑、台式机或您自己的云基础设施，从而使更多人能够访问最先进的 AI 模型并促进创新",
-        "tags": [
-            "Free",
-            "9B",
-            "8K",
-            "实名"
-        ],
-        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/Google.svg",
-        "publishTime": {
-            "seconds": 1719158400
-        },
-        "size": 9,
-        "contextLen": 8192,
-        "price": "0",
-        "currency": "¥",
-        "operationLabel": [],
-        "needAuth": true,
-        "onlineDemo": true,
-        "type": "text",
-        "subType": "chat",
-        "DisplayName": "gemma-2-9b-it (Free)",
-        "sort": 1801,
-        "sameSeries": [],
-        "language": [],
-        "modelInfo": [
-            {
-                "Level": 0,
-                "RPM": 1000,
-                "TPM": 50000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 1,
-                "RPM": 1000,
-                "TPM": 50000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 2,
-                "RPM": 1000,
-                "TPM": 50000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 3,
-                "RPM": 1000,
-                "TPM": 50000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 4,
-                "RPM": 1000,
-                "TPM": 50000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 5,
-                "RPM": 1000,
-                "TPM": 50000,
-                "IPM": -1,
-                "IPD": -1
-            }
-        ],
-        "priceUnit": "/ M Tokens",
-        "status": "normal",
-        "jsonModeSupport": true,
-        "functionCallSupport": false,
-        "fimCompletionSupport": false,
-        "chatPrefixCompletionSupport": true,
-        "vlm": false,
-        "onlyByChargeBalance": false,
-        "supportFT": false,
-        "targetModelName": "google/gemma-2-9b-it",
-        "deprecatedTime": {
-            "seconds": 1740585600
-        }
-    },
-    {
-        "modelId": "17885302518",
-        "modelName": "01-ai/Yi-1.5-34B-Chat-16K",
-        "mf": "01-ai",
-        "desc": "Yi-1.5-34B-Chat-16K 是 Yi-1.5 系列的一个变体，属于开源聊天模型。Yi-1.5 是 Yi 的升级版本，在 500B 个高质量语料上进行了持续预训练，并在 3M 多样化的微调样本上进行了微调。相比于 Yi，Yi-1.5 在编码、数学、推理和指令遵循能力方面表现更强，同时保持了出色的语言理解、常识推理和阅读理解能力。该模型在大多数基准测试中与更大的模型相当或表现更佳，具有 16K 的上下文长度",
-        "tags": [
-            "34B",
-            "16K"
-        ],
-        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/Yi.svg",
-        "publishTime": {
-            "seconds": 1715702400
-        },
-        "size": 34,
-        "contextLen": 16384,
-        "price": "1.26",
-        "currency": "¥",
-        "operationLabel": [],
-        "needAuth": false,
-        "onlineDemo": true,
-        "type": "text",
-        "subType": "chat",
-        "DisplayName": "Yi-1.5-34B-Chat-16K",
-        "sort": 1812,
-        "sameSeries": [],
-        "language": [],
-        "modelInfo": [
-            {
-                "Level": 0,
-                "RPM": 1000,
-                "TPM": 40000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 1,
-                "RPM": 1200,
-                "TPM": 60000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 2,
-                "RPM": 2000,
-                "TPM": 80000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 3,
-                "RPM": 4000,
-                "TPM": 160000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 4,
-                "RPM": 8000,
-                "TPM": 500000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 5,
-                "RPM": 10000,
-                "TPM": 2000000,
-                "IPM": -1,
-                "IPD": -1
-            }
-        ],
-        "priceUnit": "/ M Tokens",
-        "status": "normal",
-        "jsonModeSupport": true,
-        "functionCallSupport": false,
-        "fimCompletionSupport": false,
-        "chatPrefixCompletionSupport": true,
-        "vlm": false,
-        "onlyByChargeBalance": false,
-        "supportFT": false,
-        "targetModelName": "01-ai/Yi-1.5-34B-Chat-16K",
-        "deprecatedTime": {
-            "seconds": 1740585600
-        }
     },
     {
         "modelId": "17885302537",
