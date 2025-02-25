@@ -41,6 +41,12 @@ models:
         deepseek-v3-infiniai: # 无问芯穹
             input: 0.002 rmb / K
             output: 0.008 rmb / K
+        deepseek-v3-openrouter:free: # OpenRouter (free)
+            input: 0 usd / M
+            output: 0 usd / M
+        deepseek-v3-openrouter: # OpenRouter (free)
+            input: 1.25 usd / M
+            output: 1.25 usd / M
 
         # +++++++ r1 aliases +++++++
         deepseek-r1-baidu: # 百度千帆
@@ -65,6 +71,12 @@ models:
         deepseek-r1-infiniai: # 无问芯穹
             input: 0.004 rmb / K
             output: 0.016 rmb / K
+        deepseek-r1-openrouter:free: # OpenRouter (free)
+            input: 0 usd / M
+            output: 0 usd / M
+        deepseek-r1-openrouter: # OpenRouter
+            input: 0.8 usd / M
+            output: 2.4 usd / M
 
         # 嵌入模型 & 重排模型
         # +++++++ embed aliases +++++++
