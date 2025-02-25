@@ -2801,6 +2801,20 @@
       "output": 1.1428571428571428
     },
     {
+      "model": "deepseek-r1-openrouter",
+      "type": "tokens",
+      "channel_type": 1004,
+      "input": 0.4,
+      "output": 1.2
+    },
+    {
+      "model": "deepseek-r1-openrouter:free",
+      "type": "tokens",
+      "channel_type": 1004,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "deepseek-r1-sensecore",
       "type": "tokens",
       "channel_type": 1004,
@@ -2862,6 +2876,20 @@
       "channel_type": 1004,
       "input": 0.14285714285714285,
       "output": 0.5714285714285714
+    },
+    {
+      "model": "deepseek-v3-openrouter",
+      "type": "tokens",
+      "channel_type": 1004,
+      "input": 0.625,
+      "output": 0.625
+    },
+    {
+      "model": "deepseek-v3-openrouter:free",
+      "type": "tokens",
+      "channel_type": 1004,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "deepseek-v3-sensecore",
