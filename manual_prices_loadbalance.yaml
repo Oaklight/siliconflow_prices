@@ -98,24 +98,30 @@ models:
     Deepseek:
         # 深度求索
         deepseek-v3-deepseek:
+            aliases: deepseek-chat
             input: 2 rmb / M
             output: 8 rmb / M
         deepseek-r1-deepseek:
+            aliases: deepseek-reasoner
             input: 4 rmb / M
             output: 16 rmb / M
 
     字节火山引擎:
         # deepseek @ 字节火山引擎
         deepseek-v3-volcengine:
+            aliases: deepseek-v3-241226
             input: 0.002 rmb / K
             output: 0.008 rmb / K
         deepseek-r1-volcengine:
+            aliases: deepseek-r1-250120
             input: 0.002 rmb / K
             output: 0.008 rmb / K
         deepseek-r1-distill-qwen-7b-volcengine:
+            aliases: deepseek-r1-distill-qwen-7b-250120
             input: 0.0006 rmb / K
             output: 0.0024 rmb / K
         deepseek-r1-distill-qwen-32b-volcengine:
+            aliases: deepseek-r1-distill-qwen-32b-250120
             input: 0.0015 rmb / K
             output: 0.006 rmb / K
 
