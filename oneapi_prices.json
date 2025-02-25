@@ -2626,11 +2626,32 @@
       "output": 0.0
     },
     {
+      "model": "deepseek-r1-250120",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.14285714285714285,
+      "output": 0.5714285714285714
+    },
+    {
+      "model": "deepseek-r1-distill-qwen-32b-250120",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.10714285714285714,
+      "output": 0.42857142857142855
+    },
+    {
       "model": "deepseek-r1-distill-qwen-32b-volcengine",
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.10714285714285714,
       "output": 0.42857142857142855
+    },
+    {
+      "model": "deepseek-r1-distill-qwen-7b-250120",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.04285714285714285,
+      "output": 0.1714285714285714
     },
     {
       "model": "deepseek-r1-distill-qwen-7b-volcengine",
@@ -2641,6 +2662,13 @@
     },
     {
       "model": "deepseek-r1-volcengine",
+      "type": "tokens",
+      "channel_type": 1002,
+      "input": 0.14285714285714285,
+      "output": 0.5714285714285714
+    },
+    {
+      "model": "deepseek-v3-241226",
       "type": "tokens",
       "channel_type": 1002,
       "input": 0.14285714285714285,
