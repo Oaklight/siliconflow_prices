@@ -1709,13 +1709,6 @@
       "output": 0.0
     },
     {
-      "model": "AIDC-AI/Marco-o1",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "BAAI/bge-large-en-v1.5",
       "type": "tokens",
       "channel_type": 45,
@@ -1744,13 +1737,6 @@
       "output": 0.0
     },
     {
-      "model": "ByteDance/SDXL-Lightning",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "FunAudioLLM/CosyVoice2-0.5B",
       "type": "tokens",
       "channel_type": 45,
@@ -1763,83 +1749,6 @@
       "channel_type": 45,
       "input": 0.0,
       "output": 0.0
-    },
-    {
-      "model": "InstantX/InstantID",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "Lightricks/LTX-Video",
-      "type": "times",
-      "channel_type": 45,
-      "input": 0.14,
-      "output": 0.14
-    },
-    {
-      "model": "LoRA/Qwen/Qwen2.5-14B-Instruct",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.07500000000000001,
-      "output": 0.07500000000000001
-    },
-    {
-      "model": "LoRA/Qwen/Qwen2.5-32B-Instruct",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.135,
-      "output": 0.135
-    },
-    {
-      "model": "LoRA/Qwen/Qwen2.5-72B-Instruct",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.44285714285714284,
-      "output": 0.44285714285714284
-    },
-    {
-      "model": "LoRA/Qwen/Qwen2.5-7B-Instruct",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.03785714285714285,
-      "output": 0.03785714285714285
-    },
-    {
-      "model": "LoRA/RVC-Boss/GPT-SoVITS",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 3.5714285714285716,
-      "output": 3.5714285714285716
-    },
-    {
-      "model": "LoRA/black-forest-labs/FLUX.1-dev",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.00034285714285714285,
-      "output": 0.00034285714285714285
-    },
-    {
-      "model": "LoRA/meta-llama/Meta-Llama-3.1-8B-Instruct",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.045,
-      "output": 0.045
-    },
-    {
-      "model": "OpenGVLab/InternVL2-26B",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.07142857142857142,
-      "output": 0.07142857142857142
-    },
-    {
-      "model": "OpenGVLab/InternVL2-Llama3-76B",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.295,
-      "output": 0.295
     },
     {
       "model": "Pro/01-ai/Yi-1.5-6B-Chat",
@@ -1868,13 +1777,6 @@
       "channel_type": 45,
       "input": 0.005,
       "output": 0.005
-    },
-    {
-      "model": "Pro/OpenGVLab/InternVL2-8B",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.024999999999999998,
-      "output": 0.024999999999999998
     },
     {
       "model": "Pro/Qwen/Qwen1.5-7B-Chat",
@@ -1947,13 +1849,6 @@
       "output": 1.1428571428571428
     },
     {
-      "model": "Pro/deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.029999999999999995,
-      "output": 0.029999999999999995
-    },
-    {
       "model": "Pro/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
       "type": "tokens",
       "channel_type": 45,
@@ -1975,35 +1870,7 @@
       "output": 0.5714285714285714
     },
     {
-      "model": "Pro/google/gemma-2-9b-it",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.04285714285714285,
-      "output": 0.04285714285714285
-    },
-    {
       "model": "Pro/internlm/internlm2_5-7b-chat",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.024999999999999998,
-      "output": 0.024999999999999998
-    },
-    {
-      "model": "Pro/meta-llama/Meta-Llama-3-8B-Instruct",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.029999999999999995,
-      "output": 0.029999999999999995
-    },
-    {
-      "model": "Pro/meta-llama/Meta-Llama-3.1-8B-Instruct",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.029999999999999995,
-      "output": 0.029999999999999995
-    },
-    {
-      "model": "Pro/mistralai/Mistral-7B-Instruct-v0.2",
       "type": "tokens",
       "channel_type": 45,
       "input": 0.024999999999999998,
@@ -2150,20 +2017,6 @@
       "output": 0.295
     },
     {
-      "model": "RVC-Boss/GPT-SoVITS",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 3.5714285714285716,
-      "output": 3.5714285714285716
-    },
-    {
-      "model": "SeedLLM/Seed-Rice-7B",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "THUDM/chatglm3-6b",
       "type": "tokens",
       "channel_type": 45,
@@ -2190,13 +2043,6 @@
       "channel_type": 45,
       "input": 1.5,
       "output": 1.5
-    },
-    {
-      "model": "TencentARC/PhotoMaker",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "Vendor-A/Qwen/Qwen2-72B-Instruct",
@@ -2246,20 +2092,6 @@
       "channel_type": 45,
       "input": 0.2857142857142857,
       "output": 1.1428571428571428
-    },
-    {
-      "model": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.295,
-      "output": 0.295
-    },
-    {
-      "model": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
@@ -2318,13 +2150,6 @@
       "output": 0.0
     },
     {
-      "model": "deepseek-ai/deepseek-llm-67b-chat",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.07142857142857142,
-      "output": 0.07142857142857142
-    },
-    {
       "model": "deepseek-ai/deepseek-vl2",
       "type": "tokens",
       "channel_type": 45,
@@ -2367,39 +2192,11 @@
       "output": 0.5714285714285714
     },
     {
-      "model": "fishaudio/fish-speech-1.4",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 7.5,
-      "output": 7.5
-    },
-    {
       "model": "fishaudio/fish-speech-1.5",
       "type": "tokens",
       "channel_type": 45,
       "input": 7.5,
       "output": 7.5
-    },
-    {
-      "model": "genmo/mochi-1-preview",
-      "type": "times",
-      "channel_type": 45,
-      "input": 2.8,
-      "output": 2.8
-    },
-    {
-      "model": "google/gemma-2-27b-it",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.09,
-      "output": 0.09
-    },
-    {
-      "model": "google/gemma-2-9b-it",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "internlm/internlm2_5-20b-chat",
@@ -2416,62 +2213,6 @@
       "output": 0.0
     },
     {
-      "model": "meta-llama/Llama-3.3-70B-Instruct",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.295,
-      "output": 0.295
-    },
-    {
-      "model": "meta-llama/Meta-Llama-3-70B-Instruct",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.295,
-      "output": 0.295
-    },
-    {
-      "model": "meta-llama/Meta-Llama-3-8B-Instruct",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "meta-llama/Meta-Llama-3.1-405B-Instruct",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 1.5,
-      "output": 1.5
-    },
-    {
-      "model": "meta-llama/Meta-Llama-3.1-70B-Instruct",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.295,
-      "output": 0.295
-    },
-    {
-      "model": "meta-llama/Meta-Llama-3.1-8B-Instruct",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "mistralai/Mistral-7B-Instruct-v0.2",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "mistralai/Mixtral-8x7B-Instruct-v0.1",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.09,
-      "output": 0.09
-    },
-    {
       "model": "netease-youdao/bce-embedding-base_v1",
       "type": "tokens",
       "channel_type": 45,
@@ -2480,27 +2221,6 @@
     },
     {
       "model": "netease-youdao/bce-reranker-base_v1",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "nvidia/Llama-3.1-Nemotron-70B-Instruct",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.295,
-      "output": 0.295
-    },
-    {
-      "model": "stabilityai/sd-turbo",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "stabilityai/sdxl-turbo",
       "type": "tokens",
       "channel_type": 45,
       "input": 0.0,
