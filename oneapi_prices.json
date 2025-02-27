@@ -1688,27 +1688,6 @@
       "output": 4.2857
     },
     {
-      "model": "01-ai/Yi-1.5-34B-Chat-16K",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.09,
-      "output": 0.09
-    },
-    {
-      "model": "01-ai/Yi-1.5-6B-Chat",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "01-ai/Yi-1.5-9B-Chat-16K",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "BAAI/bge-large-en-v1.5",
       "type": "tokens",
       "channel_type": 45,
@@ -1732,20 +1711,6 @@
     {
       "model": "BAAI/bge-reranker-v2-m3",
       "type": "tokens",
-      "channel_type": 45,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "FunAudioLLM/CosyVoice2-0.5B",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 3.5714285714285716,
-      "output": 3.5714285714285716
-    },
-    {
-      "model": "FunAudioLLM/SenseVoiceSmall",
-      "type": "times",
       "channel_type": 45,
       "input": 0.0,
       "output": 0.0
@@ -1833,13 +1798,6 @@
       "channel_type": 45,
       "input": 0.04285714285714285,
       "output": 0.04285714285714285
-    },
-    {
-      "model": "Pro/black-forest-labs/FLUX.1-schnell",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.00017142857142857143,
-      "output": 0.00017142857142857143
     },
     {
       "model": "Pro/deepseek-ai/DeepSeek-R1",
@@ -2066,13 +2024,6 @@
       "output": 0.0002285714285714286
     },
     {
-      "model": "black-forest-labs/FLUX.1-pro",
-      "type": "times",
-      "channel_type": 45,
-      "input": 0.37,
-      "output": 0.37
-    },
-    {
       "model": "black-forest-labs/FLUX.1-schnell",
       "type": "tokens",
       "channel_type": 45,
@@ -2143,13 +2094,6 @@
       "output": 0.5714285714285714
     },
     {
-      "model": "deepseek-ai/Janus-Pro-7B",
-      "type": "times",
-      "channel_type": 45,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
       "model": "deepseek-ai/deepseek-vl2",
       "type": "tokens",
       "channel_type": 45,
@@ -2192,13 +2136,6 @@
       "output": 0.5714285714285714
     },
     {
-      "model": "fishaudio/fish-speech-1.5",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 7.5,
-      "output": 7.5
-    },
-    {
       "model": "internlm/internlm2_5-20b-chat",
       "type": "tokens",
       "channel_type": 45,
@@ -2221,41 +2158,6 @@
     },
     {
       "model": "netease-youdao/bce-reranker-base_v1",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "stabilityai/stable-diffusion-2-1",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "stabilityai/stable-diffusion-3-5-large",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "stabilityai/stable-diffusion-3-5-large-turbo",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.0002285714285714286,
-      "output": 0.0002285714285714286
-    },
-    {
-      "model": "stabilityai/stable-diffusion-3-medium",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.0,
-      "output": 0.0
-    },
-    {
-      "model": "stabilityai/stable-diffusion-xl-base-1.0",
       "type": "tokens",
       "channel_type": 45,
       "input": 0.0,
