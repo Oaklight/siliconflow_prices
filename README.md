@@ -10,7 +10,9 @@ python merge_prices.py
 各取所需：
 
 - 原件：`siliconflow_models.json` 来自 siliconflow 官方，api 为技术人员提供，后续可能有新的正式 api
-- one-hub 适用：`oneapi_prices.json`
+- one-hub 适用：`oneapi_prices.json` \
+  通过`运营 -> 模型价格 -> 更新价格`，填入 `https://oaklight.github.io/siliconflow_prices/oneapi_prices.json`，点击`获取数据`，按需选择`覆盖数据`或`仅添加新增` \
+  已经包含MartialBE的价格表，但相左部分以我的为准
 
 ## 更新说明
 
