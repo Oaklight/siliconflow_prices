@@ -1688,6 +1688,27 @@
       "output": 4.2857
     },
     {
+      "model": "01-ai/Yi-1.5-34B-Chat-16K",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.09,
+      "output": 0.09
+    },
+    {
+      "model": "01-ai/Yi-1.5-6B-Chat",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "01-ai/Yi-1.5-9B-Chat-16K",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "BAAI/bge-large-en-v1.5",
       "type": "tokens",
       "channel_type": 45,
@@ -1710,6 +1731,20 @@
     },
     {
       "model": "BAAI/bge-reranker-v2-m3",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "FunAudioLLM/CosyVoice2-0.5B",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 3.5714285714285716,
+      "output": 3.5714285714285716
+    },
+    {
+      "model": "Kwai-Kolors/Kolors",
       "type": "tokens",
       "channel_type": 45,
       "input": 0.0,
@@ -2015,20 +2050,6 @@
       "channel_type": 45,
       "input": 0.07142857142857142,
       "output": 0.07142857142857142
-    },
-    {
-      "model": "black-forest-labs/FLUX.1-dev",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.0002285714285714286,
-      "output": 0.0002285714285714286
-    },
-    {
-      "model": "black-forest-labs/FLUX.1-schnell",
-      "type": "tokens",
-      "channel_type": 45,
-      "input": 0.0,
-      "output": 0.0
     },
     {
       "model": "deepseek-ai/DeepSeek-Coder-V2-Instruct",

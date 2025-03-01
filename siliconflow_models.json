@@ -1,18 +1,359 @@
 [
     {
-        "modelId": "17885302553",
-        "modelName": "black-forest-labs/FLUX.1-schnell",
-        "mf": "black-forest-labs",
-        "desc": "FLUX.1 [schnell] 是一个 120 亿参数的 Rectified Flow Transformer 模型，能够根据文本描述生成图像。该模型采用潜在对抗扩散蒸馏技术训练，可以在1到4步内生成高质量图像。它具有最先进的输出质量和具有竞争力的提示跟随能力，匹配封闭源替代方案的性能。该模型在 Apache 2.0 许可下发布，可用于个人、科学和商业目的",
+        "modelId": "17885302595",
+        "modelName": "Vendor-A/Qwen/Qwen2.5-72B-Instruct",
+        "mf": "Qwen2.5",
+        "desc": "Qwen2.5-72B-Instruct 是阿里云发布的最新大语言模型系列之一。该 72B 模型在编码和数学等领域具有显著改进的能力。该模型还提供了多语言支持，覆盖超过 29 种语言，包括中文、英文等。模型在指令跟随、理解结构化数据以及生成结构化输出（尤其是 JSON）方面都有显著提升",
+        "tags": [
+            "72B",
+            "32K"
+        ],
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/Tongyi.svg",
+        "publishTime": {
+            "seconds": 1726588800
+        },
+        "size": 72,
+        "contextLen": 32768,
+        "price": "1",
+        "currency": "¥",
+        "operationLabel": [
+            "国芯"
+        ],
+        "needAuth": false,
+        "onlineDemo": false,
+        "type": "text",
+        "subType": "chat",
+        "DisplayName": "Qwen2.5-72B-Instruct (Vendor-A)",
+        "sort": 2,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": 1000,
+                "TPM": 20000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 1,
+                "RPM": 1200,
+                "TPM": 30000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 2,
+                "RPM": 2000,
+                "TPM": 40000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 3,
+                "RPM": 4000,
+                "TPM": 80000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 4,
+                "RPM": 8000,
+                "TPM": 250000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 5,
+                "RPM": 10000,
+                "TPM": 1000000,
+                "IPM": -1,
+                "IPD": -1
+            }
+        ],
+        "priceUnit": "/ M Tokens",
+        "status": "disable",
+        "jsonModeSupport": true,
+        "functionCallSupport": true,
+        "fimCompletionSupport": false,
+        "chatPrefixCompletionSupport": true,
+        "vlm": false,
+        "onlyByChargeBalance": false,
+        "supportFT": false,
+        "targetModelName": "Vendor-A/Qwen/Qwen2.5-72B-Instruct",
+        "deprecatedTime": {},
+        "filling": "{\"属地\":\"浙江省\",\"模型名称\":\"通义千问大模型\",\"备案单位\":\"阿里巴巴达摩院（杭州）科技有限公司\",\"备案号\":\"ZheJiang-TongYiQianWen-20230901\",\"备案时间\":\"2023/9/12\"}"
+    },
+    {
+        "modelId": "17885302516",
+        "modelName": "01-ai/Yi-1.5-6B-Chat",
+        "mf": "01-ai",
+        "desc": "Yi-1.5-6B-Chat 是 Yi-1.5 系列的一个变体，属于开源聊天模型。Yi-1.5 是 Yi 的升级版本，在 500B 个高质量语料上进行了持续预训练，并在 3M 多样化的微调样本上进行了微调。相比于 Yi，Yi-1.5 在编码、数学、推理和指令遵循能力方面表现更强，同时保持了出色的语言理解、常识推理和阅读理解能力。该模型具有 4K、16K 和 32K 的上下文长度版本，预训练总量达到 3.6T 个 token",
         "tags": [
             "Free",
-            "12B"
+            "6B",
+            "4K"
         ],
-        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/blackforestlabs.svg",
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/Yi.svg",
         "publishTime": {
-            "seconds": 1722441600
+            "seconds": 1715356800
         },
-        "size": 12,
+        "size": 6,
+        "contextLen": 4096,
+        "price": "0",
+        "currency": "¥",
+        "operationLabel": [],
+        "needAuth": false,
+        "onlineDemo": false,
+        "type": "text",
+        "subType": "chat",
+        "DisplayName": "Yi-1.5-6B-Chat (Free)",
+        "sort": 2,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 1,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 2,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 3,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 4,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 5,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            }
+        ],
+        "priceUnit": "/ M Tokens",
+        "status": "disable",
+        "jsonModeSupport": true,
+        "functionCallSupport": false,
+        "fimCompletionSupport": false,
+        "chatPrefixCompletionSupport": true,
+        "vlm": false,
+        "onlyByChargeBalance": false,
+        "supportFT": false,
+        "targetModelName": "01-ai/Yi-1.5-6B-Chat",
+        "deprecatedTime": {
+            "seconds": 1740585600
+        },
+        "filling": "{\"属地\":\"北京市\",\"模型名称\":\"零一万物大模型\",\"备案单位\":\"北京零一万物科技有限公司\",\"备案号\":\"Beijing-LingYiWanWu-20240102\",\"备案时间\":\"2024/1/17\"}"
+    },
+    {
+        "modelId": "17885302518",
+        "modelName": "01-ai/Yi-1.5-34B-Chat-16K",
+        "mf": "01-ai",
+        "desc": "Yi-1.5-34B-Chat-16K 是 Yi-1.5 系列的一个变体，属于开源聊天模型。Yi-1.5 是 Yi 的升级版本，在 500B 个高质量语料上进行了持续预训练，并在 3M 多样化的微调样本上进行了微调。相比于 Yi，Yi-1.5 在编码、数学、推理和指令遵循能力方面表现更强，同时保持了出色的语言理解、常识推理和阅读理解能力。该模型在大多数基准测试中与更大的模型相当或表现更佳，具有 16K 的上下文长度",
+        "tags": [
+            "34B",
+            "16K"
+        ],
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/Yi.svg",
+        "publishTime": {
+            "seconds": 1715702400
+        },
+        "size": 34,
+        "contextLen": 16384,
+        "price": "1.26",
+        "currency": "¥",
+        "operationLabel": [],
+        "needAuth": false,
+        "onlineDemo": false,
+        "type": "text",
+        "subType": "chat",
+        "DisplayName": "Yi-1.5-34B-Chat-16K",
+        "sort": 2,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": 1000,
+                "TPM": 40000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 1,
+                "RPM": 1200,
+                "TPM": 60000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 2,
+                "RPM": 2000,
+                "TPM": 80000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 3,
+                "RPM": 4000,
+                "TPM": 160000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 4,
+                "RPM": 8000,
+                "TPM": 500000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 5,
+                "RPM": 10000,
+                "TPM": 2000000,
+                "IPM": -1,
+                "IPD": -1
+            }
+        ],
+        "priceUnit": "/ M Tokens",
+        "status": "disable",
+        "jsonModeSupport": true,
+        "functionCallSupport": false,
+        "fimCompletionSupport": false,
+        "chatPrefixCompletionSupport": true,
+        "vlm": false,
+        "onlyByChargeBalance": false,
+        "supportFT": false,
+        "targetModelName": "01-ai/Yi-1.5-34B-Chat-16K",
+        "deprecatedTime": {
+            "seconds": 1740585600
+        },
+        "filling": "{\"属地\":\"北京市\",\"模型名称\":\"零一万物大模型\",\"备案单位\":\"北京零一万物科技有限公司\",\"备案号\":\"Beijing-LingYiWanWu-20240102\",\"备案时间\":\"2024/1/17\"}"
+    },
+    {
+        "modelId": "17885302517",
+        "modelName": "01-ai/Yi-1.5-9B-Chat-16K",
+        "mf": "01-ai",
+        "desc": "Yi-1.5-9B-Chat-16K 是 Yi-1.5 系列的一个变体，属于开源聊天模型。Yi-1.5 是 Yi 的升级版本，在 500B 个高质量语料上进行了持续预训练，并在 3M 多样化的微调样本上进行了微调。相比于 Yi，Yi-1.5 在编码、数学、推理和指令遵循能力方面表现更强，同时保持了出色的语言理解、常识推理和阅读理解能力。该模型在同等规模的开源模型中表现最佳",
+        "tags": [
+            "Free",
+            "9B",
+            "16K"
+        ],
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/Yi.svg",
+        "publishTime": {
+            "seconds": 1715702400
+        },
+        "size": 9,
+        "contextLen": 16384,
+        "price": "0",
+        "currency": "¥",
+        "operationLabel": [],
+        "needAuth": false,
+        "onlineDemo": false,
+        "type": "text",
+        "subType": "chat",
+        "DisplayName": "Yi-1.5-9B-Chat-16K (Free)",
+        "sort": 2,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 1,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 2,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 3,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 4,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 5,
+                "RPM": 1000,
+                "TPM": 50000,
+                "IPM": -1,
+                "IPD": -1
+            }
+        ],
+        "priceUnit": "/ M Tokens",
+        "status": "disable",
+        "jsonModeSupport": true,
+        "functionCallSupport": false,
+        "fimCompletionSupport": false,
+        "chatPrefixCompletionSupport": true,
+        "vlm": false,
+        "onlyByChargeBalance": false,
+        "supportFT": false,
+        "targetModelName": "01-ai/Yi-1.5-9B-Chat-16K",
+        "deprecatedTime": {
+            "seconds": 1740585600
+        },
+        "filling": "{\"属地\":\"北京市\",\"模型名称\":\"零一万物大模型\",\"备案单位\":\"北京零一万物科技有限公司\",\"备案号\":\"Beijing-LingYiWanWu-20240102\",\"备案时间\":\"2024/1/17\"}"
+    },
+    {
+        "modelId": "17885302780",
+        "modelName": "Kwai-Kolors/Kolors",
+        "mf": "Kolors",
+        "desc": "Kolors 是由快手 Kolors 团队开发的基于潜在扩散的大规模文本到图像生成模型。该模型通过数十亿文本-图像对的训练，在视觉质量、复杂语义准确性以及中英文字符渲染方面展现出显著优势。它不仅支持中英文输入，在理解和生成中文特定内容方面也表现出色",
+        "tags": [
+            "图生图"
+        ],
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/20250227-194559.png",
+        "publishTime": {
+            "seconds": 1720195200
+        },
+        "size": 0,
         "contextLen": 0,
         "price": "0",
         "currency": "¥",
@@ -21,8 +362,8 @@
         "onlineDemo": true,
         "type": "image",
         "subType": "text-to-image",
-        "DisplayName": "FLUX.1-schnell",
-        "sort": 294,
+        "DisplayName": "Kolors",
+        "sort": 3000,
         "sameSeries": [],
         "language": [],
         "modelInfo": [
@@ -78,82 +419,83 @@
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "black-forest-labs/FLUX.1-schnell",
+        "targetModelName": "Kwai-Kolors/Kolors",
         "deprecatedTime": {},
-        "filling": "{}"
+        "filling": "{\"属地\":\"北京市\",\"模型名称\":\"可图大模型\",\"备案单位\":\"北京快手科技有限公司\",\"备案号\":\"Beijing-KeTu-202404280003\",\"备案时间\":\"2024/5/13\"}"
     },
     {
-        "modelId": "17885302554",
-        "modelName": "black-forest-labs/FLUX.1-dev",
-        "mf": "black-forest-labs",
-        "desc": "FLUX.1 [dev] 是一个 120 亿参数的 Rectified Flow Transformer 模型，能够根据文本描述生成图像。该模型具有最先进的输出质量，仅次于其最先进的模型 FLUX.1 [pro]。它具有竞争力的提示跟随能力，可匹配封闭源替代方案的性能。该模型使用引导蒸馏技术进行训练，提高了效率。开放权重以推动新的科学研究，并使艺术家能够开发创新的工作流程",
+        "modelId": "17885302558",
+        "modelName": "netease-youdao/bce-embedding-base_v1",
+        "mf": "netease-youdao",
+        "desc": "bce-embedding-base_v1 是由网易有道开发的双语和跨语言嵌入模型。该模型在中英文语义表示和检索任务中表现出色，尤其擅长跨语言场景。它是为检索增强生成（RAG）系统优化的，可以直接应用于教育、医疗、法律等多个领域。该模型不需要特定指令即可使用，能够高效地生成语义向量，为语义搜索和问答系统提供关键支持",
         "tags": [
-            "12B"
+            "多语言",
+            "768 维",
+            "279M",
+            "512"
         ],
-        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/blackforestlabs.svg",
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/netease-youdao.svg",
         "publishTime": {
-            "seconds": 1722441600
+            "seconds": 1704211200
         },
-        "size": 12,
-        "contextLen": 0,
-        "price": "0.0032",
+        "size": 0,
+        "contextLen": 512,
+        "price": "0",
         "currency": "¥",
-        "operationLabel": [
-            "HOT"
-        ],
+        "operationLabel": [],
         "needAuth": false,
-        "onlineDemo": true,
-        "type": "image",
-        "subType": "text-to-image",
-        "DisplayName": "FLUX.1-dev",
-        "sort": 293,
+        "onlineDemo": false,
+        "type": "text",
+        "subType": "embedding",
+        "DisplayName": "bce-embedding-base_v1",
+        "sort": 3394,
         "sameSeries": [],
         "language": [],
         "modelInfo": [
             {
                 "Level": 0,
-                "RPM": -1,
-                "TPM": -1,
+                "RPM": 2000,
+                "TPM": 500000,
                 "IPM": -1,
                 "IPD": -1
             },
             {
                 "Level": 1,
-                "RPM": -1,
-                "TPM": -1,
+                "RPM": 2000,
+                "TPM": 500000,
                 "IPM": -1,
                 "IPD": -1
             },
             {
                 "Level": 2,
-                "RPM": -1,
-                "TPM": -1,
+                "RPM": 2000,
+                "TPM": 500000,
                 "IPM": -1,
                 "IPD": -1
             },
             {
                 "Level": 3,
-                "RPM": -1,
-                "TPM": -1,
+                "RPM": 2000,
+                "TPM": 500000,
                 "IPM": -1,
                 "IPD": -1
             },
             {
                 "Level": 4,
-                "RPM": -1,
-                "TPM": -1,
+                "RPM": 2000,
+                "TPM": 500000,
                 "IPM": -1,
                 "IPD": -1
             },
             {
                 "Level": 5,
-                "RPM": -1,
-                "TPM": -1,
+                "RPM": 2000,
+                "TPM": 500000,
                 "IPM": -1,
                 "IPD": -1
             }
         ],
-        "priceUnit": "/ M px / Steps",
+        "priceUnit": "/ M Tokens",
         "status": "normal",
         "jsonModeSupport": false,
         "functionCallSupport": false,
@@ -161,10 +503,347 @@
         "chatPrefixCompletionSupport": false,
         "vlm": false,
         "onlyByChargeBalance": false,
-        "supportFT": true,
-        "targetModelName": "black-forest-labs/FLUX.1-dev",
+        "supportFT": false,
+        "targetModelName": "netease-youdao/bce-embedding-base_v1",
         "deprecatedTime": {},
-        "filling": "{}"
+        "filling": "{\"说明\":\"非生成式人工智能服务\"}"
+    },
+    {
+        "modelId": "17885302559",
+        "modelName": "BAAI/bge-m3",
+        "mf": "BAAI",
+        "desc": "BGE-M3 是一个多功能、多语言、多粒度的文本嵌入模型。它支持三种常见的检索功能：密集检索、多向量检索和稀疏检索。该模型可以处理超过100种语言，并且能够处理从短句到长达8192个词元的长文档等不同粒度的输入。BGE-M3在多语言和跨语言检索任务中表现出色，在 MIRACL 和 MKQA 等基准测试中取得了领先结果。它还具有处理长文档检索的能力，在 MLDR 和 NarritiveQA 等数据集上展现了优秀性能",
+        "tags": [
+            "多语言",
+            "1024 维",
+            "8K"
+        ],
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/BAAI.svg",
+        "publishTime": {
+            "seconds": 1706371200
+        },
+        "size": 0,
+        "contextLen": 8192,
+        "price": "0",
+        "currency": "¥",
+        "operationLabel": [],
+        "needAuth": false,
+        "onlineDemo": false,
+        "type": "text",
+        "subType": "embedding",
+        "DisplayName": "bge-m3",
+        "sort": 3396,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": 2000,
+                "TPM": 500000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 1,
+                "RPM": 2000,
+                "TPM": 500000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 2,
+                "RPM": 2000,
+                "TPM": 500000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 3,
+                "RPM": 2000,
+                "TPM": 500000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 4,
+                "RPM": 2000,
+                "TPM": 500000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 5,
+                "RPM": 2000,
+                "TPM": 500000,
+                "IPM": -1,
+                "IPD": -1
+            }
+        ],
+        "priceUnit": "/ M Tokens",
+        "status": "normal",
+        "jsonModeSupport": false,
+        "functionCallSupport": false,
+        "fimCompletionSupport": false,
+        "chatPrefixCompletionSupport": false,
+        "vlm": false,
+        "onlyByChargeBalance": false,
+        "supportFT": false,
+        "targetModelName": "BAAI/bge-m3",
+        "deprecatedTime": {},
+        "filling": "{\"说明\":\"非生成式人工智能服务\"}"
+    },
+    {
+        "modelId": "17885302563",
+        "modelName": "netease-youdao/bce-reranker-base_v1",
+        "mf": "netease-youdao",
+        "desc": "bce-reranker-base_v1 是网易有道开发的双语和跨语言重排序模型，支持中文、英文、日文和韩文。该模型在 RAG 系统中用于精确重排检索结果，可以提供有意义的相关性分数，有助于过滤低质量段落。它针对多种 RAG 任务进行了优化，包括翻译、摘要和问答等。该模型无需特定指令即可使用，具有广泛的领域适应性，已在有道的多个产品中得到验证",
+        "tags": [
+            "多语言",
+            "279M",
+            "512"
+        ],
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/netease-youdao.svg",
+        "publishTime": {
+            "seconds": 1704211200
+        },
+        "size": 0,
+        "contextLen": 512,
+        "price": "0",
+        "currency": "¥",
+        "operationLabel": [],
+        "needAuth": false,
+        "onlineDemo": false,
+        "type": "text",
+        "subType": "reranker",
+        "DisplayName": "bce-reranker-base_v1",
+        "sort": 3393,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": 2000,
+                "TPM": 500000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 1,
+                "RPM": 2000,
+                "TPM": 500000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 2,
+                "RPM": 2000,
+                "TPM": 500000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 3,
+                "RPM": 2000,
+                "TPM": 500000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 4,
+                "RPM": 2000,
+                "TPM": 500000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 5,
+                "RPM": 2000,
+                "TPM": 500000,
+                "IPM": -1,
+                "IPD": -1
+            }
+        ],
+        "priceUnit": "/ M Tokens",
+        "status": "normal",
+        "jsonModeSupport": false,
+        "functionCallSupport": false,
+        "fimCompletionSupport": false,
+        "chatPrefixCompletionSupport": false,
+        "vlm": false,
+        "onlyByChargeBalance": false,
+        "supportFT": false,
+        "targetModelName": "netease-youdao/bce-reranker-base_v1",
+        "deprecatedTime": {},
+        "filling": "{\"说明\":\"非生成式人工智能服务\"}"
+    },
+    {
+        "modelId": "17885302564",
+        "modelName": "BAAI/bge-reranker-v2-m3",
+        "mf": "BAAI",
+        "desc": "BAAI/bge-reranker-v2-m3 是一个轻量级的多语言重排序模型。它基于 bge-m3 模型开发，具有强大的多语言能力，易于部署，并且推理速度快。该模型采用查询和文档作为输入，直接输出相似度分数，而不是嵌入向量。它适用于多语言场景，特别是在中文和英文处理方面表现出色",
+        "tags": [
+            "多语言",
+            "568M",
+            "8K"
+        ],
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/BAAI.svg",
+        "publishTime": {
+            "seconds": 1710432000
+        },
+        "size": 0,
+        "contextLen": 8192,
+        "price": "0",
+        "currency": "¥",
+        "operationLabel": [],
+        "needAuth": false,
+        "onlineDemo": false,
+        "type": "text",
+        "subType": "reranker",
+        "DisplayName": "bge-reranker-v2-m3",
+        "sort": 3395,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": 2000,
+                "TPM": 500000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 1,
+                "RPM": 2000,
+                "TPM": 500000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 2,
+                "RPM": 2000,
+                "TPM": 500000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 3,
+                "RPM": 2000,
+                "TPM": 500000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 4,
+                "RPM": 2000,
+                "TPM": 500000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 5,
+                "RPM": 2000,
+                "TPM": 500000,
+                "IPM": -1,
+                "IPD": -1
+            }
+        ],
+        "priceUnit": "/ M Tokens",
+        "status": "normal",
+        "jsonModeSupport": false,
+        "functionCallSupport": false,
+        "fimCompletionSupport": false,
+        "chatPrefixCompletionSupport": false,
+        "vlm": false,
+        "onlyByChargeBalance": false,
+        "supportFT": false,
+        "targetModelName": "BAAI/bge-reranker-v2-m3",
+        "deprecatedTime": {},
+        "filling": "{\"说明\":\"非生成式人工智能服务\"}"
+    },
+    {
+        "modelId": "17885302679",
+        "modelName": "FunAudioLLM/CosyVoice2-0.5B",
+        "mf": "FunAudioLLM",
+        "desc": "CosyVoice 2 是一个基于大语言模型的流式语音合成模型，采用统一的流式/非流式框架设计。该模型通过有限标量量化（FSQ）来提升语音 token 的编码本利用率，简化了文本到语音的语言模型架构，并开发了支持不同合成场景的分块感知因果流匹配模型。在流式模式下，模型可实现 150ms 的超低延迟，同时保持与非流式模式几乎相同的合成质量。相比 1.0 版本，发音错误率降低了 30%-50%，MOS 评分从 5.4 提升至 5.53，并支持情感和方言的细粒度控制。支持中文（含方言：粤语、四川话、上海话、天津话等）、英文、日语、韩语，支持跨语言和混合语言场景",
+        "tags": [
+            "多语言",
+            "0.5B"
+        ],
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/FunAudioLLM.png",
+        "publishTime": {
+            "seconds": 1734278400
+        },
+        "size": 1,
+        "contextLen": 0,
+        "price": "50",
+        "currency": "¥",
+        "operationLabel": [
+            "50% OFF"
+        ],
+        "needAuth": false,
+        "onlineDemo": true,
+        "type": "audio",
+        "subType": "text-to-speech",
+        "DisplayName": "FunAudioLLM/CosyVoice2-0.5B",
+        "sort": 3400,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": 1000,
+                "TPM": 40000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 1,
+                "RPM": 1200,
+                "TPM": 60000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 2,
+                "RPM": 2000,
+                "TPM": 80000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 3,
+                "RPM": 4000,
+                "TPM": 160000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 4,
+                "RPM": 8000,
+                "TPM": 500000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 5,
+                "RPM": 10000,
+                "TPM": 2000000,
+                "IPM": -1,
+                "IPD": -1
+            }
+        ],
+        "priceUnit": "/ M UTF-8 bytes",
+        "status": "normal",
+        "jsonModeSupport": false,
+        "functionCallSupport": false,
+        "fimCompletionSupport": false,
+        "chatPrefixCompletionSupport": false,
+        "vlm": false,
+        "onlyByChargeBalance": false,
+        "supportFT": false,
+        "targetModelName": "FunAudioLLM/CosyVoice2-0.5B",
+        "deprecatedTime": {},
+        "filling": "{\"算法名称\":\"达摩院语音合成算法\",\"主体名称\":\"阿里巴巴达摩院（杭州）科技有限公司\",\"备案号\":\"网信算备330110507206401230051号\",\"说明\":\"非生成式人工智能服务\"}"
     },
     {
         "modelId": "17885302619",
@@ -2956,7 +3635,7 @@
         "supportFT": false,
         "targetModelName": "BAAI/bge-reranker-v2-m3",
         "deprecatedTime": {},
-        "filling": ""
+        "filling": "{\"说明\": \"非生成式人工智能服务\"}"
     },
     {
         "modelId": "17885302528",
@@ -3539,91 +4218,6 @@
         "onlyByChargeBalance": false,
         "supportFT": true,
         "targetModelName": "Qwen/Qwen2.5-7B-Instruct",
-        "deprecatedTime": {},
-        "filling": "{\"属地\": \"浙江省\", \"模型名称\": \"通义千问大模型\", \"备案单位\": \"阿里巴巴达摩院（杭州）科技有限公司\", \"备案号\": \"ZheJiang-TongYiQianWen-20230901\", \"备案时间\": \"2023/9/12\"}"
-    },
-    {
-        "modelId": "17885302595",
-        "modelName": "Vendor-A/Qwen/Qwen2.5-72B-Instruct",
-        "mf": "Qwen2.5",
-        "desc": "Qwen2.5-72B-Instruct 是阿里云发布的最新大语言模型系列之一。该 72B 模型在编码和数学等领域具有显著改进的能力。该模型还提供了多语言支持，覆盖超过 29 种语言，包括中文、英文等。模型在指令跟随、理解结构化数据以及生成结构化输出（尤其是 JSON）方面都有显著提升",
-        "tags": [
-            "72B",
-            "32K"
-        ],
-        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/Tongyi.svg",
-        "publishTime": {
-            "seconds": 1726588800
-        },
-        "size": 72,
-        "contextLen": 32768,
-        "price": "1",
-        "currency": "¥",
-        "operationLabel": [
-            "国芯"
-        ],
-        "needAuth": false,
-        "onlineDemo": true,
-        "type": "text",
-        "subType": "chat",
-        "DisplayName": "Qwen2.5-72B-Instruct (Vendor-A)",
-        "sort": 302,
-        "sameSeries": [],
-        "language": [],
-        "modelInfo": [
-            {
-                "Level": 0,
-                "RPM": 1000,
-                "TPM": 20000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 1,
-                "RPM": 1200,
-                "TPM": 30000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 2,
-                "RPM": 2000,
-                "TPM": 40000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 3,
-                "RPM": 4000,
-                "TPM": 80000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 4,
-                "RPM": 8000,
-                "TPM": 250000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 5,
-                "RPM": 10000,
-                "TPM": 1000000,
-                "IPM": -1,
-                "IPD": -1
-            }
-        ],
-        "priceUnit": "/ M Tokens",
-        "status": "normal",
-        "jsonModeSupport": true,
-        "functionCallSupport": true,
-        "fimCompletionSupport": false,
-        "chatPrefixCompletionSupport": true,
-        "vlm": false,
-        "onlyByChargeBalance": false,
-        "supportFT": false,
-        "targetModelName": "Vendor-A/Qwen/Qwen2.5-72B-Instruct",
         "deprecatedTime": {},
         "filling": "{\"属地\": \"浙江省\", \"模型名称\": \"通义千问大模型\", \"备案单位\": \"阿里巴巴达摩院（杭州）科技有限公司\", \"备案号\": \"ZheJiang-TongYiQianWen-20230901\", \"备案时间\": \"2023/9/12\"}"
     },
@@ -4297,7 +4891,7 @@
         "supportFT": false,
         "targetModelName": "BAAI/bge-m3",
         "deprecatedTime": {},
-        "filling": ""
+        "filling": "{\"说明\": \"非生成式人工智能服务\"}"
     },
     {
         "modelId": "17885302562",
@@ -4549,343 +5143,6 @@
         "targetModelName": "THUDM/glm-4-9b-chat",
         "deprecatedTime": {},
         "filling": "{\"属地\": \"北京市\", \"模型名称\": \"智谱清言（ChatGLM）\", \"备案单位\": \"北京智谱华章科技有限公司\", \"备案号\": \"Beijing-ChatGLM-20230821\", \"备案时间\": \"2023/8/31\"}"
-    },
-    {
-        "modelId": "17885302563",
-        "modelName": "netease-youdao/bce-reranker-base_v1",
-        "mf": "netease-youdao",
-        "desc": "bce-reranker-base_v1 是网易有道开发的双语和跨语言重排序模型，支持中文、英文、日文和韩文。该模型在 RAG 系统中用于精确重排检索结果，可以提供有意义的相关性分数，有助于过滤低质量段落。它针对多种 RAG 任务进行了优化，包括翻译、摘要和问答等。该模型无需特定指令即可使用，具有广泛的领域适应性，已在有道的多个产品中得到验证",
-        "tags": [
-            "多语言",
-            "279M",
-            "512"
-        ],
-        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/netease-youdao.svg",
-        "publishTime": {
-            "seconds": 1704211200
-        },
-        "size": 0,
-        "contextLen": 512,
-        "price": "0",
-        "currency": "¥",
-        "operationLabel": [],
-        "needAuth": false,
-        "onlineDemo": false,
-        "type": "text",
-        "subType": "reranker",
-        "DisplayName": "bce-reranker-base_v1",
-        "sort": 2001,
-        "sameSeries": [],
-        "language": [],
-        "modelInfo": [
-            {
-                "Level": 0,
-                "RPM": 2000,
-                "TPM": 500000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 1,
-                "RPM": 2000,
-                "TPM": 500000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 2,
-                "RPM": 2000,
-                "TPM": 500000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 3,
-                "RPM": 2000,
-                "TPM": 500000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 4,
-                "RPM": 2000,
-                "TPM": 500000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 5,
-                "RPM": 2000,
-                "TPM": 500000,
-                "IPM": -1,
-                "IPD": -1
-            }
-        ],
-        "priceUnit": "/ M Tokens",
-        "status": "normal",
-        "jsonModeSupport": false,
-        "functionCallSupport": false,
-        "fimCompletionSupport": false,
-        "chatPrefixCompletionSupport": false,
-        "vlm": false,
-        "onlyByChargeBalance": false,
-        "supportFT": false,
-        "targetModelName": "netease-youdao/bce-reranker-base_v1",
-        "deprecatedTime": {},
-        "filling": ""
-    },
-    {
-        "modelId": "17885302564",
-        "modelName": "BAAI/bge-reranker-v2-m3",
-        "mf": "BAAI",
-        "desc": "BAAI/bge-reranker-v2-m3 是一个轻量级的多语言重排序模型。它基于 bge-m3 模型开发，具有强大的多语言能力，易于部署，并且推理速度快。该模型采用查询和文档作为输入，直接输出相似度分数，而不是嵌入向量。它适用于多语言场景，特别是在中文和英文处理方面表现出色",
-        "tags": [
-            "多语言",
-            "568M",
-            "8K"
-        ],
-        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/BAAI.svg",
-        "publishTime": {
-            "seconds": 1710432000
-        },
-        "size": 0,
-        "contextLen": 8192,
-        "price": "0",
-        "currency": "¥",
-        "operationLabel": [],
-        "needAuth": false,
-        "onlineDemo": false,
-        "type": "text",
-        "subType": "reranker",
-        "DisplayName": "bge-reranker-v2-m3",
-        "sort": 2001,
-        "sameSeries": [],
-        "language": [],
-        "modelInfo": [
-            {
-                "Level": 0,
-                "RPM": 2000,
-                "TPM": 500000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 1,
-                "RPM": 2000,
-                "TPM": 500000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 2,
-                "RPM": 2000,
-                "TPM": 500000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 3,
-                "RPM": 2000,
-                "TPM": 500000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 4,
-                "RPM": 2000,
-                "TPM": 500000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 5,
-                "RPM": 2000,
-                "TPM": 500000,
-                "IPM": -1,
-                "IPD": -1
-            }
-        ],
-        "priceUnit": "/ M Tokens",
-        "status": "normal",
-        "jsonModeSupport": false,
-        "functionCallSupport": false,
-        "fimCompletionSupport": false,
-        "chatPrefixCompletionSupport": false,
-        "vlm": false,
-        "onlyByChargeBalance": false,
-        "supportFT": false,
-        "targetModelName": "BAAI/bge-reranker-v2-m3",
-        "deprecatedTime": {},
-        "filling": ""
-    },
-    {
-        "modelId": "17885302559",
-        "modelName": "BAAI/bge-m3",
-        "mf": "BAAI",
-        "desc": "BGE-M3 是一个多功能、多语言、多粒度的文本嵌入模型。它支持三种常见的检索功能：密集检索、多向量检索和稀疏检索。该模型可以处理超过100种语言，并且能够处理从短句到长达8192个词元的长文档等不同粒度的输入。BGE-M3在多语言和跨语言检索任务中表现出色，在 MIRACL 和 MKQA 等基准测试中取得了领先结果。它还具有处理长文档检索的能力，在 MLDR 和 NarritiveQA 等数据集上展现了优秀性能",
-        "tags": [
-            "多语言",
-            "1024 维",
-            "8K"
-        ],
-        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/BAAI.svg",
-        "publishTime": {
-            "seconds": 1706371200
-        },
-        "size": 0,
-        "contextLen": 8192,
-        "price": "0",
-        "currency": "¥",
-        "operationLabel": [],
-        "needAuth": false,
-        "onlineDemo": false,
-        "type": "text",
-        "subType": "embedding",
-        "DisplayName": "bge-m3",
-        "sort": 2001,
-        "sameSeries": [],
-        "language": [],
-        "modelInfo": [
-            {
-                "Level": 0,
-                "RPM": 2000,
-                "TPM": 500000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 1,
-                "RPM": 2000,
-                "TPM": 500000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 2,
-                "RPM": 2000,
-                "TPM": 500000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 3,
-                "RPM": 2000,
-                "TPM": 500000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 4,
-                "RPM": 2000,
-                "TPM": 500000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 5,
-                "RPM": 2000,
-                "TPM": 500000,
-                "IPM": -1,
-                "IPD": -1
-            }
-        ],
-        "priceUnit": "/ M Tokens",
-        "status": "normal",
-        "jsonModeSupport": false,
-        "functionCallSupport": false,
-        "fimCompletionSupport": false,
-        "chatPrefixCompletionSupport": false,
-        "vlm": false,
-        "onlyByChargeBalance": false,
-        "supportFT": false,
-        "targetModelName": "BAAI/bge-m3",
-        "deprecatedTime": {},
-        "filling": ""
-    },
-    {
-        "modelId": "17885302558",
-        "modelName": "netease-youdao/bce-embedding-base_v1",
-        "mf": "netease-youdao",
-        "desc": "bce-embedding-base_v1 是由网易有道开发的双语和跨语言嵌入模型。该模型在中英文语义表示和检索任务中表现出色，尤其擅长跨语言场景。它是为检索增强生成（RAG）系统优化的，可以直接应用于教育、医疗、法律等多个领域。该模型不需要特定指令即可使用，能够高效地生成语义向量，为语义搜索和问答系统提供关键支持",
-        "tags": [
-            "多语言",
-            "768 维",
-            "279M",
-            "512"
-        ],
-        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/netease-youdao.svg",
-        "publishTime": {
-            "seconds": 1704211200
-        },
-        "size": 0,
-        "contextLen": 512,
-        "price": "0",
-        "currency": "¥",
-        "operationLabel": [],
-        "needAuth": false,
-        "onlineDemo": false,
-        "type": "text",
-        "subType": "embedding",
-        "DisplayName": "bce-embedding-base_v1",
-        "sort": 2001,
-        "sameSeries": [],
-        "language": [],
-        "modelInfo": [
-            {
-                "Level": 0,
-                "RPM": 2000,
-                "TPM": 500000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 1,
-                "RPM": 2000,
-                "TPM": 500000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 2,
-                "RPM": 2000,
-                "TPM": 500000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 3,
-                "RPM": 2000,
-                "TPM": 500000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 4,
-                "RPM": 2000,
-                "TPM": 500000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 5,
-                "RPM": 2000,
-                "TPM": 500000,
-                "IPM": -1,
-                "IPD": -1
-            }
-        ],
-        "priceUnit": "/ M Tokens",
-        "status": "normal",
-        "jsonModeSupport": false,
-        "functionCallSupport": false,
-        "fimCompletionSupport": false,
-        "chatPrefixCompletionSupport": false,
-        "vlm": false,
-        "onlyByChargeBalance": false,
-        "supportFT": false,
-        "targetModelName": "netease-youdao/bce-embedding-base_v1",
-        "deprecatedTime": {},
-        "filling": ""
     },
     {
         "modelId": "17885302538",
@@ -5388,7 +5645,7 @@
         "supportFT": false,
         "targetModelName": "BAAI/bge-large-zh-v1.5",
         "deprecatedTime": {},
-        "filling": ""
+        "filling": "{\"说明\": \"非生成式人工智能服务\"}"
     },
     {
         "modelId": "17885302536",
@@ -5473,6 +5730,6 @@
         "supportFT": false,
         "targetModelName": "BAAI/bge-large-en-v1.5",
         "deprecatedTime": {},
-        "filling": ""
+        "filling": "{\"说明\": \"非生成式人工智能服务\"}"
     }
 ]
