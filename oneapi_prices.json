@@ -1877,6 +1877,13 @@
       "output": 0.7071428571428572
     },
     {
+      "model": "Qwen/QwQ-32B",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.2857142857142857,
+      "output": 0.2857142857142857
+    },
+    {
       "model": "Qwen/QwQ-32B-Preview",
       "type": "tokens",
       "channel_type": 45,
