@@ -198,7 +198,7 @@ models:
       output: 6 rmb / M
 
   # 智谱
-  zhipu:
+  Zhipu:
     glm-4-plus:
       input: 0.05 rmb / K
       output: 0.05 rmb / K
