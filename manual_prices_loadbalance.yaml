@@ -50,8 +50,8 @@ models:
 
         # +++++++ r1 aliases +++++++
         deepseek-r1-baidu: # 百度千帆
-            input: 0.002 rmb / K
-            output: 0.008 rmb / K
+            input: 0.004 rmb / K
+            output: 0.016 rmb / K
         deepseek-r1-ctyun: # 电信天翼云
             aliases: deepseek-r1-ctyun-huawei, deepseek-r1-ctyun-nvidia
             input: 0.004 rmb / K
@@ -114,8 +114,8 @@ models:
             output: 0.008 rmb / K
         deepseek-r1-volcengine:
             aliases: deepseek-r1-250120
-            input: 0.002 rmb / K
-            output: 0.008 rmb / K
+            input: 0.004 rmb / K
+            output: 0.016 rmb / K
         deepseek-r1-distill-qwen-7b-volcengine:
             aliases: deepseek-r1-distill-qwen-7b-250120
             input: 0.0006 rmb / K
@@ -127,14 +127,14 @@ models:
 
     阿里云百炼:
         # deepseek @ 阿里云百炼
-        deepseek-r1-aliyun:
-            aliases: deepseek-r1
-            input: 0.004 rmb / K
-            output: 0.016 rmb / K
         deepseek-v3-aliyun:
             aliases: deepseek-v3
             input: 0.002 rmb / K
             output: 0.008 rmb / K
+        deepseek-r1-aliyun:
+            aliases: deepseek-r1
+            input: 0.004 rmb / K
+            output: 0.016 rmb / K
         deepseek-r1-distill-qwen-7b-aliyun:
             aliases: deepseek-r1-distill-qwen-7b
             input: 0.0005 rmb / K
