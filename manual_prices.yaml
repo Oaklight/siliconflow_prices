@@ -356,3 +356,15 @@ models:
       aliases: nousresearch/hermes-3-llama-3.1-405b
       input: 0.8 usd / M 
       output: 0.8 usd / M
+
+  MiniMax:
+    MiniMax-Text-01: 
+      input: 0.001 rmb / K
+      output: 0.008 rmb / K
+    MiniMax-VL-01: 
+      input: 0.001 rmb / K
+      output: 0.008 rmb / K
+    abab6.5s-chat: 
+      input: 0.001 rmb / K
+      output: 0.001 rmb / K
+    
