@@ -1205,6 +1205,20 @@
       "output": 1.143
     },
     {
+      "model": "MiniMax-Text-01",
+      "type": "tokens",
+      "channel_type": 27,
+      "input": 0.07142857142857142,
+      "output": 0.5714285714285714
+    },
+    {
+      "model": "MiniMax-VL-01",
+      "type": "tokens",
+      "channel_type": 27,
+      "input": 0.07142857142857142,
+      "output": 0.5714285714285714
+    },
+    {
       "model": "abab5.5-chat",
       "type": "tokens",
       "channel_type": 27,
@@ -1236,8 +1250,8 @@
       "model": "abab6.5s-chat",
       "type": "tokens",
       "channel_type": 27,
-      "input": 0.7143,
-      "output": 0.7143
+      "input": 0.07142857142857142,
+      "output": 0.07142857142857142
     },
     {
       "model": "embo-01",
