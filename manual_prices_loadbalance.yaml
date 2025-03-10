@@ -17,6 +17,9 @@ models:
         bge-reranker-v2-m3:
             input: 0 rmb / M
             output: 0 rmb / M
+        openwebui_task_model:
+            input: 0 rmb / M
+            output: 0 rmb / M
 
         # 其他供应商 other providers
         # +++++++ v3 aliases +++++++
