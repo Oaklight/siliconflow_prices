@@ -300,6 +300,9 @@ models:
     argo:gpt-o1-preview:
       input: 0
       output: 0
+    argo:gpt-o1-mini:
+      input: 0
+      output: 0
     argo:text-embedding-ada-002:
       input: 0
       output: 0
