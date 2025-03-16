@@ -371,3 +371,7 @@ models:
       input: 0.001 rmb / K
       output: 0.001 rmb / K
     
+  Baidu:
+    ernie-4.5-8k-preview:
+      input: 0.004 rmb / K
+      output: 0.016 rmb / K
