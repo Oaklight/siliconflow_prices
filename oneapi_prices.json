@@ -512,6 +512,13 @@
       "output": 0.1429
     },
     {
+      "model": "ernie-4.5-8k-preview",
+      "type": "tokens",
+      "channel_type": 15,
+      "input": 0.2857142857142857,
+      "output": 1.1428571428571428
+    },
+    {
       "model": "codegeex-4",
       "type": "tokens",
       "channel_type": 16,
