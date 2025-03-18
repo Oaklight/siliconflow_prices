@@ -1,89 +1,260 @@
 [
     {
-        "modelId": "17885302787",
-        "modelName": "Qwen/QwQ-32B",
-        "mf": "QwQ",
-        "desc": "QwQ 是 Qwen 系列的推理模型。与传统的指令调优模型相比，QwQ 具备思考和推理能力，能够在下游任务中实现显著增强的性能，尤其是在解决困难问题方面。QwQ-32B 是中型推理模型，能够在与最先进的推理模型（如 DeepSeek-R1、o1-mini）的对比中取得有竞争力的性能。该模型采用 RoPE、SwiGLU、RMSNorm 和 Attention QKV bias 等技术，具有 64 层网络结构和 40 个 Q 注意力头（GQA 架构中 KV 为 8 个）",
+        "modelId": "17885302794",
+        "modelName": "Wan-AI/Wan2.1-T2V-14B-Turbo",
+        "mf": "Wan",
+        "desc": "Wan2.1-T2V-14B-T 是 Wan2.1-T2V-14B 模型的 Teacache 加速版，单个视频生成时间压缩 30%。Wan2.1-T2V-14B 模型在开源和闭源模型中均创造了最先进的性能基准，能够生成具有显著动态效果的高质量视觉内容。它是唯一一个能够同时生成中英文文本的视频模型，并支持 480P 和 720P 分辨率的视频生成。模型采用扩散变换器架构，并通过创新的时空变分自编码器（VAE）、可扩展的训练策略和大规模数据构建来提升生成能力",
         "tags": [
-            "推理模型",
-            "32B",
-            "32K"
+            "14B"
         ],
         "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/Tongyi.svg",
         "publishTime": {
-            "seconds": 1741190400
+            "seconds": 1740153600
         },
-        "size": 32,
-        "contextLen": 32768,
-        "price": "4",
+        "size": 14,
+        "contextLen": 0,
+        "price": "0.75",
         "currency": "¥",
         "operationLabel": [
-            "New"
+            "首周五折"
+        ],
+        "needAuth": false,
+        "onlineDemo": true,
+        "type": "video",
+        "subType": "text-to-video",
+        "DisplayName": "Wan2.1-T2V-14B (Turbo)",
+        "sort": 6200,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 5,
+                "IPD": 200
+            },
+            {
+                "Level": 1,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 5,
+                "IPD": 300
+            },
+            {
+                "Level": 2,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 5,
+                "IPD": 400
+            },
+            {
+                "Level": 3,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 5,
+                "IPD": 500
+            },
+            {
+                "Level": 4,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 5,
+                "IPD": 600
+            },
+            {
+                "Level": 5,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 5,
+                "IPD": 3000
+            }
+        ],
+        "priceUnit": "/ Video",
+        "status": "normal",
+        "jsonModeSupport": false,
+        "functionCallSupport": false,
+        "fimCompletionSupport": false,
+        "chatPrefixCompletionSupport": false,
+        "vlm": false,
+        "onlyByChargeBalance": false,
+        "supportFT": false,
+        "targetModelName": "Wan-AI/Wan2.1-T2V-14B-T",
+        "deprecatedTime": {},
+        "filling": "{\"属地\":\"上海市\",\"模型名称\":\"通义万相\",\"备案单位\":\"上海魔搭科技有限公司\",\"备案号\":\"Shanghai-TongYiWanXiang-202410090024\",\"备案时间\":\"2024/10/31\"}"
+    },
+    {
+        "modelId": "17885302724",
+        "modelName": "deepseek-ai/DeepSeek-R1",
+        "mf": "deepseek-ai",
+        "desc": "DeepSeek-R1 是一款强化学习（RL）驱动的推理模型，解决了模型中的重复性和可读性问题。在 RL 之前，DeepSeek-R1 引入了冷启动数据，进一步优化了推理性能。它在数学、代码和推理任务中与 OpenAI-o1 表现相当，并且通过精心设计的训练方法，提升了整体效果。",
+        "tags": [
+            "推理模型",
+            "MoE",
+            "671B",
+            "64K"
+        ],
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/deepseek-st.svg",
+        "publishTime": {
+            "seconds": 1737302400
+        },
+        "size": 671,
+        "contextLen": 65536,
+        "price": "16",
+        "currency": "¥",
+        "operationLabel": [
+            "华为云昇腾云服务"
         ],
         "needAuth": false,
         "onlineDemo": true,
         "type": "text",
         "subType": "chat",
-        "DisplayName": "QwQ-32B",
-        "sort": 5700,
+        "DisplayName": "DeepSeek-R1",
+        "sort": 5400,
         "sameSeries": [],
         "language": [],
         "modelInfo": [
             {
                 "Level": 0,
                 "RPM": 1000,
-                "TPM": 40000,
+                "TPM": 10000,
                 "IPM": -1,
                 "IPD": -1
             },
             {
                 "Level": 1,
-                "RPM": 1200,
-                "TPM": 60000,
+                "RPM": 1000,
+                "TPM": 10000,
                 "IPM": -1,
                 "IPD": -1
             },
             {
                 "Level": 2,
-                "RPM": 2000,
-                "TPM": 80000,
+                "RPM": 1000,
+                "TPM": 10000,
                 "IPM": -1,
                 "IPD": -1
             },
             {
                 "Level": 3,
-                "RPM": 4000,
-                "TPM": 160000,
+                "RPM": 1000,
+                "TPM": 10000,
                 "IPM": -1,
                 "IPD": -1
             },
             {
                 "Level": 4,
-                "RPM": 8000,
-                "TPM": 500000,
+                "RPM": 1000,
+                "TPM": 10000,
                 "IPM": -1,
                 "IPD": -1
             },
             {
                 "Level": 5,
-                "RPM": 10000,
-                "TPM": 2000000,
+                "RPM": 1000,
+                "TPM": 10000,
                 "IPM": -1,
                 "IPD": -1
             }
         ],
         "priceUnit": "/ M Tokens",
         "status": "normal",
-        "jsonModeSupport": false,
+        "jsonModeSupport": true,
         "functionCallSupport": true,
-        "fimCompletionSupport": false,
-        "chatPrefixCompletionSupport": false,
+        "fimCompletionSupport": true,
+        "chatPrefixCompletionSupport": true,
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "Qwen/QwQ-32B",
+        "targetModelName": "deepseek-ai/DeepSeek-R1",
         "deprecatedTime": {},
-        "filling": "{\"属地\":\"浙江省\",\"模型名称\":\"通义千问大模型\",\"备案单位\":\"阿里巴巴达摩院（杭州）科技有限公司\",\"备案号\":\"ZheJiang-TongYiQianWen-20230901\",\"备案时间\":\"2023/9/12\"}"
+        "filling": "{\"属地\":\"北京市\",\"模型名称\":\"求索对话DeepSeek Chat\",\"备案单位\":\"北京深度求索人工智能基础技术研究有限公司\",\"备案号\":\"Beijing-DeepseekChat-202404280016\",\"备案时间\":\"2024/5/13\"}"
+    },
+    {
+        "modelId": "17885302723",
+        "modelName": "deepseek-ai/DeepSeek-V3",
+        "mf": "deepseek-ai",
+        "desc": "DeepSeek-V3 是一款拥有 6710 亿参数的混合专家（MoE）语言模型，采用多头潜在注意力（MLA）和 DeepSeekMoE 架构，结合无辅助损失的负载平衡策略，优化推理和训练效率。通过在 14.8 万亿高质量tokens上预训练，并进行监督微调和强化学习，DeepSeek-V3 在性能上超越其他开源模型，接近领先闭源模型。",
+        "tags": [
+            "MoE",
+            "671B",
+            "64K"
+        ],
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/deepseek-st.svg",
+        "publishTime": {
+            "seconds": 1735142400
+        },
+        "size": 671,
+        "contextLen": 65536,
+        "price": "8",
+        "currency": "¥",
+        "operationLabel": [
+            "华为云昇腾云服务"
+        ],
+        "needAuth": false,
+        "onlineDemo": true,
+        "type": "text",
+        "subType": "chat",
+        "DisplayName": "DeepSeek-V3",
+        "sort": 5200,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": 1000,
+                "TPM": 10000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 1,
+                "RPM": 1000,
+                "TPM": 10000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 2,
+                "RPM": 1000,
+                "TPM": 10000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 3,
+                "RPM": 1000,
+                "TPM": 10000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 4,
+                "RPM": 1000,
+                "TPM": 10000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 5,
+                "RPM": 1000,
+                "TPM": 10000,
+                "IPM": -1,
+                "IPD": -1
+            }
+        ],
+        "priceUnit": "/ M Tokens",
+        "status": "normal",
+        "jsonModeSupport": true,
+        "functionCallSupport": true,
+        "fimCompletionSupport": true,
+        "chatPrefixCompletionSupport": true,
+        "vlm": false,
+        "onlyByChargeBalance": false,
+        "supportFT": false,
+        "targetModelName": "deepseek-ai/DeepSeek-V3",
+        "deprecatedTime": {},
+        "filling": "{\"属地\":\"北京市\",\"模型名称\":\"求索对话DeepSeek Chat\",\"备案单位\":\"北京深度求索人工智能基础技术研究有限公司\",\"备案号\":\"Beijing-DeepseekChat-202404280016\",\"备案时间\":\"2024/5/13\"}"
     },
     {
         "modelId": "17885302739",
@@ -95,7 +266,7 @@
             "671B",
             "64K"
         ],
-        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/DP-%20ST-Logo.svg",
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/deepseek-st.svg",
         "publishTime": {
             "seconds": 1735142400
         },
@@ -182,7 +353,7 @@
             "671B",
             "64K"
         ],
-        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/DP-%20ST-Logo.svg",
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/deepseek-st.svg",
         "publishTime": {
             "seconds": 1737302400
         },
@@ -259,177 +430,174 @@
         "filling": "{\"属地\":\"北京市\",\"模型名称\":\"求索对话DeepSeek Chat\",\"备案单位\":\"北京深度求索人工智能基础技术研究有限公司\",\"备案号\":\"Beijing-DeepseekChat-202404280016\",\"备案时间\":\"2024/5/13\"}"
     },
     {
-        "modelId": "17885302724",
-        "modelName": "deepseek-ai/DeepSeek-R1",
-        "mf": "deepseek-ai",
-        "desc": "DeepSeek-R1 是一款强化学习（RL）驱动的推理模型，解决了模型中的重复性和可读性问题。在 RL 之前，DeepSeek-R1 引入了冷启动数据，进一步优化了推理性能。它在数学、代码和推理任务中与 OpenAI-o1 表现相当，并且通过精心设计的训练方法，提升了整体效果。",
+        "modelId": "17885302793",
+        "modelName": "Wan-AI/Wan2.1-T2V-14B",
+        "mf": "Wan",
+        "desc": "Wan2.1-T2V-14B 是一个开源的高级文本到视频生成模型，该 14B 模型在开源和闭源模型中均创造了最先进的性能基准，能够生成具有显著动态效果的高质量视觉内容。它是唯一一个能够同时生成中英文文本的视频模型，并支持 480P 和 720P 分辨率的视频生成。模型采用扩散变换器架构，并通过创新的时空变分自编码器（VAE）、可扩展的训练策略和大规模数据构建来提升生成能力",
         "tags": [
-            "推理模型",
-            "MoE",
-            "671B",
-            "64K"
+            "14B"
         ],
-        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/DP-%20ST-Logo.svg",
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/Tongyi.svg",
         "publishTime": {
-            "seconds": 1737302400
+            "seconds": 1740153600
         },
-        "size": 671,
-        "contextLen": 65536,
-        "price": "16",
+        "size": 14,
+        "contextLen": 0,
+        "price": "1",
         "currency": "¥",
         "operationLabel": [
-            "华为云昇腾云服务"
+            "首周五折"
         ],
         "needAuth": false,
         "onlineDemo": true,
-        "type": "text",
-        "subType": "chat",
-        "DisplayName": "DeepSeek-R1",
-        "sort": 5400,
+        "type": "video",
+        "subType": "text-to-video",
+        "DisplayName": "Wan2.1-T2V-14B",
+        "sort": 6100,
         "sameSeries": [],
         "language": [],
         "modelInfo": [
             {
                 "Level": 0,
-                "RPM": 1000,
-                "TPM": 10000,
-                "IPM": -1,
-                "IPD": -1
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 5,
+                "IPD": 200
             },
             {
                 "Level": 1,
-                "RPM": 1000,
-                "TPM": 10000,
-                "IPM": -1,
-                "IPD": -1
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 5,
+                "IPD": 300
             },
             {
                 "Level": 2,
-                "RPM": 1000,
-                "TPM": 10000,
-                "IPM": -1,
-                "IPD": -1
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 5,
+                "IPD": 400
             },
             {
                 "Level": 3,
-                "RPM": 1000,
-                "TPM": 10000,
-                "IPM": -1,
-                "IPD": -1
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 5,
+                "IPD": 500
             },
             {
                 "Level": 4,
-                "RPM": 1000,
-                "TPM": 10000,
-                "IPM": -1,
-                "IPD": -1
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 5,
+                "IPD": 600
             },
             {
                 "Level": 5,
-                "RPM": 1000,
-                "TPM": 10000,
-                "IPM": -1,
-                "IPD": -1
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 5,
+                "IPD": 3000
             }
         ],
-        "priceUnit": "/ M Tokens",
+        "priceUnit": "/ Video",
         "status": "normal",
-        "jsonModeSupport": true,
-        "functionCallSupport": true,
-        "fimCompletionSupport": true,
-        "chatPrefixCompletionSupport": true,
+        "jsonModeSupport": false,
+        "functionCallSupport": false,
+        "fimCompletionSupport": false,
+        "chatPrefixCompletionSupport": false,
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "deepseek-ai/DeepSeek-R1",
+        "targetModelName": "Wan-AI/Wan2.1-T2V-14B",
         "deprecatedTime": {},
-        "filling": "{\"属地\":\"北京市\",\"模型名称\":\"求索对话DeepSeek Chat\",\"备案单位\":\"北京深度求索人工智能基础技术研究有限公司\",\"备案号\":\"Beijing-DeepseekChat-202404280016\",\"备案时间\":\"2024/5/13\"}"
+        "filling": "{\"属地\":\"上海市\",\"模型名称\":\"通义万相\",\"备案单位\":\"上海魔搭科技有限公司\",\"备案号\":\"Shanghai-TongYiWanXiang-202410090024\",\"备案时间\":\"2024/10/31\"}"
     },
     {
-        "modelId": "17885302723",
-        "modelName": "deepseek-ai/DeepSeek-V3",
-        "mf": "deepseek-ai",
-        "desc": "DeepSeek-V3 是一款拥有 6710 亿参数的混合专家（MoE）语言模型，采用多头潜在注意力（MLA）和 DeepSeekMoE 架构，结合无辅助损失的负载平衡策略，优化推理和训练效率。通过在 14.8 万亿高质量tokens上预训练，并进行监督微调和强化学习，DeepSeek-V3 在性能上超越其他开源模型，接近领先闭源模型。",
+        "modelId": "17885302787",
+        "modelName": "Qwen/QwQ-32B",
+        "mf": "QwQ",
+        "desc": "QwQ 是 Qwen 系列的推理模型。与传统的指令调优模型相比，QwQ 具备思考和推理能力，能够在下游任务中实现显著增强的性能，尤其是在解决困难问题方面。QwQ-32B 是中型推理模型，能够在与最先进的推理模型（如 DeepSeek-R1、o1-mini）的对比中取得有竞争力的性能。该模型采用 RoPE、SwiGLU、RMSNorm 和 Attention QKV bias 等技术，具有 64 层网络结构和 40 个 Q 注意力头（GQA 架构中 KV 为 8 个）",
         "tags": [
-            "MoE",
-            "671B",
-            "64K"
+            "推理模型",
+            "32B",
+            "32K"
         ],
-        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/DP-%20ST-Logo.svg",
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/Tongyi.svg",
         "publishTime": {
-            "seconds": 1735142400
+            "seconds": 1741190400
         },
-        "size": 671,
-        "contextLen": 65536,
-        "price": "8",
+        "size": 32,
+        "contextLen": 32768,
+        "price": "4",
         "currency": "¥",
         "operationLabel": [
-            "华为云昇腾云服务"
+            "New"
         ],
         "needAuth": false,
         "onlineDemo": true,
         "type": "text",
         "subType": "chat",
-        "DisplayName": "DeepSeek-V3",
-        "sort": 5200,
+        "DisplayName": "QwQ-32B",
+        "sort": 5700,
         "sameSeries": [],
         "language": [],
         "modelInfo": [
             {
                 "Level": 0,
                 "RPM": 1000,
-                "TPM": 10000,
+                "TPM": 40000,
                 "IPM": -1,
                 "IPD": -1
             },
             {
                 "Level": 1,
-                "RPM": 1000,
-                "TPM": 10000,
+                "RPM": 1200,
+                "TPM": 60000,
                 "IPM": -1,
                 "IPD": -1
             },
             {
                 "Level": 2,
-                "RPM": 1000,
-                "TPM": 10000,
+                "RPM": 2000,
+                "TPM": 80000,
                 "IPM": -1,
                 "IPD": -1
             },
             {
                 "Level": 3,
-                "RPM": 1000,
-                "TPM": 10000,
+                "RPM": 4000,
+                "TPM": 160000,
                 "IPM": -1,
                 "IPD": -1
             },
             {
                 "Level": 4,
-                "RPM": 1000,
-                "TPM": 10000,
+                "RPM": 8000,
+                "TPM": 500000,
                 "IPM": -1,
                 "IPD": -1
             },
             {
                 "Level": 5,
-                "RPM": 1000,
-                "TPM": 10000,
+                "RPM": 10000,
+                "TPM": 2000000,
                 "IPM": -1,
                 "IPD": -1
             }
         ],
         "priceUnit": "/ M Tokens",
         "status": "normal",
-        "jsonModeSupport": true,
+        "jsonModeSupport": false,
         "functionCallSupport": true,
-        "fimCompletionSupport": true,
-        "chatPrefixCompletionSupport": true,
+        "fimCompletionSupport": false,
+        "chatPrefixCompletionSupport": false,
         "vlm": false,
         "onlyByChargeBalance": false,
         "supportFT": false,
-        "targetModelName": "deepseek-ai/DeepSeek-V3",
+        "targetModelName": "Qwen/QwQ-32B",
         "deprecatedTime": {},
-        "filling": "{\"属地\":\"北京市\",\"模型名称\":\"求索对话DeepSeek Chat\",\"备案单位\":\"北京深度求索人工智能基础技术研究有限公司\",\"备案号\":\"Beijing-DeepseekChat-202404280016\",\"备案时间\":\"2024/5/13\"}"
+        "filling": "{\"属地\":\"浙江省\",\"模型名称\":\"通义千问大模型\",\"备案单位\":\"阿里巴巴达摩院（杭州）科技有限公司\",\"备案号\":\"ZheJiang-TongYiQianWen-20230901\",\"备案时间\":\"2023/9/12\"}"
     },
     {
         "modelId": "17885302652",
