@@ -2101,6 +2101,13 @@
       "output": 0.295
     },
     {
+      "model": "Qwen/Qwen2.5-VL-72B-Instruct",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.295,
+      "output": 0.295
+    },
+    {
       "model": "THUDM/chatglm3-6b",
       "type": "tokens",
       "channel_type": 45,

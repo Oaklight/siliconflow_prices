@@ -1,5 +1,90 @@
 [
     {
+        "modelId": "17885302721",
+        "modelName": "Qwen/Qwen2.5-VL-72B-Instruct",
+        "mf": "Qwen2.5",
+        "desc": "Qwen2.5-VL 是 Qwen2.5 系列中的视觉语言模型。该模型在多方面有显著提升：具备更强的视觉理解能力，能够识别常见物体、分析文本、图表和布局；作为视觉代理能够推理并动态指导工具使用；支持理解超过 1 小时的长视频并捕捉关键事件；能够通过生成边界框或点准确定位图像中的物体；支持生成结构化输出，尤其适用于发票、表格等扫描数据。模型在多项基准测试中表现出色，包括图像、视频和代理任务评测",
+        "tags": [
+            "72B",
+            "128K"
+        ],
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/Tongyi.svg",
+        "publishTime": {
+            "seconds": 1737993600
+        },
+        "size": 72,
+        "contextLen": 131072,
+        "price": "4.13",
+        "currency": "¥",
+        "operationLabel": [
+            "NEW"
+        ],
+        "needAuth": false,
+        "onlineDemo": true,
+        "type": "text",
+        "subType": "chat",
+        "DisplayName": "Qwen2.5-VL-72B-Instruct",
+        "sort": 6600,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": 1000,
+                "TPM": 20000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 1,
+                "RPM": 1200,
+                "TPM": 30000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 2,
+                "RPM": 2000,
+                "TPM": 40000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 3,
+                "RPM": 4000,
+                "TPM": 80000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 4,
+                "RPM": 8000,
+                "TPM": 250000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 5,
+                "RPM": 10000,
+                "TPM": 1000000,
+                "IPM": -1,
+                "IPD": -1
+            }
+        ],
+        "priceUnit": "/ M Tokens",
+        "status": "normal",
+        "jsonModeSupport": false,
+        "functionCallSupport": false,
+        "fimCompletionSupport": false,
+        "chatPrefixCompletionSupport": true,
+        "vlm": true,
+        "onlyByChargeBalance": false,
+        "supportFT": false,
+        "targetModelName": "Qwen/Qwen2.5-VL-72B-Instruct",
+        "deprecatedTime": {},
+        "filling": "{\"属地\":\"浙江省\",\"模型名称\":\"通义千问大模型\",\"备案单位\":\"阿里巴巴达摩院（杭州）科技有限公司\",\"备案号\":\"ZheJiang-TongYiQianWen-20230901\",\"备案时间\":\"2023/9/12\"}"
+    },
+    {
         "modelId": "17885302794",
         "modelName": "Wan-AI/Wan2.1-T2V-14B-Turbo",
         "mf": "Wan",
