@@ -918,6 +918,13 @@
       "output": 0.3214285714285714
     },
     {
+      "model": "qwq-plus",
+      "type": "tokens",
+      "channel_type": 17,
+      "input": 0.11428571428571428,
+      "output": 0.2857142857142857
+    },
+    {
       "model": "text-embedding-v1",
       "type": "tokens",
       "channel_type": 17,
@@ -1899,6 +1906,13 @@
     },
     {
       "model": "Pro/Qwen/Qwen2.5-Coder-7B-Instruct",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.024999999999999998,
+      "output": 0.024999999999999998
+    },
+    {
+      "model": "Pro/Qwen/Qwen2.5-VL-7B-Instruct",
       "type": "tokens",
       "channel_type": 45,
       "input": 0.024999999999999998,

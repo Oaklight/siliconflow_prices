@@ -1,5 +1,90 @@
 [
     {
+        "modelId": "17885302722",
+        "modelName": "Pro/Qwen/Qwen2.5-VL-7B-Instruct",
+        "mf": "Qwen2.5",
+        "desc": "Qwen2.5-VL 是 Qwen 系列的新成员，具备强大的视觉理解能力，能分析图像中的文本、图表和布局，并能理解长视频和捕捉事件，它可以进行推理、操作工具，支持多格式物体定位和生成结构化输出，优化了视频理解的动态分辨率与帧率训练，并提升了视觉编码器效率。",
+        "tags": [
+            "7B",
+            "32K"
+        ],
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/Tongyi.svg",
+        "publishTime": {
+            "seconds": 1737993600
+        },
+        "size": 7,
+        "contextLen": 32768,
+        "price": "0.35",
+        "currency": "¥",
+        "operationLabel": [
+            "New"
+        ],
+        "needAuth": false,
+        "onlineDemo": true,
+        "type": "text",
+        "subType": "chat",
+        "DisplayName": "Qwen2.5-VL-7B-Instruct (Pro)",
+        "sort": 6500,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": 1000,
+                "TPM": 80000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 1,
+                "RPM": 1200,
+                "TPM": 120000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 2,
+                "RPM": 2000,
+                "TPM": 160000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 3,
+                "RPM": 4000,
+                "TPM": 320000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 4,
+                "RPM": 8000,
+                "TPM": 1000000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 5,
+                "RPM": 10000,
+                "TPM": 5000000,
+                "IPM": -1,
+                "IPD": -1
+            }
+        ],
+        "priceUnit": "/ M Tokens",
+        "status": "normal",
+        "jsonModeSupport": false,
+        "functionCallSupport": false,
+        "fimCompletionSupport": false,
+        "chatPrefixCompletionSupport": true,
+        "vlm": true,
+        "onlyByChargeBalance": false,
+        "supportFT": false,
+        "targetModelName": "Qwen/Qwen2.5-VL-7B-Instruct",
+        "deprecatedTime": {},
+        "filling": "{\"属地\":\"浙江省\",\"模型名称\":\"通义千问大模型\",\"备案单位\":\"阿里巴巴达摩院（杭州）科技有限公司\",\"备案号\":\"ZheJiang-TongYiQianWen-20230901\",\"备案时间\":\"2023/9/12\"}"
+    },
+    {
         "modelId": "17885302721",
         "modelName": "Qwen/Qwen2.5-VL-72B-Instruct",
         "mf": "Qwen2.5",
@@ -17,7 +102,7 @@
         "price": "4.13",
         "currency": "¥",
         "operationLabel": [
-            "NEW"
+            "New"
         ],
         "needAuth": false,
         "onlineDemo": true,
@@ -83,6 +168,88 @@
         "targetModelName": "Qwen/Qwen2.5-VL-72B-Instruct",
         "deprecatedTime": {},
         "filling": "{\"属地\":\"浙江省\",\"模型名称\":\"通义千问大模型\",\"备案单位\":\"阿里巴巴达摩院（杭州）科技有限公司\",\"备案号\":\"ZheJiang-TongYiQianWen-20230901\",\"备案时间\":\"2023/9/12\"}"
+    },
+    {
+        "modelId": "17885302703",
+        "modelName": "tencent/HunyuanVideo-HD",
+        "mf": "hunyuan",
+        "desc": "HunyuanVideo 是腾讯推出的开源视频生成基础模型，拥有超过 130 亿参数，是目前最大的开源视频生成模型。该模型采用统一的图像和视频生成架构，集成了数据整理、图像-视频联合模型训练和高效基础设施等关键技术。模型使用多模态大语言模型作为文本编码器，通过 3D VAE 进行空间-时间压缩，并提供提示词重写功能。根据专业人工评估结果，HunyuanVideo 在文本对齐、运动质量和视觉质量等方面的表现优于现有最先进的模型",
+        "tags": [
+            "13B"
+        ],
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/hunyuan.svg",
+        "publishTime": {
+            "seconds": 1733155200
+        },
+        "size": 13,
+        "contextLen": 0,
+        "price": "2.8",
+        "currency": "¥",
+        "operationLabel": [],
+        "needAuth": false,
+        "onlineDemo": true,
+        "type": "video",
+        "subType": "text-to-video",
+        "DisplayName": "HunyuanVideo (HD)",
+        "sort": 3600,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 5,
+                "IPD": 200
+            },
+            {
+                "Level": 1,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 5,
+                "IPD": 300
+            },
+            {
+                "Level": 2,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 5,
+                "IPD": 400
+            },
+            {
+                "Level": 3,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 5,
+                "IPD": 500
+            },
+            {
+                "Level": 4,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 5,
+                "IPD": 600
+            },
+            {
+                "Level": 5,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 5,
+                "IPD": 3000
+            }
+        ],
+        "priceUnit": "/ Video",
+        "status": "normal",
+        "jsonModeSupport": false,
+        "functionCallSupport": false,
+        "fimCompletionSupport": false,
+        "chatPrefixCompletionSupport": false,
+        "vlm": false,
+        "onlyByChargeBalance": false,
+        "supportFT": false,
+        "targetModelName": "tencent/HunyuanVideo-HD",
+        "deprecatedTime": {},
+        "filling": "{\"属地\":\"广东省\",\"模型名称\":\"腾讯混元助手大模型\",\"备案单位\":\"深圳市腾讯计算机系统有限公司\",\"备案号\":\"Guangdong-TencentHunyuan-20230901\",\"备案时间\":\"2023/9/14\"}"
     },
     {
         "modelId": "17885302794",
@@ -2359,90 +2526,6 @@
         "onlyByChargeBalance": false,
         "supportFT": false,
         "targetModelName": "tencent/HunyuanVideo",
-        "deprecatedTime": {},
-        "filling": "{\"属地\": \"广东省\", \"模型名称\": \"腾讯混元助手大模型\", \"备案单位\": \"深圳市腾讯计算机系统有限公司\", \"备案号\": \"Guangdong-TencentHunyuan-20230901\", \"备案时间\": \"2023/9/14\"}"
-    },
-    {
-        "modelId": "17885302703",
-        "modelName": "tencent/HunyuanVideo-HD",
-        "mf": "hunyuan",
-        "desc": "HunyuanVideo 是腾讯推出的开源视频生成基础模型，拥有超过 130 亿参数，是目前最大的开源视频生成模型。该模型采用统一的图像和视频生成架构，集成了数据整理、图像-视频联合模型训练和高效基础设施等关键技术。模型使用多模态大语言模型作为文本编码器，通过 3D VAE 进行空间-时间压缩，并提供提示词重写功能。根据专业人工评估结果，HunyuanVideo 在文本对齐、运动质量和视觉质量等方面的表现优于现有最先进的模型",
-        "tags": [
-            "13B"
-        ],
-        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/hunyuan.svg",
-        "publishTime": {
-            "seconds": 1733155200
-        },
-        "size": 13,
-        "contextLen": 0,
-        "price": "2.8",
-        "currency": "¥",
-        "operationLabel": [
-            "New"
-        ],
-        "needAuth": false,
-        "onlineDemo": true,
-        "type": "video",
-        "subType": "text-to-video",
-        "DisplayName": "HunyuanVideo (HD)",
-        "sort": 3600,
-        "sameSeries": [],
-        "language": [],
-        "modelInfo": [
-            {
-                "Level": 0,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": 5,
-                "IPD": 200
-            },
-            {
-                "Level": 1,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": 5,
-                "IPD": 300
-            },
-            {
-                "Level": 2,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": 5,
-                "IPD": 400
-            },
-            {
-                "Level": 3,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": 5,
-                "IPD": 500
-            },
-            {
-                "Level": 4,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": 5,
-                "IPD": 600
-            },
-            {
-                "Level": 5,
-                "RPM": -1,
-                "TPM": -1,
-                "IPM": 5,
-                "IPD": 3000
-            }
-        ],
-        "priceUnit": "/ Video",
-        "status": "normal",
-        "jsonModeSupport": false,
-        "functionCallSupport": false,
-        "fimCompletionSupport": false,
-        "chatPrefixCompletionSupport": false,
-        "vlm": false,
-        "onlyByChargeBalance": false,
-        "supportFT": false,
-        "targetModelName": "tencent/HunyuanVideo-HD",
         "deprecatedTime": {},
         "filling": "{\"属地\": \"广东省\", \"模型名称\": \"腾讯混元助手大模型\", \"备案单位\": \"深圳市腾讯计算机系统有限公司\", \"备案号\": \"Guangdong-TencentHunyuan-20230901\", \"备案时间\": \"2023/9/14\"}"
     },
