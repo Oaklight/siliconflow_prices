@@ -1,0 +1,41 @@
+models:
+  stepfun:
+    step-1-8k:
+      input: 5 rmb / M
+      output: 20 rmb / M
+    step-1-32k:
+      input: 15 rmb / M
+      output: 70 rmb / M
+    step-1-128k:
+      input: 40 rmb / M
+      output: 200 rmb / M
+    step-1-256k:
+      input: 95 rmb / M
+      output: 300 rmb / M
+    step-1-flash:
+      input: 1 rmb / M
+      output: 4 rmb / M
+    step-2-16k:
+      input: 38 rmb / M
+      output: 120 rmb / M
+    step-2-mini:
+      input: 1 rmb / M
+      output: 2 rmb / M
+    step-2-16k-exp:
+      input: 38 rmb / M
+      output: 120 rmb / M
+    step-1v-8k:
+      input: 5 rmb / M
+      output: 20 rmb / M
+    step-1v-32k:
+      input: 15 rmb / M
+      output: 70 rmb / M
+    step-1o-vision-32k:
+      input: 15 rmb / M
+      output: 70 rmb / M
+    step-1.5v-mini:
+      input: 8 rmb / M
+      output: 35 rmb / M
+    step-1o-turbo-vision:
+      input: 2.5 rmb / M
+      output: 8 rmb / M

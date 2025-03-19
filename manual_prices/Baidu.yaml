@@ -1,0 +1,5 @@
+models:
+  Baidu:
+    ernie-4.5-8k-preview:
+      input: 0.004 rmb / K
+      output: 0.016 rmb / K

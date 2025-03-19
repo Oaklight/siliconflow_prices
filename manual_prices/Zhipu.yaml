@@ -1,0 +1,47 @@
+models:
+  Zhipu:
+    glm-4-plus:
+      input: 0.05 rmb / K
+      output: 0.05 rmb / K
+    glm-4-air:
+      input: 0.0005 rmb / K
+      output: 0.0005 rmb / K
+    glm-4-long:
+      input: 0.001 rmb / K
+      output: 0.001 rmb / K
+    glm-zero-preview:
+      input: 0.01 rmb / K
+      output: 0.01 rmb / K
+    glm-4-airx:
+      input: 0.01 rmb / K
+      output: 0.01 rmb / K
+    glm-4-flashx:
+      input: 0.0001 rmb / K
+      output: 0.0001 rmb / K
+    glm-4-flash:
+      input: 0
+      output: 0
+    glm-4v-flash:
+      input: 0
+      output: 0
+    cogview-3-flash:
+      input: 0
+      output: 0
+    cogvideox-flash:
+      input: 0
+      output: 0
+    codegeex-4:
+      input: 0.0001 rmb / K
+      output: 0.0001 rmb / K
+    embedding-3:
+      input: 0.0005 rmb / K
+      output: 0
+    embedding-2:
+      input: 0.0005 rmb / K
+      output: 0
+    glm-4-voice:
+      input: 0.08 rmb / K
+      output: 0.08 rmb / K
+    glm-4v-plus-0111:
+      input: 0.004 rmb / K
+      output: 0.004 rmb / K

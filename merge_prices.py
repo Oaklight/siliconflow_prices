@@ -64,8 +64,29 @@ def get_channel_id_mapping():
     return {}
 
 
-def yaml_to_json(yaml_file_path):
-    """Convert YAML data to JSON format, handling aliases and price conversions."""
+def load_yaml_from_directory(directory_path):
+    """Load and merge YAML files from a directory, handling duplicates."""
+    import os
+    yaml_data = {"models": {}}
+    
+    # Process files in alphabetical order to ensure consistent overwriting
+    for filename in sorted(os.listdir(directory_path)):
+        if filename.endswith(".yaml"):
+            file_path = os.path.join(directory_path, filename)
+            with open(file_path, "r", encoding="utf-8") as file:
+                file_data = yaml.safe_load(file)
+                if "models" in file_data:
+                    for channel, models in file_data["models"].items():
+                        if channel in yaml_data["models"]:
+                            # Update existing models, overwriting duplicates
+                            for model_name, model_info in models.items():
+                                yaml_data["models"][channel][model_name] = model_info
+                        else:
+                            yaml_data["models"][channel] = models
+    return yaml_data
+
+def yaml_to_json(directory_path):
+    """Convert YAML data from directory to JSON format, handling aliases and price conversions."""
 
     def create_model_entry(
         model_name, model_type, channel_type, input_price, output_price
@@ -79,9 +100,8 @@ def yaml_to_json(yaml_file_path):
             "output": output_price,
         }
 
-    # Load YAML file
-    with open(yaml_file_path, "r", encoding="utf-8") as file:
-        yaml_data = yaml.safe_load(file)
+    # Load YAML data from directory
+    yaml_data = load_yaml_from_directory(directory_path)
 
     # Get channel ID mapping
     channel_id_mapping = get_channel_id_mapping()
@@ -155,16 +175,9 @@ def integrate_prices(primary_prices, secondary_prices):
 
 
 if __name__ == "__main__":
-    # 主要手工定价表格
-    yaml_file_path = "manual_prices.yaml"
-    manual_prices = yaml_to_json(yaml_file_path)
-    # 负载均衡定价表 —— 主要用于deepseek和bge
-    yaml_file_path_load_balance = "manual_prices_loadbalance.yaml"
-    manual_prices_loadbalance = yaml_to_json(yaml_file_path_load_balance)
-    # 集成手动价格和 siliconflow_prices
-    integrated_manual_prices = integrate_prices(
-        manual_prices, manual_prices_loadbalance
-    )
+    # 加载所有手工定价表格
+    yaml_dir_path = "manual_prices"
+    integrated_manual_prices = yaml_to_json(yaml_dir_path)
     # 读取 siliconflow_prices.json 文件
     try:
         with open("siliconflow_prices.json", "r", encoding="utf-8") as file:

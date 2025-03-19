@@ -1,0 +1,29 @@
+models:
+  Pollinations.AI:
+    pl:gpt-4o-mini:
+      input: 0
+      output: 0
+    pl:gpt-4o:
+      input: 0
+      output: 0
+    pl:gpt-o1-mini:
+      input: 0
+      output: 0
+    pl:llama-3.3-70b:
+      input: 0
+      output: 0
+    pl:mistral-nemo:
+      input: 0
+      output: 0
+    pl:mistral-unity:
+      input: 0
+      output: 0
+    pl:evil:
+      input: 0
+      output: 0
+    pl:deepseek-v3:
+      input: 0
+      output: 0
+    pl:deepseek-r1:
+      input: 0
+      output: 0

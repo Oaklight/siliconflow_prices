@@ -1,0 +1,11 @@
+models:
+  MiniMax:
+    MiniMax-Text-01:
+      input: 0.001 rmb / K
+      output: 0.008 rmb / K
+    MiniMax-VL-01:
+      input: 0.001 rmb / K
+      output: 0.008 rmb / K
+    abab6.5s-chat:
+      input: 0.001 rmb / K
+      output: 0.001 rmb / K

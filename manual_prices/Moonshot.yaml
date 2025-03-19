@@ -1,0 +1,23 @@
+models:
+  Moonshot:
+    moonshot-v1-128k:
+      input: 60 rmb / M
+      output: 60 rmb / M
+    moonshot-v1-32k:
+      input: 24 rmb / M
+      output: 24 rmb / M
+    moonshot-v1-8k:
+      input: 12 rmb / M
+      output: 12 rmb / M
+    moonshot-v1-8k-vision-preview:
+      input: 12 rmb / M
+      output: 12 rmb / M
+    moonshot-v1-32k-vision-preview:
+      input: 24 rmb / M
+      output: 24 rmb / M
+    moonshot-v1-128k-vision-preview:
+      input: 60 rmb / M
+      output: 60 rmb / M
+    moonshot-v1-auto: # 暂定吧
+      input: 12 rmb / M
+      output: 12 rmb / M

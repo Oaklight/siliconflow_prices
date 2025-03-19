@@ -1,0 +1,8 @@
+models:
+  Deepseek:
+    deepseek-chat:
+      input: 2 rmb / M
+      output: 8 rmb / M
+    deepseek-reasoner:
+      input: 4 rmb / M
+      output: 16 rmb / M

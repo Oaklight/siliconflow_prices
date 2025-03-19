@@ -29,14 +29,14 @@ for model in model_json:
     model_price = float(model["price"])
     model_price_unit = model["priceUnit"]
     print(f"Model Name: {model_name}, Price: {model_price} {model_price_unit}")
-
+    scale_factor = 0.014
     if model_price_unit in ["/ M Tokens", "/ M UTF-8 bytes", "/ M px / Steps"]:
         price_data = {
             "model": model_name,
             "type": "tokens",
             "channel_type": siliconflow_channel_type,
-            "input": model_price / 1000 / 0.014,
-            "output": model_price / 1000 / 0.014,
+            "input": model_price / 1000 / scale_factor,
+            "output": model_price / 1000 / scale_factor,
         }
     elif model_price_unit in ["/ Video", "/ Image", ""]:
         print(f"special price unit: {model_price_unit}")

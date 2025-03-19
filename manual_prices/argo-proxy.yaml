@@ -1,0 +1,35 @@
+models:
+  argo-proxy:
+    argo:gpt-3.5-turbo:
+      input: 0
+      output: 0
+    argo:gpt-3.5-turbo-16k:
+      input: 0
+      output: 0
+    argo:gpt-4:
+      input: 0
+      output: 0
+    argo:gpt-4-32k:
+      input: 0
+      output: 0
+    argo:gpt-4-turbo-preview:
+      input: 0
+      output: 0
+    argo:gpt-4o:
+      input: 0
+      output: 0
+    argo:gpt-o1-preview:
+      input: 0
+      output: 0
+    argo:gpt-o1-mini:
+      input: 0
+      output: 0
+    argo:text-embedding-ada-002:
+      input: 0
+      output: 0
+    argo:text-embedding-3-small:
+      input: 0
+      output: 0
+    argo:text-embedding-3-large:
+      input: 0
+      output: 0
