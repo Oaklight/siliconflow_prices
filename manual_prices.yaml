@@ -121,6 +121,9 @@ models:
     qwen-audio-asr-latest:
       input: 0
       output: 0
+    qwq-plus:
+      input: 0.0016 rmb / K
+      output: 0.004 rmb / K
 
   # stepfun
   stepfun:
@@ -345,7 +348,7 @@ models:
   OpenRouter:
     or:mistralai/mistral-small-24b-instruct-2501:
       aliases: mistralai/mistral-small-24b-instruct-2501
-      input: 0.07 usd / M 
+      input: 0.07 usd / M
       output: 0.14 usd / M
     or:microsoft/wizardlm-2-8x22b:
       aliases: microsoft/wizardlm-2-8x22b
@@ -354,23 +357,23 @@ models:
     or:minimax/minimax-01:
       aliases: minimax/minimax-01
       input: 0.2 usd / M
-      output: 1.1 usd / M    
+      output: 1.1 usd / M
     or:nousresearch/hermes-3-llama-3.1-405b:
       aliases: nousresearch/hermes-3-llama-3.1-405b
-      input: 0.8 usd / M 
+      input: 0.8 usd / M
       output: 0.8 usd / M
 
   MiniMax:
-    MiniMax-Text-01: 
+    MiniMax-Text-01:
       input: 0.001 rmb / K
       output: 0.008 rmb / K
-    MiniMax-VL-01: 
+    MiniMax-VL-01:
       input: 0.001 rmb / K
       output: 0.008 rmb / K
-    abab6.5s-chat: 
+    abab6.5s-chat:
       input: 0.001 rmb / K
       output: 0.001 rmb / K
-    
+
   Baidu:
     ernie-4.5-8k-preview:
       input: 0.004 rmb / K
