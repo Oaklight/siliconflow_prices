@@ -1,0 +1,6 @@
+models:
+  Siliconflow:
+    # some hidden models
+    AIDC-AI/Marco-o1:
+      input: 0
+      output: 0
