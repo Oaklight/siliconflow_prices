@@ -1,18 +1,43 @@
-# siliconflow_prices
+# onehub_prices
 
-fetch siliconflow prices via api
+本项目最初为 onehub 提供 siliconflow 价格数据，现已扩展为管理多个 AI 供应商的价格信息。所有价格数据每日自动更新，确保信息及时准确。
+
+项目维护者：[Oaklight](https://github.com/Oaklight)
+
+管理多个 AI 供应商的价格信息，支持自动获取和手动维护多种来源的价格数据。
 
 ```bash
 SILICONFLOW_API_KEY="sk-xxxxx" python get_prices.py
 python merge_prices.py
 ```
 
-各取所需：
+## 主要文件说明
 
-- 原件：`siliconflow_models.json` 来自 siliconflow 官方，api 为技术人员提供，后续可能有新的正式 api
-- one-hub 适用：`oneapi_prices.json` \
-  通过`运营 -> 模型价格 -> 更新价格`，填入 [`https://oaklight.github.io/siliconflow_prices/oneapi_prices.json`](https://oaklight.github.io/siliconflow_prices/oneapi_prices.json)，点击`获取数据`，按需选择`覆盖数据`或`仅添加新增` \
-  已经包含MartialBE的价格表，但相左部分以我的为准
+- `siliconflow_models.json`: 来自 siliconflow 官方的原始模型数据
+- `oneapi_prices.json`: 适用于 one-hub 的最终价格表
+- `manual_prices.yaml`: 手工维护的价格表
+- `manual_prices/`目录: 包含各供应商的独立价格文件，包括：
+  - 阿里云百炼
+  - 零一万物
+  - 字节火山引擎
+  - Baidu
+  - Deepseek
+  - Google Gemini
+  - MiniMax
+  - Moonshot
+  - OpenRouter
+  - Pollinations.AI
+  - Zhipu
+  - 等
+
+## 使用说明
+
+对于 one-hub 使用：
+
+1. 进入`运营 -> 模型价格 -> 更新价格`
+2. 填入 [`https://oaklight.github.io/onehub_prices/oneapi_prices.json`](https://oaklight.github.io/onehub_prices/oneapi_prices.json)
+3. 点击`获取数据`
+4. 按需选择`覆盖数据`或`仅添加新增`
 
 ## 更新说明
 
@@ -26,11 +51,3 @@ python merge_prices.py
    - 每天 UTC 时间 00:00 执行，或者在 master 分支有推送时触发。
    - 运行 `get_prices.py` 和 `merge_prices.py` 脚本。
    - 自动提交并推送更新后的价格文件。
-
-### 主要文件说明
-
-- `get_prices.py`：获取 siliconflow 的价格并通过 API 保存到 `siliconflow_prices.json`。
-- `merge_prices.py`：合并手工价格和上游价格，生成最终的 `oneapi_prices.json`。
-- `manual_prices.yaml`：手工设置的价格表。
-- `siliconflow_models.json`：原始的 siliconflow 模型数据。
-- `oneapi_prices.json`：适用于 one-hub 的最终价格表。
