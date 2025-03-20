@@ -1054,8 +1054,8 @@
       "model": "gemini-1.5-flash",
       "type": "tokens",
       "channel_type": 25,
-      "input": 0.075,
-      "output": 0.3
+      "input": 0.0375,
+      "output": 0.15
     },
     {
       "model": "gemini-1.5-flash-001",
@@ -1068,8 +1068,8 @@
       "model": "gemini-1.5-flash-8b",
       "type": "tokens",
       "channel_type": 25,
-      "input": 0.0375,
-      "output": 0.15
+      "input": 0.01875,
+      "output": 0.075
     },
     {
       "model": "gemini-1.5-flash-8b-exp-0827",
@@ -1096,8 +1096,8 @@
       "model": "gemini-1.5-pro",
       "type": "tokens",
       "channel_type": 25,
-      "input": 1.25,
-      "output": 5.0
+      "input": 0.625,
+      "output": 2.5
     },
     {
       "model": "gemini-1.5-pro-001",
@@ -1132,7 +1132,21 @@
       "type": "tokens",
       "channel_type": 25,
       "input": 0.05,
-      "output": 0.35
+      "output": 0.2
+    },
+    {
+      "model": "gemini-2.0-flash-exp",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "gemini-2.0-flash-exp-image-generation",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "gemini-2.0-flash-lite",
@@ -1150,6 +1164,13 @@
     },
     {
       "model": "gemini-2.0-pro-exp-02-05",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "gemini-embedding-exp-03-07",
       "type": "tokens",
       "channel_type": 25,
       "input": 0.0,
@@ -1175,6 +1196,34 @@
       "channel_type": 25,
       "input": 1,
       "output": 1
+    },
+    {
+      "model": "gemma-2-27b-it",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "gemma-2-2b-it",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "gemma-2-9b-it",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "gemma-3-27b-it",
+      "type": "tokens",
+      "channel_type": 25,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "learnlm-1.5-pro-experimental",
