@@ -666,13 +666,6 @@
       "output": 0.7142857142857143
     },
     {
-      "model": "deepseek-r1",
-      "type": "tokens",
-      "channel_type": 17,
-      "input": 0.2857142857142857,
-      "output": 1.1428571428571428
-    },
-    {
       "model": "deepseek-r1-aliyun",
       "type": "tokens",
       "channel_type": 17,
@@ -720,13 +713,6 @@
       "channel_type": 17,
       "input": 0.03571428571428571,
       "output": 0.07142857142857142
-    },
-    {
-      "model": "deepseek-v3",
-      "type": "tokens",
-      "channel_type": 17,
-      "input": 0.14285714285714285,
-      "output": 0.5714285714285714
     },
     {
       "model": "deepseek-v3-aliyun",
@@ -2647,6 +2633,13 @@
       "output": 1.1428571428571428
     },
     {
+      "model": "deepseek-r1-free",
+      "type": "tokens",
+      "channel_type": 1004,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "deepseek-r1-infiniai",
       "type": "tokens",
       "channel_type": 1004,
@@ -2722,6 +2715,13 @@
       "channel_type": 1004,
       "input": 0.14285714285714285,
       "output": 0.5714285714285714
+    },
+    {
+      "model": "deepseek-v3-free",
+      "type": "tokens",
+      "channel_type": 1004,
+      "input": 0.0,
+      "output": 0.0
     },
     {
       "model": "deepseek-v3-infiniai",
@@ -2972,6 +2972,20 @@
       "model": "pl:mistral-unity",
       "type": "tokens",
       "channel_type": 1007,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "CosyVoice-300M",
+      "type": "tokens",
+      "channel_type": 1008,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
+      "model": "SenseVoiceSmall",
+      "type": "tokens",
+      "channel_type": 1008,
       "input": 0.0,
       "output": 0.0
     }
