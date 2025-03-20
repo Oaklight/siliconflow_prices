@@ -1,16 +1,23 @@
 models:
-  deepseek-load-balancer:
+  oaklight-load-balancer:
     # 负载均衡器
     # generic aliases, used as primary calling id, remapped to specific model ids
+    deepseek-v2.5:
+      input: 1.33 rmb / M
+      output: 1.33 rmb / M
     deepseek-v3:
       input: 2 rmb / M
       output: 8 rmb / M
     deepseek-r1:
       input: 4 rmb / M
       output: 16 rmb / M
-    deepseek-v2.5:
-      input: 1.33 rmb / M
-      output: 1.33 rmb / M
+    deepseek-v3-free:
+      input: 0
+      output: 0
+    deepseek-r1-free:
+      input: 0
+      output: 0
+
     bge-m3:
       input: 0 rmb / M
       output: 0 rmb / M
@@ -47,7 +54,7 @@ models:
     deepseek-v3-openrouter:free: # OpenRouter (free)
       input: 0 usd / M
       output: 0 usd / M
-    deepseek-v3-openrouter: # OpenRouter (free)
+    deepseek-v3-openrouter: # OpenRouter
       input: 1.25 usd / M
       output: 1.25 usd / M
 
@@ -129,11 +136,9 @@ models:
   阿里云百炼:
     # deepseek @ 阿里云百炼
     deepseek-v3-aliyun:
-      aliases: deepseek-v3
       input: 0.002 rmb / K
       output: 0.008 rmb / K
     deepseek-r1-aliyun:
-      aliases: deepseek-r1
       input: 0.004 rmb / K
       output: 0.016 rmb / K
     deepseek-r1-distill-qwen-7b-aliyun:

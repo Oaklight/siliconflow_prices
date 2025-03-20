@@ -1,4 +1,5 @@
 import json
+import os
 
 import requests
 import yaml
@@ -65,25 +66,40 @@ def get_channel_id_mapping():
 
 
 def load_yaml_from_directory(directory_path):
-    """Load and merge YAML files from a directory, handling duplicates."""
-    import os
+    """Load and merge YAML files from a directory, handling duplicates.
+    Ensures 'oaklight-load-balancer.yaml' is applied last."""
     yaml_data = {"models": {}}
-    
-    # Process files in alphabetical order to ensure consistent overwriting
-    for filename in sorted(os.listdir(directory_path)):
-        if filename.endswith(".yaml"):
-            file_path = os.path.join(directory_path, filename)
-            with open(file_path, "r", encoding="utf-8") as file:
-                file_data = yaml.safe_load(file)
-                if "models" in file_data:
-                    for channel, models in file_data["models"].items():
-                        if channel in yaml_data["models"]:
-                            # Update existing models, overwriting duplicates
-                            for model_name, model_info in models.items():
-                                yaml_data["models"][channel][model_name] = model_info
-                        else:
-                            yaml_data["models"][channel] = models
+    special_file = "oaklight-load-balancer.yaml"
+    files_to_process = []
+
+    # Collect all YAML files except the special one
+    for filename in os.listdir(directory_path):
+        if filename.endswith(".yaml") and filename != special_file:
+            files_to_process.append(filename)
+
+    # Sort files to ensure consistent overwriting
+    files_to_process.sort()
+
+    # Process the special file last
+    if special_file in os.listdir(directory_path):
+        files_to_process.append(special_file)
+
+    # Process each file
+    for filename in files_to_process:
+        file_path = os.path.join(directory_path, filename)
+        with open(file_path, "r", encoding="utf-8") as file:
+            file_data = yaml.safe_load(file)
+            if "models" in file_data:
+                for channel, models in file_data["models"].items():
+                    if channel in yaml_data["models"]:
+                        # Update existing models, overwriting duplicates
+                        for model_name, model_info in models.items():
+                            yaml_data["models"][channel][model_name] = model_info
+                    else:
+                        yaml_data["models"][channel] = models
+
     return yaml_data
+
 
 def yaml_to_json(directory_path):
     """Convert YAML data from directory to JSON format, handling aliases and price conversions."""

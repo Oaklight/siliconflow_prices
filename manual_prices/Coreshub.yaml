@@ -1,0 +1,8 @@
+models:
+  Coreshub:
+    SenseVoiceSmall:
+      input: 0
+      output: 0
+    CosyVoice-300M:
+      input: 0
+      output: 0
