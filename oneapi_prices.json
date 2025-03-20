@@ -1835,6 +1835,13 @@
       "output": 0.0
     },
     {
+      "model": "AIDC-AI/Marco-o1",
+      "type": "tokens",
+      "channel_type": 45,
+      "input": 0.0,
+      "output": 0.0
+    },
+    {
       "model": "BAAI/bge-large-en-v1.5",
       "type": "tokens",
       "channel_type": 45,
