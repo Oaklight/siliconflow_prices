@@ -10,22 +10,46 @@ models:
     learnlm-1.5-pro-experimental:
       input: 0
       output: 0
+    gemini-2.0-flash-exp-image-generation:
+      aliases: gemini-2.0-flash-exp
+      input: 0
+      output: 0
+
     # production models
     gemini-2.0-flash:
       input: 0.1 usd / M
-      output: 0.7 usd / M
+      output: 0.4 usd / M
     gemini-2.0-flash-lite:
       input: 0.075 usd / M
       output: 0.3 usd / M
     gemini-1.5-flash:
-      input: 0.15 usd / M # 0.075 usd / M, when prompt is smaller than 128,000 tokens
-      output: 0.6 usd / M # 0.3 usd / M, when prompt is smaller than 128,000 tokens
+      input: 0.075 usd / M # 0.15 usd / M, when prompt is larger than 128,000 tokens
+      output: 0.3 usd / M # 0.6 usd / M, when prompt is larger than 128,000 tokens
     gemini-1.5-flash-8b:
-      input: 0.075 usd / M # 0.0375 usd / M, when prompt is smaller than 128,000 tokens
-      output: 0.3 usd / M # 0.15 usd / M, when prompt is smaller than 128,000 tokens
+      input: 0.0375 usd / M # 0.075 usd / M, when prompt is larger than 128,000 tokens
+      output: 0.15 usd / M # 0.3 usd / M, when prompt is larger than 128,000 tokens
     gemini-1.5-pro:
-      input: 2.5 usd / M # 1.25 usd / M, when prompt is smaller than 128,000 tokens
-      output: 10 usd / M # 5 usd / M, when prompt is smaller than 128,000 tokens
+      input: 1.25 usd / M # 2.5 usd / M, when prompt is larger than 128,000 tokens
+      output: 5 usd / M # 10 usd / M, when prompt is larger than 128,000 tokens
+
+    # gemma models
+    gemma-3-27b-it:
+      input: 0
+      output: 0
+    gemma-2-2b-it:
+      input: 0
+      output: 0
+    gemma-2-9b-it:
+      input: 0
+      output: 0
+    gemma-2-27b-it:
+      input: 0
+      output: 0
+
+    # embedding model
     text-embedding-004:
+      input: 0
+      output: 0
+    gemini-embedding-exp-03-07:
       input: 0
       output: 0
