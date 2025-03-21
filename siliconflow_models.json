@@ -1,5 +1,261 @@
 [
     {
+        "modelId": "17885302728",
+        "modelName": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+        "mf": "deepseek-ai",
+        "desc": "DeepSeek-R1-Distill-Qwen-14B 是基于 Qwen2.5-14B 通过知识蒸馏得到的模型。该模型使用 DeepSeek-R1 生成的 80 万个精选样本进行微调，展现出优秀的推理能力。在多个基准测试中表现出色，其中在 MATH-500 上达到了 93.9% 的准确率，在 AIME 2024 上达到了 69.7% 的通过率，在 CodeForces 上获得了 1481 的评分，显示出在数学和编程领域的强大实力",
+        "tags": [
+            "推理模型",
+            "14B",
+            "32K"
+        ],
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/DeepSeek.svg",
+        "publishTime": {
+            "seconds": 1737302400
+        },
+        "size": 14,
+        "contextLen": 32768,
+        "price": "0.7",
+        "currency": "¥",
+        "operationLabel": [
+            "New"
+        ],
+        "needAuth": false,
+        "onlineDemo": true,
+        "type": "text",
+        "subType": "chat",
+        "DisplayName": "DeepSeek-R1-Distill-Qwen-14B",
+        "sort": 4165,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": 1000,
+                "TPM": 40000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 1,
+                "RPM": 1200,
+                "TPM": 60000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 2,
+                "RPM": 2000,
+                "TPM": 80000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 3,
+                "RPM": 4000,
+                "TPM": 160000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 4,
+                "RPM": 8000,
+                "TPM": 500000,
+                "IPM": -1,
+                "IPD": -1
+            },
+            {
+                "Level": 5,
+                "RPM": 10000,
+                "TPM": 2000000,
+                "IPM": -1,
+                "IPD": -1
+            }
+        ],
+        "priceUnit": "/ M Tokens",
+        "status": "normal",
+        "jsonModeSupport": true,
+        "functionCallSupport": true,
+        "fimCompletionSupport": true,
+        "chatPrefixCompletionSupport": false,
+        "vlm": false,
+        "onlyByChargeBalance": false,
+        "supportFT": false,
+        "targetModelName": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+        "deprecatedTime": {},
+        "filling": "{\"属地\":\"北京市\",\"模型名称\":\"求索对话DeepSeek Chat\",\"备案单位\":\"北京深度求索人工智能基础技术研究有限公司\",\"备案号\":\"Beijing-DeepseekChat-202404280016\",\"备案时间\":\"2024/5/13\"}"
+    },
+    {
+        "modelId": "17885302798",
+        "modelName": "Wan-AI/Wan2.1-I2V-14B-720P",
+        "mf": "Wan",
+        "desc": "Wan2.1-I2V-14B-720P 是一个开源的高级图像到视频生成模型，是 Wan2.1 视频基础模型套件的一部分。该 14B 模型能够生成 720P 高清视频，经过数千轮人工评估，达到先进性能水平。它采用扩散变换器架构，并通过创新的时空变分自编码器（VAE）、可扩展的训练策略和大规模数据构建来提升生成能力。该模型还能够理解和处理中、英文文本，为视频生成任务提供了强大支持",
+        "tags": [
+            "14B",
+            "图生视频"
+        ],
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/Tongyi.svg",
+        "publishTime": {
+            "seconds": 1740153600
+        },
+        "size": 14,
+        "contextLen": 0,
+        "price": "1",
+        "currency": "¥",
+        "operationLabel": [
+            "首周五折"
+        ],
+        "needAuth": false,
+        "onlineDemo": true,
+        "type": "video",
+        "subType": "image-to-video",
+        "DisplayName": "Wan2.1-I2V-14B-720P",
+        "sort": 6700,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 5,
+                "IPD": 200
+            },
+            {
+                "Level": 1,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 5,
+                "IPD": 300
+            },
+            {
+                "Level": 2,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 5,
+                "IPD": 400
+            },
+            {
+                "Level": 3,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 5,
+                "IPD": 500
+            },
+            {
+                "Level": 4,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 5,
+                "IPD": 600
+            },
+            {
+                "Level": 5,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 5,
+                "IPD": 3000
+            }
+        ],
+        "priceUnit": "/ Video",
+        "status": "normal",
+        "jsonModeSupport": false,
+        "functionCallSupport": false,
+        "fimCompletionSupport": false,
+        "chatPrefixCompletionSupport": false,
+        "vlm": false,
+        "onlyByChargeBalance": false,
+        "supportFT": false,
+        "targetModelName": "Wan-AI/Wan2.1-I2V-14B-720P",
+        "deprecatedTime": {},
+        "filling": "{\"属地\":\"上海市\",\"模型名称\":\"通义万相\",\"备案单位\":\"上海魔搭科技有限公司\",\"备案号\":\"Shanghai-TongYiWanXiang-202410090024\",\"备案时间\":\"2024/10/31\"}"
+    },
+    {
+        "modelId": "17885302799",
+        "modelName": "Wan-AI/Wan2.1-I2V-14B-720P-Turbo",
+        "mf": "Wan",
+        "desc": "Wan2.1-I2V-14B-720P-Turbo 是 Wan2.1-I2V-14B-720P 模型的 Teacache 加速版，单个视频生成时间压缩 30%。Wan2.1-I2V-14B-720P 是一个开源的高级图像到视频生成模型，是 Wan2.1 视频基础模型套件的一部分。该 14B 模型能够生成 720P 高清视频，经过数千轮人工评估，达到了先进性能水平。它采用扩散变换器架构，并通过创新的时空变分自编码器（VAE）、可扩展的训练策略和大规模数据构建来提升生成能力。该模型还能够理解和处理中、英文文本，为视频生成任务提供了强大支持",
+        "tags": [
+            "14B",
+            "图生视频"
+        ],
+        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/Tongyi.svg",
+        "publishTime": {
+            "seconds": 1740153600
+        },
+        "size": 14,
+        "contextLen": 0,
+        "price": "0.75",
+        "currency": "¥",
+        "operationLabel": [
+            "首周五折"
+        ],
+        "needAuth": false,
+        "onlineDemo": true,
+        "type": "video",
+        "subType": "image-to-video",
+        "DisplayName": "Wan2.1-I2V-14B-720P (Turbo)",
+        "sort": 6800,
+        "sameSeries": [],
+        "language": [],
+        "modelInfo": [
+            {
+                "Level": 0,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 5,
+                "IPD": 200
+            },
+            {
+                "Level": 1,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 5,
+                "IPD": 300
+            },
+            {
+                "Level": 2,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 5,
+                "IPD": 400
+            },
+            {
+                "Level": 3,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 5,
+                "IPD": 500
+            },
+            {
+                "Level": 4,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 5,
+                "IPD": 600
+            },
+            {
+                "Level": 5,
+                "RPM": -1,
+                "TPM": -1,
+                "IPM": 5,
+                "IPD": 3000
+            }
+        ],
+        "priceUnit": "/ Video",
+        "status": "normal",
+        "jsonModeSupport": false,
+        "functionCallSupport": false,
+        "fimCompletionSupport": false,
+        "chatPrefixCompletionSupport": false,
+        "vlm": false,
+        "onlyByChargeBalance": false,
+        "supportFT": false,
+        "targetModelName": "Wan-AI/Wan2.1-I2V-14B-720P-Turbo",
+        "deprecatedTime": {},
+        "filling": "{\"属地\":\"上海市\",\"模型名称\":\"通义万相\",\"备案单位\":\"上海魔搭科技有限公司\",\"备案号\":\"Shanghai-TongYiWanXiang-202410090024\",\"备案时间\":\"2024/10/31\"}"
+    },
+    {
         "modelId": "17885302722",
         "modelName": "Pro/Qwen/Qwen2.5-VL-7B-Instruct",
         "mf": "Qwen2.5",
@@ -2872,92 +3128,6 @@
         "onlyByChargeBalance": false,
         "supportFT": false,
         "targetModelName": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
-        "deprecatedTime": {},
-        "filling": "{\"属地\": \"北京市\", \"模型名称\": \"求索对话DeepSeek Chat\", \"备案单位\": \"北京深度求索人工智能基础技术研究有限公司\", \"备案号\": \"Beijing-DeepseekChat-202404280016\", \"备案时间\": \"2024/5/13\"}"
-    },
-    {
-        "modelId": "17885302728",
-        "modelName": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
-        "mf": "deepseek-ai",
-        "desc": "DeepSeek-R1-Distill-Qwen-14B 是基于 Qwen2.5-14B 通过知识蒸馏得到的模型。该模型使用 DeepSeek-R1 生成的 80 万个精选样本进行微调，展现出优秀的推理能力。在多个基准测试中表现出色，其中在 MATH-500 上达到了 93.9% 的准确率，在 AIME 2024 上达到了 69.7% 的通过率，在 CodeForces 上获得了 1481 的评分，显示出在数学和编程领域的强大实力",
-        "tags": [
-            "推理模型",
-            "14B",
-            "32K"
-        ],
-        "icon": "https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/DeepSeek.svg",
-        "publishTime": {
-            "seconds": 1737302400
-        },
-        "size": 14,
-        "contextLen": 32768,
-        "price": "0.7",
-        "currency": "¥",
-        "operationLabel": [
-            "New"
-        ],
-        "needAuth": false,
-        "onlineDemo": true,
-        "type": "text",
-        "subType": "chat",
-        "DisplayName": "DeepSeek-R1-Distill-Qwen-14B",
-        "sort": 4165,
-        "sameSeries": [],
-        "language": [],
-        "modelInfo": [
-            {
-                "Level": 0,
-                "RPM": 1000,
-                "TPM": 40000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 1,
-                "RPM": 1200,
-                "TPM": 60000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 2,
-                "RPM": 2000,
-                "TPM": 80000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 3,
-                "RPM": 4000,
-                "TPM": 160000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 4,
-                "RPM": 8000,
-                "TPM": 500000,
-                "IPM": -1,
-                "IPD": -1
-            },
-            {
-                "Level": 5,
-                "RPM": 10000,
-                "TPM": 2000000,
-                "IPM": -1,
-                "IPD": -1
-            }
-        ],
-        "priceUnit": "/ M Tokens",
-        "status": "normal",
-        "jsonModeSupport": false,
-        "functionCallSupport": false,
-        "fimCompletionSupport": false,
-        "chatPrefixCompletionSupport": false,
-        "vlm": false,
-        "onlyByChargeBalance": false,
-        "supportFT": false,
-        "targetModelName": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
         "deprecatedTime": {},
         "filling": "{\"属地\": \"北京市\", \"模型名称\": \"求索对话DeepSeek Chat\", \"备案单位\": \"北京深度求索人工智能基础技术研究有限公司\", \"备案号\": \"Beijing-DeepseekChat-202404280016\", \"备案时间\": \"2024/5/13\"}"
     },
