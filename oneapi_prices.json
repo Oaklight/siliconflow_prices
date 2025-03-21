@@ -1345,6 +1345,34 @@
       "output": 0.5714285714285714
     },
     {
+      "model": "kimi-latest",
+      "type": "tokens",
+      "channel_type": 29,
+      "input": 1.2857142857142856,
+      "output": 1.2857142857142856
+    },
+    {
+      "model": "kimi-latest-128k",
+      "type": "tokens",
+      "channel_type": 29,
+      "input": 4.285714285714286,
+      "output": 4.285714285714286
+    },
+    {
+      "model": "kimi-latest-32k",
+      "type": "tokens",
+      "channel_type": 29,
+      "input": 1.7142857142857142,
+      "output": 1.7142857142857142
+    },
+    {
+      "model": "kimi-latest-8k",
+      "type": "tokens",
+      "channel_type": 29,
+      "input": 0.8571428571428571,
+      "output": 0.8571428571428571
+    },
+    {
       "model": "moonshot-v1-128k",
       "type": "tokens",
       "channel_type": 29,
@@ -1390,8 +1418,8 @@
       "model": "moonshot-v1-auto",
       "type": "tokens",
       "channel_type": 29,
-      "input": 0.8571428571428571,
-      "output": 0.8571428571428571
+      "input": 1.2857142857142856,
+      "output": 1.2857142857142856
     },
     {
       "model": "mistral-embed",
