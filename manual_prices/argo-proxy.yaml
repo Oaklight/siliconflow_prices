@@ -1,5 +1,6 @@
 models:
   argo-proxy:
+    # chat models
     argo:gpt-3.5-turbo:
       input: 0
       output: 0
@@ -18,12 +19,17 @@ models:
     argo:gpt-4o:
       input: 0
       output: 0
+    # reasoning models
     argo:gpt-o1-preview:
       input: 0
       output: 0
     argo:gpt-o1-mini:
       input: 0
       output: 0
+    argo:gpt-o3-mini:
+      input: 0
+      output: 0
+    # embedding models
     argo:text-embedding-ada-002:
       input: 0
       output: 0
